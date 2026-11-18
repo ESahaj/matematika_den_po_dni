@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="cs">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Editor školního kalendáře</title>
+<style>
+:root{font:16px system-ui;color:#251e39;background:#f5f2fb;line-height:1.45}*{box-sizing:border-box}main{max-width:820px;margin:auto;padding:18px}header,section{border-radius:18px;padding:clamp(16px,4vw,30px);margin-bottom:16px;background:white}header{background:#282043;color:white}h1,h2{margin:0 0 10px}p{margin:.5em 0}label{display:block;margin:.8em 0;font-weight:650}input,select,textarea,button{font:inherit}input:not([type=file]),select,textarea{width:100%;padding:8px;border:1px solid #9a8bac;border-radius:8px;background:white}textarea{min-height:64px}button{border:0;border-radius:9px;background:#592e9a;color:white;padding:9px 14px;cursor:pointer;font-weight:650}button.secondary{background:#eee6f9;color:#402464}button:disabled{opacity:.55;cursor:default}fieldset{border:1px solid #d4c8e1;border-radius:11px;margin:12px 0;padding:12px}legend{font-weight:700}.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}img{display:block;max-width:100%;max-height:150px;margin:8px 0}.entry{display:flex;gap:10px;align-items:center;justify-content:space-between;border-top:1px solid #e1d8eb;padding:7px 0}input[type=file]{max-width:100%}small{font-weight:400}#status{min-height:1.5em}
+
+body{background:radial-gradient(#d9cbea 1px,transparent 1px) 0 0/13px 13px}
+header,section{border:2px solid #241e36;box-shadow:4px 5px #241e36;margin-bottom:21px;background:#fffdf7}
+header{background:#ffd762;color:#241e36}h1{font-weight:950;letter-spacing:-.045em}
+button,button.secondary{border:2px solid #241e36;color:#241e36;background:#ffd762;box-shadow:2px 2px #241e36}
+button.secondary{background:#e3d5ff}fieldset{background:#f8f0ff;border-color:#806b9a}
+#list h2{background:#ff9fbc;padding:3px 8px;border-radius:7px}
+[hidden]{display:none!important}
+</style>
+<main>
+<header><h1>Editor školního kalendáře</h1><p>Listopad 2026 až červen 2027</p></header>
+<section><h2>Načíst úlohy</h2><p>Pro aktualizaci načti aktuální soubor <strong>ulohy.json</strong>. Přidáním nových dnů tak zachováš dosavadní úlohy.</p>
+<label>Soubor ulohy.json <input id="import" type="file" accept=".json,application/json"></label>
+<div class="row"><button id="fromWeb" class="secondary">Načíst z webu</button><button id="empty" class="secondary">Začít s prázdným kalendářem</button></div>
+<p id="status" role="status"></p></section>
+<section id="edit" hidden><h2>Úloha pro vybraný den</h2>
+<p>Přidávej otázky podle potřeby. V jednom dni můžeš kombinovat výběr, vpisování i obrázky.</p>
+<form id="form">
+<label>Datum <input id="date" type="date" min="2026-11-01" max="2027-06-30" required></label>
+<p id="opening"></p>
+<label>Název úlohy <input id="title" required></label>
+<label>Zobrazení otázek <select id="quizMode"><option value="all">Všechny najednou</option><option value="sequence">Postupně po správné odpovědi</option></select></label>
+<div id="questions"></div>
+<div class="row"><button type="button" class="secondary" id="add">Přidat otázku</button><button id="save" type="submit">Uložit den do seznamu</button><button type="button" class="secondary" id="reset">Nový den</button></div>
+<p id="editStatus" role="status"></p>
+</form></section>
+<section id="list" hidden><div class="row"><h2>Úlohy v souboru</h2><button id="download">Stáhnout ulohy.json</button></div><p>Staženým souborem nahraď <strong>ulohy.json</strong> na GitHubu.</p><div id="days"></div></section>
+</main>
+<script>
+const $ = id => document.getElementById(id);
+const dateText = new Intl.DateTimeFormat('cs',{dateStyle:'long',timeZone:'UTC'});
+const fileLimit = 750 * 1024;
+let tasks = {}, editing = '', dirty = false, fileDirty = false;
+function validDate(value) {
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(value) || value < '2026-11-01' || value > '2027-06-30') return false;
+  const time = Date.parse(value + 'T00:00:00Z');
+  return Number.isFinite(time) && new Date(time).toISOString().slice(0,10) === value;
+}
+function validTasks(value) {
+  return value && typeof value === 'object' && !Array.isArray(value) &&
+    Object.entries(value).every(([date,day]) => validDate(date) && day && typeof day.title === 'string' &&
+      Array.isArray(day.questions) && day.questions.length && day.questions.every(q => q && typeof q.prompt === 'string' &&
+        (q.type === 'text' && Array.isArray(q.answers) && q.answers.length && q.answers.every(a => typeof a === 'string' || typeof a === 'number') ||
+         q.type === 'choice' && Array.isArray(q.options) && [3,4].includes(q.options.length) && q.options.every(o => typeof o === 'string') && Number.isInteger(q.correct) && q.correct >= 0 && q.correct < q.options.length) &&
+        (!q.image || typeof q.image === 'string' && /^data:image\/(png|jpeg|webp|gif|svg\+xml);base64,/i.test(q.image))));
+}
+function allowReplace() {
+  return !(dirty || fileDirty) || confirm('Nahradit rozpracované změny v editoru?');
+}
+function load(value) {
+  if (!validTasks(value)) throw new Error('Soubor nemá platný formát úloh.');
+  tasks = value;
+  fileDirty = false;
+  $('edit').hidden = $('list').hidden = false;
+  showDay();
+  renderList();
+  $('status').textContent = 'Načteno dnů: ' + Object.keys(tasks).length;
+}
+$('import').onchange = async () => {
+  const file = $('import').files[0];
+  if (file && allowReplace()) {
+    try { load(JSON.parse(await file.text())); }
+    catch { $('status').textContent = 'Soubor se nepodařilo otevřít. Vyber platný ulohy.json.'; }
+  }
+  $('import').value = '';
+};
+$('fromWeb').onclick = async () => {
+  if (!allowReplace()) return;
+  if (location.protocol === 'file:') {
+    $('status').textContent = 'Vyber ulohy.json ze staženého balíčku nebo ze svého repozitáře.';
+    return;
+  }
+  try {
+    const response = await fetch('./ulohy.json', {cache:'no-store'});
+    if (!response.ok) throw new Error();
+    load(await response.json());
+  } catch { $('status').textContent = 'Úlohy se z webu nepodařilo načíst.'; }
+};
+$('empty').onclick = () => { if (allowReplace()) load({}); };
+function showOpening() {
+  const value = $('date').value;
+  if (!validDate(value)) { $('opening').textContent = ''; return; }
+  const date = new Date(value + 'T00:00:00Z');
+  date.setUTCDate(date.getUTCDate() - (date.getUTCDay() || 7));
+  $('opening').textContent = 'Žákům se otevře v neděli ' + dateText.format(date) + ' v 00:00.';
+}
+function showDay(date = '') {
+  editing = date;
+  dirty = false;
+  $('editStatus').textContent = '';
+  $('date').value = date;
+  $('date').readOnly = Boolean(date);
+  $('title').value = tasks[date]?.title ?? '';
+  $('quizMode').value = tasks[date]?.mode === 'sequence' ? 'sequence' : 'all';
+  $('questions').replaceChildren();
+  (tasks[date]?.questions ?? [{}]).forEach(addQuestion);
+  showOpening();
+}
+function addQuestion(question = {}) {
+  const block = document.createElement('fieldset');
+  block.innerHTML = `
+    <legend>Otázka</legend>
+    <label>Zadání <textarea class="prompt" required></textarea></label>
+    <label>Typ odpovědi <select class="type"><option value="text">Vpisovaná odpověď</option><option value="choice4">Výběr A / B / C / D</option><option value="choice3">Výběr A / B / C</option></select></label>
+    <div class="textFields"><label>Správné odpovědi <small>(každá uznávaná varianta na samostatný řádek)</small><textarea class="answers"></textarea></label></div>
+    <div class="choiceFields" hidden>
+      <label>A <input class="option"></label><label>B <input class="option"></label><label>C <input class="option"></label><label class="fourthOption">D <input class="option"></label>
+      <label>Správná možnost <select class="correct"><option value="0">A</option><option value="1">B</option><option value="2">C</option><option value="3">D</option></select></label>
+    </div>
+    <label>Obrázek k zadání <small>(volitelné, nejvýše 750 kB)</small><input type="file" class="imageFile" accept="image/png,image/jpeg,image/webp,image/gif"></label>
+    <img class="preview" alt="" hidden>
+    <label class="imageLabel" hidden>Popis obrázku <input class="imageAlt"></label>
+    <div class="row"><button type="button" class="secondary removeImage" hidden>Odebrat obrázek</button><button type="button" class="secondary removeQuestion">Odebrat otázku</button></div>
+    <p class="imageStatus" role="status"></p>`;
+  const get = key => block.querySelector('.' + key);
+  const options = [...block.querySelectorAll('.option')];
+  get('prompt').value = question.prompt ?? '';
+  get('type').value = question.type === 'choice' ? 'choice' + question.options.length : 'text';
+  get('answers').value = question.answers?.join('\n') ?? '';
+  options.forEach((option,i) => option.value = question.options?.[i] ?? '');
+  get('correct').value = question.correct ?? 0;
+  get('imageAlt').value = question.imageAlt ?? '';
+  function toggleType() {
+    const type = get('type').value;
+    const choice = type !== 'text';
+    const fourth = type === 'choice4';
+    get('textFields').hidden = choice;
+    get('choiceFields').hidden = !choice;
+    get('fourthOption').hidden = !fourth;
+    get('answers').required = !choice;
+    options.forEach((option,i) => option.required = choice && (i < 3 || fourth));
+    const correct = get('correct');
+    correct.options[3].hidden = correct.options[3].disabled = !fourth;
+    if (!fourth && correct.value === '3') correct.value = '0';
+  }
+  function showImage(image) {
+    block.dataset.image = image;
+    for (const key of ['preview','imageLabel','removeImage']) get(key).hidden = !image;
+    if (image) get('preview').src = image;
+    else get('preview').removeAttribute('src');
+  }
+  get('type').onchange = toggleType;
+  get('imageFile').onchange = () => {
+    const file = get('imageFile').files[0];
+    if (!file) return;
+    get('imageFile').value = '';
+    if (!/^image\/(png|jpeg|webp|gif)$/.test(file.type) || file.size > fileLimit) {
+      get('imageStatus').textContent = 'Vyber PNG, JPG, WebP nebo GIF do 750 kB.';
+      return;
+    }
+    const reader = new FileReader();
+    block.dataset.loading = 'true';
+    reader.onload = () => {
+      showImage(reader.result);
+      get('imageStatus').textContent = '';
+      dirty = true;
+    };
+    reader.onerror = () => get('imageStatus').textContent = 'Obrázek se nepodařilo načíst.';
+    reader.onloadend = () => delete block.dataset.loading;
+    reader.readAsDataURL(file);
+  };
+  get('removeImage').onclick = () => { showImage(''); dirty = true; };
+  get('removeQuestion').onclick = () => {
+    if ($('questions').children.length > 1) { block.remove(); dirty = true; }
+  };
+  toggleType();
+  showImage(question.image ?? '');
+  $('questions').append(block);
+  return block;
+}
+$('form').oninput = () => { dirty = true; $('editStatus').textContent = ''; showOpening(); };
+$('add').onclick = () => { addQuestion().querySelector('.prompt').focus(); dirty = true; };
+$('reset').onclick = () => { if (!dirty || confirm('Zahodit rozepsanou úlohu?')) showDay(); };
+$('form').onsubmit = event => {
+  event.preventDefault();
+  const date = $('date').value;
+  if (!validDate(date)) return;
+  if (!editing && tasks[date]) {
+    $('editStatus').textContent = 'Na tento den už je úloha. Otevři ji přes Upravit v seznamu.';
+    return;
+  }
+  const blocks = [...$('questions').children];
+  if (blocks.some(block => block.dataset.loading)) {
+    $('editStatus').textContent = 'Počkej na načtení obrázku.';
+    return;
+  }
+  const questions = blocks.map(block => {
+    const read = key => block.querySelector('.' + key).value.trim();
+    const type = read('type');
+    const q = {prompt:read('prompt'),type:type === 'text' ? 'text' : 'choice'};
+    if (q.type === 'choice') {
+      const count = type === 'choice4' ? 4 : 3;
+      q.options = [...block.querySelectorAll('.option')].slice(0,count).map(input => input.value.trim());
+      q.correct = Number(read('correct'));
+    } else q.answers = read('answers').split(/\r?\n/).map(answer => answer.trim()).filter(Boolean);
+    if (block.dataset.image) {
+      q.image = block.dataset.image;
+      q.imageAlt = read('imageAlt');
+    }
+    return q;
+  });
+  const title = $('title').value.trim();
+  if (!title || questions.some(q => !q.prompt || (q.type === 'choice' ? q.options.some(o => !o) : !q.answers.length))) {
+    $('editStatus').textContent = 'Vyplň název, zadání i odpovědi.';
+    return;
+  }
+  tasks[date] = {...tasks[date],title,questions,mode:$('quizMode').value};
+  fileDirty = true;
+  showDay(date);
+  $('editStatus').textContent = 'Den je v seznamu. Až bude týden hotový, stáhni ulohy.json.';
+  renderList();
+};
+function renderList() {
+  $('days').replaceChildren();
+  for (const [date, task] of Object.entries(tasks).sort(([a],[b]) => a.localeCompare(b))) {
+    const row = document.createElement('div');
+    row.className = 'entry';
+    const label = document.createElement('span');
+    label.textContent = dateText.format(new Date(date + 'T00:00:00Z')) + ' · ' + task.title;
+    const edit = document.createElement('button');
+    edit.className = 'secondary';
+    edit.textContent = 'Upravit';
+    edit.onclick = () => {
+      if (!dirty || confirm('Zahodit rozepsanou úlohu?')) { showDay(date); $('edit').scrollIntoView(); }
+    };
+    row.append(label,edit);
+    $('days').append(row);
+  }
+}
+$('download').onclick = () => {
+  if (dirty) {
+    $('editStatus').textContent = 'Nejdřív ulož rozpracovaný den do seznamu.';
+    $('edit').scrollIntoView();
+    return;
+  }
+  const sorted = Object.fromEntries(Object.entries(tasks).sort(([a],[b]) => a.localeCompare(b)));
+  const url = URL.createObjectURL(new Blob([JSON.stringify(sorted,null,2)+'\n'],{type:'application/json'}));
+  const link = document.createElement('a');
+  link.href = url;
+  link.download = 'ulohy.json';
+  link.click();
+  setTimeout(() => URL.revokeObjectURL(url),1000);
+  fileDirty = false;
+};
+if (location.protocol === 'file:') $('fromWeb').hidden = true;
+addEventListener('beforeunload', event => {
+  if (dirty || fileDirty) { event.preventDefault(); event.returnValue = ''; }
+});
+</script>
+</html>
