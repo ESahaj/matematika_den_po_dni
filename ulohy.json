@@ -18,7 +18,7 @@
         "imageAlt": "Schéma obdélníku."
       },
       {
-        "prompt": "Který vzorec vyjadřuje obsah lichoběžníku se základnami a, c a výškou v?",
+        "prompt": "OBSAH lichoběžníku se základnami a, c a výškou v?",
         "type": "choice",
         "options": [
           "S = a · c",
@@ -31,7 +31,7 @@
         "imageAlt": "Schéma lichoběžníku."
       },
       {
-        "prompt": "Tatínek oplocuje pole s rozměry 15 m a 7 m. Kolik metrů plotu potřebuje, nechá-li otvor pro branku široký 3 m?",
+        "prompt": "Tatínek oplocuje zahrádku s rozměry 15 m a 7 m. Kolik metrů plotu potřebuje, nechá-li otvor pro branku široký 3 m?",
         "type": "choice",
         "options": [
           "44 m",
@@ -57,7 +57,7 @@
         "imageAlt": "Schéma trojúhelníkové vlaječky."
       },
       {
-        "prompt": "Urči obsah rovnoběžníku. Strana čtverečku je 1 cm.",
+        "prompt": "OBSAH rovnoběžníku. Strana čtverečku je 1 cm.",
         "type": "choice",
         "options": [
           "20 cm²",
@@ -70,7 +70,7 @@
         "imageAlt": "Rovnoběžník ve čtvercové síti se základnou dlouhou pět čtverečků a výškou čtyři čtverečky."
       },
       {
-        "prompt": "Urči obsah vybarveného útvaru. Strana čtverečku je 1 cm.",
+        "prompt": "OBSAH vybarveného útvaru. Strana čtverečku je 1 cm.",
         "type": "choice",
         "options": [
           "24 cm²",
