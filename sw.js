@@ -1,6 +1,6 @@
 const prefix = 'kalendar-rovnic:' + self.registration.scope + ':';
-const cacheName = prefix + 'v12';
-const assets = ['./', './index.html', './calendar.js?v=12', './ulohy.json', './manifest.webmanifest', './icon-192.png', './icon-512.png'];
+const cacheName = prefix + 'v13';
+const assets = ['./', './index.html', './calendar.js?v=13', './ulohy.json', './manifest.webmanifest', './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(cacheName).then(cache => cache.addAll(assets)));

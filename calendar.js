@@ -146,31 +146,83 @@ function openDay(day) {
   $('instructions').textContent = task.instructions || 'Odpovědi se ukládají během vyplňování.';
   const key = progressKey(day);
   const savedStep = storage.steps?.[key] ?? 0;
-  currentStep = task.mode === 'sequence' && !storage.completed[key] && Number.isInteger(savedStep)
+  const finished = storage.completed[key] && !storage.attempts?.[key]?.retrying;
+  currentStep = task.mode === 'sequence' && !finished && Number.isInteger(savedStep)
     ? Math.max(0, Math.min(savedStep, task.questions.length - 1)) : 0;
   $('feedback').classList.toggle('success',Boolean(storage.completed[key]));
   $('feedback').textContent = storage.completed[key] ? '✓ Tento den už máš splněný.' : '';
-  if (task.mode === 'sequence' && storage.completed[key]) {
+  if (finished) {
     showCompletedQuiz(task);
   } else {
     renderQuestions(task);
   }
   $('work').showModal();
 }
+function attemptFor(key) {
+  storage.attempts ??= {};
+  return storage.attempts[key] ??= {errors:0};
+}
+function rating(errors) {
+  return ['🏆','🌟','😄','🙂','😌','💪'][Math.min(errors,5)];
+}
 function showCompletedQuiz(task) {
+  const attempt = storage.attempts?.[progressKey(currentDate)];
   $('questions').replaceChildren();
   $('check').hidden = true;
+  $('retryQuiz').hidden = false;
+  $('incorrectCount').hidden = true;
   $('questionProgress').hidden = false;
   $('questionProgress').textContent = 'Hotovo · ' + task.questions.length + ' z ' + task.questions.length;
   $('feedback').classList.add('success');
-  $('feedback').textContent = '✓ Všechny otázky máš správně!';
+  $('feedback').textContent = attempt?.best === undefined
+    ? '✓ Tento kvíz už máš splněný.'
+    : rating(attempt.errors) + ' Chybných odpovědí v tomto pokusu: ' + attempt.errors +
+      (attempt.best < attempt.errors ? ' · Nejlepší pokus: ' + attempt.best : '');
 }
+function showIncorrectCount() {
+  const counter = $('incorrectCount');
+  counter.textContent = 'Chybné odpovědi v tomto pokusu: ' + (storage.attempts?.[progressKey(currentDate)]?.errors ?? 0);
+  counter.hidden = false;
+}
+function addIncorrect(count) {
+  attemptFor(progressKey(currentDate)).errors += count;
+  showIncorrectCount();
+  saveState();
+}
+function finishQuiz(task) {
+  const key = progressKey(currentDate);
+  const attempt = attemptFor(key);
+  attempt.best = Math.min(attempt.best ?? attempt.errors, attempt.errors);
+  attempt.retrying = false;
+  storage.completed[key] = true;
+  saveState();
+  showCompletedQuiz(task);
+  $('questionProgress').focus();
+  render();
+}
+$('retryQuiz').onclick = () => {
+  const key = progressKey(currentDate);
+  const attempt = attemptFor(key);
+  attempt.errors = 0;
+  attempt.retrying = true;
+  storage.steps ??= {};
+  storage.steps[key] = 0;
+  storage.drafts[key] = [];
+  currentStep = 0;
+  $('feedback').textContent = '';
+  $('feedback').classList.remove('success');
+  saveState();
+  renderQuestions(tasks[currentDate]);
+  $('questions').querySelector('input')?.focus();
+};
 function renderQuestions(task) {
   const day = currentDate;
   const sequence = task.mode === 'sequence';
   $('questionProgress').hidden = !sequence;
   $('questionProgress').textContent = sequence ? 'Otázka ' + (currentStep + 1) + ' z ' + task.questions.length : '';
   $('check').hidden = false;
+  $('retryQuiz').hidden = true;
+  showIncorrectCount();
   $('questions').replaceChildren();
   task.questions.forEach((question,index) => {
     if (sequence && index !== currentStep) return;
@@ -239,14 +291,13 @@ function checkStep(task, values) {
   $('questions').firstElementChild.setAttribute('aria-invalid',String(!match));
   $('feedback').classList.toggle('success',match);
   if (!match) {
+    addIncorrect(1);
     $('feedback').textContent = 'Zkus jinou odpověď.';
     return;
   }
   if (currentStep === task.questions.length - 1) {
-    storage.completed[key] = true;
-    showCompletedQuiz(task);
-    $('questionProgress').focus();
-    render();
+    finishQuiz(task);
+    return;
   } else {
     currentStep++;
     storage.steps ??= {};
@@ -281,9 +332,9 @@ $('exerciseForm').onsubmit = event => {
   $('feedback').classList.toggle('success',done);
   $('feedback').textContent = done ? '✓ Všechny odpovědi jsou správně.' : correct + ' z ' + questions.length + ' správně. Oprav zvýrazněné odpovědi.';
   if (done) {
-    storage.completed[progressKey(currentDate)] = true;
-    saveState();
-    render();
+    finishQuiz(task);
+  } else {
+    addIncorrect(questions.length - correct);
   }
 };
 for (const button of document.querySelectorAll('[data-close]')) button.onclick = () => button.closest('dialog').close();
