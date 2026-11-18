@@ -84,17 +84,36 @@ function render() {
     const task = tasks[key];
     const open = task && canOpen(key);
     const tile = document.createElement(open ? 'button' : 'div');
-    const done = open && storage.completed[progressKey(key)];
+    const savedKey = progressKey(key);
+    const done = open && storage.completed[savedKey];
+    const best = done ? storage.attempts?.[savedKey]?.best : undefined;
+    const hasRating = Number.isInteger(best) && best >= 0;
     tile.className = 'day' + (open ? ' active' : task ? ' locked' : '') + (done ? ' done' : '');
     if ((offset + day - 1) % 7 >= 5) tile.classList.add('weekend');
-    tile.textContent = day;
+    if (hasRating) {
+      const badge = document.createElement('span');
+      badge.className = 'day-rating';
+      badge.textContent = rating(best);
+      badge.setAttribute('aria-hidden','true');
+      const number = document.createElement('span');
+      number.className = 'day-number';
+      number.textContent = day;
+      tile.append(badge,number);
+    } else {
+      tile.textContent = day;
+    }
     if (task) {
-      const marker = document.createElement('span');
-      marker.className = 'mark';
-      marker.textContent = done ? '✓' : open ? '◆' : '🔒';
-      marker.setAttribute('aria-hidden','true');
-      tile.append(marker);
-      tile.setAttribute('aria-label', displayDate(key) + ', ' + (done ? 'splněno' : open ? task.title : 'otevře se ' + displayDate(openingDate(key))));
+      if (!hasRating) {
+        const marker = document.createElement('span');
+        marker.className = 'mark';
+        marker.textContent = done ? '✓' : open ? '◆' : '🔒';
+        marker.setAttribute('aria-hidden','true');
+        tile.append(marker);
+      }
+      const status = done ? 'splněno' : open ? task.title : 'otevře se ' + displayDate(openingDate(key));
+      const result = hasRating ? ', nejlepší pokus, počet chyb ' + best : '';
+      tile.setAttribute('aria-label', displayDate(key) + ', ' + status + result);
+      if (hasRating) tile.title = 'Nejlepší pokus · počet chyb: ' + best;
       if (open) tile.onclick = () => openDay(key);
       else tile.title = 'Otevře se ' + displayDate(openingDate(key));
     }
