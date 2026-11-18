@@ -42,6 +42,28 @@ function saveState() {
   try { localStorage.setItem(stateKey, JSON.stringify(storage)); }
   catch { $('storageNote').textContent = 'V tomto prohlížeči se odpovědi a pokrok nemusí uložit.'; }
 }
+function restoreShortenedMonday() {
+  const day = '2026-11-16';
+  if (tasks[day]?.revision !== 'obvody-b-6') return;
+  const previous = day + ':obvody-b';
+  const key = progressKey(day);
+  if (storage.completed[key]) return;
+  const retained = [0, 4, 6, 7, 11, 14];
+  const oldStep = storage.steps?.[previous] ?? 0;
+  const restored = storage.completed[previous] ? retained.length : retained.filter(index => index < oldStep).length;
+  if (restored <= (storage.steps?.[key] ?? 0)) return;
+
+  const drafts = [...(storage.drafts[key] ?? [])];
+  const previousDrafts = storage.drafts[previous] ?? [];
+  for (const [index, oldIndex] of retained.entries()) {
+    if (index < restored && previousDrafts[oldIndex] !== undefined) drafts[index] = previousDrafts[oldIndex];
+  }
+  storage.drafts[key] = drafts;
+  storage.steps ??= {};
+  storage.steps[key] = restored;
+  if (restored === retained.length) storage.completed[key] = true;
+  saveState();
+}
 function render() {
   const month = $('monthSelect').value;
   const [year,number] = month.split('-').map(Number);
@@ -84,10 +106,31 @@ function render() {
   $('bar').max = available.length || 1;
   $('bar').value = count;
 }
+function showFlashcards(cards = []) {
+  const panel = $('flashcards');
+  panel.hidden = cards.length === 0;
+  panel.open = false;
+  if (!cards.length) return;
+  let index = 0;
+  let flipped = false;
+  const card = $('flashcard');
+  function showCard() {
+    card.textContent = cards[index][flipped ? 'back' : 'front'];
+    card.setAttribute('aria-label', card.textContent + (flipped ? '. Zobrazit název.' : '. Zobrazit vzorec.'));
+    $('flashcardCount').textContent = (index + 1) + ' / ' + cards.length;
+    $('flashcardPrev').disabled = index === 0;
+    $('flashcardNext').disabled = index === cards.length - 1;
+  }
+  card.onclick = () => { flipped = !flipped; showCard(); };
+  $('flashcardPrev').onclick = () => { index--; flipped = false; showCard(); card.focus(); };
+  $('flashcardNext').onclick = () => { index++; flipped = false; showCard(); card.focus(); };
+  showCard();
+}
 function openDay(day) {
   if (!canOpen(day)) return;
   currentDate = day;
   const task = tasks[day];
+  showFlashcards(task.flashcards);
   $('workTitle').textContent = displayDate(day) + ' · ' + task.title;
   $('instructions').textContent = task.instructions || 'Odpovědi se ukládají během vyplňování.';
   const key = progressKey(day);
@@ -96,8 +139,20 @@ function openDay(day) {
     ? Math.max(0, Math.min(savedStep, task.questions.length - 1)) : 0;
   $('feedback').classList.toggle('success',Boolean(storage.completed[key]));
   $('feedback').textContent = storage.completed[key] ? '✓ Tento den už máš splněný.' : '';
-  renderQuestions(task);
+  if (task.mode === 'sequence' && storage.completed[key]) {
+    showCompletedQuiz(task);
+  } else {
+    renderQuestions(task);
+  }
   $('work').showModal();
+}
+function showCompletedQuiz(task) {
+  $('questions').replaceChildren();
+  $('check').hidden = true;
+  $('questionProgress').hidden = false;
+  $('questionProgress').textContent = 'Hotovo · ' + task.questions.length + ' z ' + task.questions.length;
+  $('feedback').classList.add('success');
+  $('feedback').textContent = '✓ Všechny otázky máš správně!';
 }
 function renderQuestions(task) {
   const day = currentDate;
@@ -178,10 +233,7 @@ function checkStep(task, values) {
   }
   if (currentStep === task.questions.length - 1) {
     storage.completed[key] = true;
-    $('questions').replaceChildren();
-    $('check').hidden = true;
-    $('questionProgress').textContent = 'Hotovo · ' + task.questions.length + ' z ' + task.questions.length;
-    $('feedback').textContent = '✓ Všechny otázky máš správně!';
+    showCompletedQuiz(task);
     $('questionProgress').focus();
     render();
   } else {
@@ -255,6 +307,7 @@ async function refresh() {
       $('loadStatus').textContent = 'Úlohy se nepodařilo načíst. Zkus se znovu připojit.';
     }
   }
+  restoreShortenedMonday();
   render();
 }
 storage = loadState();

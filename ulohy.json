@@ -1,191 +1,422 @@
 {
   "2026-11-16": {
-    "title": "Obvody a obsahy rovinných útvarů",
-    "revision": "obvody-b-6",
-    "instructions": "Vyber odpověď a klikni na Zkontrolovat. U otázek 3 a 4 si napiš výpočet na papír. Obrázky neměř.",
+    "title": "Obvody a obsahy · vzorce",
+    "revision": "geometrie-tyden-1",
+    "mode": "sequence",
     "questions": [
       {
-        "prompt": "OBVOD obdélníku se stranami a, b",
+        "prompt": "Který vzorec vyjadřuje obvod čtverce se stranou a?",
         "type": "choice",
         "options": [
-          "o = a · b",
-          "o = 2 · (a + b)",
-          "o = a + b",
-          "o = 4 · a"
+          "o = a²",
+          "o = 4 · a",
+          "o = 2 · a",
+          "o = a + 4"
         ],
-        "correct": 1,
-        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MjAiIGhlaWdodD0iMTkyIiB2aWV3Qm94PSIwIDAgNDIwIDE5MiI+PHBvbHlnb24gcG9pbnRzPSI5Nyw0MCAzMjMsNDAgMzIzLDE0NyA5NywxNDciIGZpbGw9IiNhOWQ5ZmYiIHN0cm9rZT0iIzI0MWUzNiIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHRleHQgeD0iMjEwIiB5PSIxNzEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMTciIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC13ZWlnaHQ9Ijc1MCIgZmlsbD0iIzI0MWUzNiIgcGFpbnQtb3JkZXI9InN0cm9rZSIgc3Ryb2tlPSIjZmZmYWYwIiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPmE8L3RleHQ+PHRleHQgeD0iMzQ0IiB5PSIxMDAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMTciIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC13ZWlnaHQ9Ijc1MCIgZmlsbD0iIzI0MWUzNiIgcGFpbnQtb3JkZXI9InN0cm9rZSIgc3Ryb2tlPSIjZmZmYWYwIiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPmI8L3RleHQ+PC9zdmc+",
-        "imageAlt": "Schéma obdélníku."
+        "correct": 1
       },
       {
-        "prompt": "OBSAH lichoběžníku se základnami a, c a výškou v?",
+        "prompt": "Který vzorec vyjadřuje obsah obdélníku se stranami a, b?",
         "type": "choice",
         "options": [
+          "S = a · b",
+          "S = 2 · (a + b)",
+          "S = a + b",
+          "S = (a · b) : 2"
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "Který vzorec vyjadřuje obvod trojúhelníku se stranami a, b, c?",
+        "type": "choice",
+        "options": [
+          "o = a · b · c",
+          "o = 3 · a",
+          "o = a + b + c",
+          "o = (a + b + c) : 2"
+        ],
+        "correct": 2
+      },
+      {
+        "prompt": "Který vzorec vyjadřuje obsah trojúhelníku se stranou a a výškou vₐ?",
+        "type": "choice",
+        "options": [
+          "S = a · vₐ",
+          "S = a + vₐ",
+          "S = 2 · a · vₐ",
+          "S = (a · vₐ) : 2"
+        ],
+        "correct": 3
+      },
+      {
+        "prompt": "Který vzorec vyjadřuje obsah rovnoběžníku se stranou a a výškou vₐ?",
+        "type": "choice",
+        "options": [
+          "S = a + vₐ",
+          "S = a · vₐ",
+          "S = 2 · (a + vₐ)",
+          "S = (a · vₐ) : 2"
+        ],
+        "correct": 1
+      },
+      {
+        "prompt": "Který vzorec vyjadřuje obsah lichoběžníku se základnami a, c a výškou v?",
+        "type": "choice",
+        "options": [
+          "S = [(a + c) · v] : 2",
           "S = a · c",
           "S = (a + c) · v",
-          "S = [(a + c) · v] : 2",
           "S = (a · c) : 2"
         ],
-        "correct": 2,
-        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MjAiIGhlaWdodD0iMTkyIiB2aWV3Qm94PSIwIDAgNDIwIDE5MiI+PHBvbHlnb24gcG9pbnRzPSIxNTEsNDMgMjcxLDQzIDMyNSwxNDcgOTYsMTQ3IiBmaWxsPSIjZmZkNzYyIiBzdHJva2U9IiMyNDFlMzYiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjxsaW5lIHgxPSIxNTEiIHkxPSI0MyIgeDI9IjE1MSIgeTI9IjE0NyIgc3Ryb2tlPSIjNjA0NDkyIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1kYXNoYXJyYXk9IjUgNCIvPjxwYXRoIGQ9Ik0xNTEgMTMxIEExNiAxNiAwIDAgMSAxNjcgMTQ3IiBmaWxsPSJub25lIiBzdHJva2U9IiM2MDQ0OTIiIHN0cm9rZS13aWR0aD0iMiIvPjxjaXJjbGUgY3g9IjE1NyIgY3k9IjE0MSIgcj0iMiIgZmlsbD0iIzYwNDQ5MiIvPjx0ZXh0IHg9IjE3MCIgeT0iMTAzIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjE3IiBmb250LWZhbWlseT0ic3lzdGVtLXVpLHNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSI3NTAiIGZpbGw9IiMyNDFlMzYiIHBhaW50LW9yZGVyPSJzdHJva2UiIHN0cm9rZT0iI2ZmZmFmMCIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWpvaW49InJvdW5kIj52PC90ZXh0Pjx0ZXh0IHg9IjIxMCIgeT0iMzEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMTciIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC13ZWlnaHQ9Ijc1MCIgZmlsbD0iIzI0MWUzNiIgcGFpbnQtb3JkZXI9InN0cm9rZSIgc3Ryb2tlPSIjZmZmYWYwIiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPmE8L3RleHQ+PHRleHQgeD0iMjEwIiB5PSIxNzMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMTciIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC13ZWlnaHQ9Ijc1MCIgZmlsbD0iIzI0MWUzNiIgcGFpbnQtb3JkZXI9InN0cm9rZSIgc3Ryb2tlPSIjZmZmYWYwIiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPmM8L3RleHQ+PC9zdmc+",
-        "imageAlt": "Schéma lichoběžníku."
-      },
-      {
-        "prompt": "Tatínek oplocuje zahrádku s rozměry 15 m a 7 m. Kolik metrů plotu potřebuje, nechá-li otvor pro branku široký 3 m?",
-        "type": "choice",
-        "options": [
-          "44 m",
-          "41 m",
-          "105 m",
-          "38 m"
-        ],
-        "correct": 1,
-        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MjAiIGhlaWdodD0iMTkyIiB2aWV3Qm94PSIwIDAgNDIwIDE5MiI+PHBvbHlnb24gcG9pbnRzPSI3Niw0OCAzNDQsNDggMzQ0LDE0MyA3NiwxNDMiIGZpbGw9IiNiOWVkOWIiIHN0cm9rZT0iIzI0MWUzNiIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHBhdGggZD0iTTc2IDE0M0gxODNtNTQgMGgxMDciIHN0cm9rZT0iIzI0MWUzNiIgc3Ryb2tlLXdpZHRoPSI1Ii8+PHBhdGggZD0iTTE4NCAxNDNoNTIiIHN0cm9rZT0iI2ZmZmFmMCIgc3Ryb2tlLXdpZHRoPSI2Ii8+PHRleHQgeD0iMjEwIiB5PSIzNyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIxNyIgZm9udC1mYW1pbHk9InN5c3RlbS11aSxzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iNzUwIiBmaWxsPSIjMjQxZTM2IiBwYWludC1vcmRlcj0ic3Ryb2tlIiBzdHJva2U9IiNmZmZhZjAiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+MTUgbTwvdGV4dD48dGV4dCB4PSIzNjUiIHk9IjEwMCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIxNyIgZm9udC1mYW1pbHk9InN5c3RlbS11aSxzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iNzUwIiBmaWxsPSIjMjQxZTM2IiBwYWludC1vcmRlcj0ic3Ryb2tlIiBzdHJva2U9IiNmZmZhZjAiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+NyBtPC90ZXh0Pjx0ZXh0IHg9IjIxMCIgeT0iMTY2IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjE3IiBmb250LWZhbWlseT0ic3lzdGVtLXVpLHNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSI3NTAiIGZpbGw9IiMyNDFlMzYiIHBhaW50LW9yZGVyPSJzdHJva2UiIHN0cm9rZT0iI2ZmZmFmMCIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWpvaW49InJvdW5kIj4zIG08L3RleHQ+PC9zdmc+",
-        "imageAlt": "Schéma obdélníkového pole."
-      },
-      {
-        "prompt": "Eva vystřihla trojúhelníkovou vlaječku o obsahu 35 cm². Její základna měří 10 cm. Jak vysoká je vlaječka?",
-        "type": "choice",
-        "options": [
-          "3,5 cm",
-          "14 cm",
-          "25 cm",
-          "7 cm"
-        ],
-        "correct": 3,
-        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MjAiIGhlaWdodD0iMTkyIiB2aWV3Qm94PSIwIDAgNDIwIDE5MiI+PHBvbHlnb24gcG9pbnRzPSI5NCwxNDggMzIzLDE0OCAyMDYsMzAiIGZpbGw9IiNmZjlmYmMiIHN0cm9rZT0iIzI0MWUzNiIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PGxpbmUgeDE9IjIwNiIgeTE9IjMwIiB4Mj0iMjA2IiB5Mj0iMTQ4IiBzdHJva2U9IiM2MDQ0OTIiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWRhc2hhcnJheT0iNSA0Ii8+PHBhdGggZD0iTTIwNiAxMzIgQTE2IDE2IDAgMCAxIDIyMiAxNDgiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzYwNDQ5MiIgc3Ryb2tlLXdpZHRoPSIyIi8+PGNpcmNsZSBjeD0iMjEyIiBjeT0iMTQyIiByPSIyIiBmaWxsPSIjNjA0NDkyIi8+PHRleHQgeD0iMjQ2IiB5PSIxMTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMTciIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC13ZWlnaHQ9Ijc1MCIgZmlsbD0iIzI0MWUzNiIgcGFpbnQtb3JkZXI9InN0cm9rZSIgc3Ryb2tlPSIjZmZmYWYwIiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjM1IGNtwrI8L3RleHQ+PHRleHQgeD0iMjA4IiB5PSIxNzQiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMTciIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC13ZWlnaHQ9Ijc1MCIgZmlsbD0iIzI0MWUzNiIgcGFpbnQtb3JkZXI9InN0cm9rZSIgc3Ryb2tlPSIjZmZmYWYwIiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjEwIGNtPC90ZXh0Pjwvc3ZnPg==",
-        "imageAlt": "Schéma trojúhelníkové vlaječky."
-      },
-      {
-        "prompt": "OBSAH rovnoběžníku. Strana čtverečku je 1 cm.",
-        "type": "choice",
-        "options": [
-          "20 cm²",
-          "40 cm²",
-          "10 cm²",
-          "25 cm²"
-        ],
-        "correct": 0,
-        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MjAiIGhlaWdodD0iMTkyIiB2aWV3Qm94PSIwIDAgNDIwIDE5MiI+PHBvbHlnb24gcG9pbnRzPSIxMDMsMTQ1IDIzOCwxNDUgMzE5LDM3IDE4NCwzNyIgZmlsbD0iI2E5ZDlmZiIgc3Ryb2tlPSIjMjQxZTM2IiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48ZyBvcGFjaXR5PSIuMjgiPjxsaW5lIHgxPSIxMDMiIHkxPSIzNyIgeDI9IjEwMyIgeTI9IjE0NSIgc3Ryb2tlPSIjNjA0NDkyIiBzdHJva2Utd2lkdGg9IjIiLz48bGluZSB4MT0iMTMwIiB5MT0iMzciIHgyPSIxMzAiIHkyPSIxNDUiIHN0cm9rZT0iIzYwNDQ5MiIgc3Ryb2tlLXdpZHRoPSIyIi8+PGxpbmUgeDE9IjE1NyIgeTE9IjM3IiB4Mj0iMTU3IiB5Mj0iMTQ1IiBzdHJva2U9IiM2MDQ0OTIiIHN0cm9rZS13aWR0aD0iMiIvPjxsaW5lIHgxPSIxODQiIHkxPSIzNyIgeDI9IjE4NCIgeTI9IjE0NSIgc3Ryb2tlPSIjNjA0NDkyIiBzdHJva2Utd2lkdGg9IjIiLz48bGluZSB4MT0iMjExIiB5MT0iMzciIHgyPSIyMTEiIHkyPSIxNDUiIHN0cm9rZT0iIzYwNDQ5MiIgc3Ryb2tlLXdpZHRoPSIyIi8+PGxpbmUgeDE9IjIzOCIgeTE9IjM3IiB4Mj0iMjM4IiB5Mj0iMTQ1IiBzdHJva2U9IiM2MDQ0OTIiIHN0cm9rZS13aWR0aD0iMiIvPjxsaW5lIHgxPSIyNjUiIHkxPSIzNyIgeDI9IjI2NSIgeTI9IjE0NSIgc3Ryb2tlPSIjNjA0NDkyIiBzdHJva2Utd2lkdGg9IjIiLz48bGluZSB4MT0iMjkyIiB5MT0iMzciIHgyPSIyOTIiIHkyPSIxNDUiIHN0cm9rZT0iIzYwNDQ5MiIgc3Ryb2tlLXdpZHRoPSIyIi8+PGxpbmUgeDE9IjMxOSIgeTE9IjM3IiB4Mj0iMzE5IiB5Mj0iMTQ1IiBzdHJva2U9IiM2MDQ0OTIiIHN0cm9rZS13aWR0aD0iMiIvPjxsaW5lIHgxPSIxMDMiIHkxPSIzNyIgeDI9IjMxOSIgeTI9IjM3IiBzdHJva2U9IiM2MDQ0OTIiIHN0cm9rZS13aWR0aD0iMiIvPjxsaW5lIHgxPSIxMDMiIHkxPSI2NCIgeDI9IjMxOSIgeTI9IjY0IiBzdHJva2U9IiM2MDQ0OTIiIHN0cm9rZS13aWR0aD0iMiIvPjxsaW5lIHgxPSIxMDMiIHkxPSI5MSIgeDI9IjMxOSIgeTI9IjkxIiBzdHJva2U9IiM2MDQ0OTIiIHN0cm9rZS13aWR0aD0iMiIvPjxsaW5lIHgxPSIxMDMiIHkxPSIxMTgiIHgyPSIzMTkiIHkyPSIxMTgiIHN0cm9rZT0iIzYwNDQ5MiIgc3Ryb2tlLXdpZHRoPSIyIi8+PGxpbmUgeDE9IjEwMyIgeTE9IjE0NSIgeDI9IjMxOSIgeTI9IjE0NSIgc3Ryb2tlPSIjNjA0NDkyIiBzdHJva2Utd2lkdGg9IjIiLz48L2c+PHBvbHlnb24gcG9pbnRzPSIxMDMsMTQ1IDIzOCwxNDUgMzE5LDM3IDE4NCwzNyIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMjQxZTM2IiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4=",
-        "imageAlt": "Rovnoběžník ve čtvercové síti se základnou dlouhou pět čtverečků a výškou čtyři čtverečky."
-      },
-      {
-        "prompt": "OBSAH vybarveného útvaru. Strana čtverečku je 1 cm.",
-        "type": "choice",
-        "options": [
-          "24 cm²",
-          "12 cm²",
-          "18 cm²",
-          "6 cm²"
-        ],
-        "correct": 2,
-        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MjAiIGhlaWdodD0iMTkyIiB2aWV3Qm94PSIwIDAgNDIwIDE5MiI+PHBvbHlnb24gcG9pbnRzPSIxMjYsMTQ4IDI5NCwxNDggMjk0LDM2IDIxMCwzNiIgZmlsbD0iI2ZmOWZiYyIgc3Ryb2tlPSIjMjQxZTM2IiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48ZyBvcGFjaXR5PSIuMjgiPjxsaW5lIHgxPSIxMjYiIHkxPSIzNiIgeDI9IjEyNiIgeTI9IjE0OCIgc3Ryb2tlPSIjNjA0NDkyIiBzdHJva2Utd2lkdGg9IjIiLz48bGluZSB4MT0iMTU0IiB5MT0iMzYiIHgyPSIxNTQiIHkyPSIxNDgiIHN0cm9rZT0iIzYwNDQ5MiIgc3Ryb2tlLXdpZHRoPSIyIi8+PGxpbmUgeDE9IjE4MiIgeTE9IjM2IiB4Mj0iMTgyIiB5Mj0iMTQ4IiBzdHJva2U9IiM2MDQ0OTIiIHN0cm9rZS13aWR0aD0iMiIvPjxsaW5lIHgxPSIyMTAiIHkxPSIzNiIgeDI9IjIxMCIgeTI9IjE0OCIgc3Ryb2tlPSIjNjA0NDkyIiBzdHJva2Utd2lkdGg9IjIiLz48bGluZSB4MT0iMjM4IiB5MT0iMzYiIHgyPSIyMzgiIHkyPSIxNDgiIHN0cm9rZT0iIzYwNDQ5MiIgc3Ryb2tlLXdpZHRoPSIyIi8+PGxpbmUgeDE9IjI2NiIgeTE9IjM2IiB4Mj0iMjY2IiB5Mj0iMTQ4IiBzdHJva2U9IiM2MDQ0OTIiIHN0cm9rZS13aWR0aD0iMiIvPjxsaW5lIHgxPSIyOTQiIHkxPSIzNiIgeDI9IjI5NCIgeTI9IjE0OCIgc3Ryb2tlPSIjNjA0NDkyIiBzdHJva2Utd2lkdGg9IjIiLz48bGluZSB4MT0iMTI2IiB5MT0iMzYiIHgyPSIyOTQiIHkyPSIzNiIgc3Ryb2tlPSIjNjA0NDkyIiBzdHJva2Utd2lkdGg9IjIiLz48bGluZSB4MT0iMTI2IiB5MT0iNjQiIHgyPSIyOTQiIHkyPSI2NCIgc3Ryb2tlPSIjNjA0NDkyIiBzdHJva2Utd2lkdGg9IjIiLz48bGluZSB4MT0iMTI2IiB5MT0iOTIiIHgyPSIyOTQiIHkyPSI5MiIgc3Ryb2tlPSIjNjA0NDkyIiBzdHJva2Utd2lkdGg9IjIiLz48bGluZSB4MT0iMTI2IiB5MT0iMTIwIiB4Mj0iMjk0IiB5Mj0iMTIwIiBzdHJva2U9IiM2MDQ0OTIiIHN0cm9rZS13aWR0aD0iMiIvPjxsaW5lIHgxPSIxMjYiIHkxPSIxNDgiIHgyPSIyOTQiIHkyPSIxNDgiIHN0cm9rZT0iIzYwNDQ5MiIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9nPjxwb2x5Z29uIHBvaW50cz0iMTI2LDE0OCAyOTQsMTQ4IDI5NCwzNiAyMTAsMzYiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzI0MWUzNiIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PC9zdmc+",
-        "imageAlt": "Vybarvený lichoběžník ve čtvercové síti. Horní základna zabírá tři čtverečky, dolní šest a výška čtyři."
+        "correct": 0
       }
     ],
-    "mode": "sequence"
+    "flashcards": [
+      {
+        "front": "Obvod čtverce",
+        "back": "o = 4a"
+      },
+      {
+        "front": "Obsah čtverce",
+        "back": "S = a²"
+      },
+      {
+        "front": "Obvod obdélníku",
+        "back": "o = 2(a + b)"
+      },
+      {
+        "front": "Obsah obdélníku",
+        "back": "S = a · b"
+      },
+      {
+        "front": "Obvod trojúhelníku",
+        "back": "o = a + b + c"
+      },
+      {
+        "front": "Obsah trojúhelníku",
+        "back": "S = (a · vₐ) : 2"
+      },
+      {
+        "front": "Obvod rovnoběžníku",
+        "back": "o = 2(a + b)"
+      },
+      {
+        "front": "Obsah rovnoběžníku",
+        "back": "S = a · vₐ"
+      },
+      {
+        "front": "Obsah lichoběžníku",
+        "back": "S = [(a + c) · v] : 2"
+      },
+      {
+        "front": "Obvod lichoběžníku",
+        "back": "o = a + b + c + d"
+      }
+    ]
   },
   "2026-11-17": {
-    "title": "Neznámá na obou stranách",
+    "title": "Obvody a obsahy · výpočty",
+    "revision": "geometrie-tyden-1",
+    "mode": "sequence",
     "questions": [
       {
-        "prompt": "4x + 1 = 2x + 9",
-        "type": "text",
-        "answers": [
-          "4"
-        ]
+        "prompt": "Čtverec má stranu 7 cm. Jaký má obvod?",
+        "type": "choice",
+        "options": [
+          "14 cm",
+          "28 cm",
+          "49 cm",
+          "21 cm"
+        ],
+        "correct": 1
       },
       {
-        "prompt": "5x − 8 = 3x + 6",
-        "type": "text",
-        "answers": [
-          "7"
-        ]
+        "prompt": "Obdélník má rozměry 9 cm a 4 cm. Jaký má obsah?",
+        "type": "choice",
+        "options": [
+          "26 cm²",
+          "13 cm²",
+          "36 cm²",
+          "18 cm²"
+        ],
+        "correct": 2
       },
       {
-        "prompt": "2x + 6 = 3x + 9",
-        "type": "text",
-        "answers": [
-          "-3"
-        ]
+        "prompt": "Trojúhelník má základnu 12 cm a výšku k ní 5 cm. Jaký má obsah?",
+        "type": "choice",
+        "options": [
+          "30 cm²",
+          "60 cm²",
+          "17 cm²",
+          "24 cm²"
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "Obvod obdélníku je 34 cm a jedna strana měří 10 cm. Kolik měří druhá strana?",
+        "type": "choice",
+        "options": [
+          "24 cm",
+          "14 cm",
+          "12 cm",
+          "7 cm"
+        ],
+        "correct": 3
+      },
+      {
+        "prompt": "Obsah rovnoběžníku je 54 cm². Výška k hledané straně je 6 cm. Kolik měří ta strana?",
+        "type": "choice",
+        "options": [
+          "8 cm",
+          "9 cm",
+          "18 cm",
+          "48 cm"
+        ],
+        "correct": 1
+      },
+      {
+        "prompt": "Obsah lichoběžníku je 48 cm², výška 6 cm a jedna základna 11 cm. Kolik měří druhá základna?",
+        "type": "choice",
+        "options": [
+          "3 cm",
+          "8 cm",
+          "5 cm",
+          "16 cm"
+        ],
+        "correct": 2
       }
     ]
   },
   "2026-11-18": {
-    "title": "Rovnice se závorkami",
+    "title": "Obvody a obsahy · slovní úlohy",
+    "revision": "geometrie-tyden-1",
+    "mode": "sequence",
     "questions": [
       {
-        "prompt": "3(x − 2) = 12",
-        "type": "text",
-        "answers": [
-          "6"
-        ]
+        "prompt": "Čtvercový záhon má stranu 6 m. Kolik metrů obruby je potřeba na celý okraj?",
+        "type": "choice",
+        "options": [
+          "12 m",
+          "18 m",
+          "24 m",
+          "36 m"
+        ],
+        "correct": 2
       },
       {
-        "prompt": "2(x + 4) = x + 3",
-        "type": "text",
-        "answers": [
-          "-5"
-        ]
+        "prompt": "Koberec má rozměry 4 m a 2,5 m. Jak velkou plochu zakryje?",
+        "type": "choice",
+        "options": [
+          "10 m²",
+          "6,5 m²",
+          "13 m²",
+          "8 m²"
+        ],
+        "correct": 0
       },
       {
-        "prompt": "4(x − 1) = 2(x + 3)",
-        "type": "text",
-        "answers": [
-          "5"
-        ]
+        "prompt": "Trojúhelníková vlajka má základnu 40 cm a výšku 30 cm. Kolik látky zabere?",
+        "type": "choice",
+        "options": [
+          "70 cm²",
+          "1 200 cm²",
+          "350 cm²",
+          "600 cm²"
+        ],
+        "correct": 3
+      },
+      {
+        "prompt": "Obdélníková zahrada je dlouhá 12 m a široká 8 m. Na jedné straně je otvor pro branku široký 2 m. Kolik metrů plotu je potřeba?",
+        "type": "choice",
+        "options": [
+          "40 m",
+          "38 m",
+          "36 m",
+          "96 m"
+        ],
+        "correct": 1
+      },
+      {
+        "prompt": "Na obdélníkovou terasu o obsahu 36 m² připadá na délku 9 m. Jak je terasa široká?",
+        "type": "choice",
+        "options": [
+          "4 m",
+          "6 m",
+          "9 m",
+          "27 m"
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "Lichoběžníkový záhon má obsah 30 m². Jeho rovnoběžné strany měří 7 m a 5 m. Kolik metrů je mezi nimi?",
+        "type": "choice",
+        "options": [
+          "2,5 m",
+          "6 m",
+          "5 m",
+          "3 m"
+        ],
+        "correct": 2
       }
     ]
   },
   "2026-11-19": {
-    "title": "Neznámá ve jmenovateli",
+    "title": "Obrazce ve čtvercové síti",
+    "revision": "geometrie-tyden-1",
+    "mode": "sequence",
     "questions": [
       {
-        "prompt": "12/x = 3",
-        "type": "text",
-        "answers": [
-          "4"
-        ]
+        "prompt": "Urči obsah modrého obdélníku. Jedno políčko má obsah 1 cm².",
+        "type": "choice",
+        "options": [
+          "8 cm²",
+          "6 cm²",
+          "12 cm²",
+          "16 cm²"
+        ],
+        "correct": 0,
+        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDQiIGhlaWdodD0iODQiIHZpZXdCb3g9IjAgMCAxNDQgODQiPjxwb2x5Z29uIHBvaW50cz0iMjAsMTYgMTI0LDE2IDEyNCw2OCAyMCw2OCIgZmlsbD0iI2E5ZDlmZiIvPjxnIHN0cm9rZT0iIzg2NzdhMCIgc3Ryb2tlLXdpZHRoPSIxIj48cGF0aCBkPSJNMjAgMTZ2NTIiLz48cGF0aCBkPSJNNDYgMTZ2NTIiLz48cGF0aCBkPSJNNzIgMTZ2NTIiLz48cGF0aCBkPSJNOTggMTZ2NTIiLz48cGF0aCBkPSJNMTI0IDE2djUyIi8+PHBhdGggZD0iTTIwIDE2aDEwNCIvPjxwYXRoIGQ9Ik0yMCA0MmgxMDQiLz48cGF0aCBkPSJNMjAgNjhoMTA0Ii8+PC9nPjxwb2x5Z29uIHBvaW50cz0iMjAsMTYgMTI0LDE2IDEyNCw2OCAyMCw2OCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMzEyODQ0IiBzdHJva2Utd2lkdGg9IjIuNSIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjwvc3ZnPg==",
+        "imageAlt": "Vrcholy v síti od levého horního rohu (sloupec, řádek): (0, 0), (4, 0), (4, 2), (0, 2)."
       },
       {
-        "prompt": "18/(x − 1) = 6",
-        "type": "text",
-        "answers": [
-          "4"
-        ]
+        "prompt": "Urči obsah modrého trojúhelníku. Jedno políčko má obsah 1 cm².",
+        "type": "choice",
+        "options": [
+          "12 cm²",
+          "7 cm²",
+          "6 cm²",
+          "8 cm²"
+        ],
+        "correct": 2,
+        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDQiIGhlaWdodD0iMTEwIiB2aWV3Qm94PSIwIDAgMTQ0IDExMCI+PHBvbHlnb24gcG9pbnRzPSIyMCw5NCAxMjQsOTQgMjAsMTYiIGZpbGw9IiNhOWQ5ZmYiLz48ZyBzdHJva2U9IiM4Njc3YTAiIHN0cm9rZS13aWR0aD0iMSI+PHBhdGggZD0iTTIwIDE2djc4Ii8+PHBhdGggZD0iTTQ2IDE2djc4Ii8+PHBhdGggZD0iTTcyIDE2djc4Ii8+PHBhdGggZD0iTTk4IDE2djc4Ii8+PHBhdGggZD0iTTEyNCAxNnY3OCIvPjxwYXRoIGQ9Ik0yMCAxNmgxMDQiLz48cGF0aCBkPSJNMjAgNDJoMTA0Ii8+PHBhdGggZD0iTTIwIDY4aDEwNCIvPjxwYXRoIGQ9Ik0yMCA5NGgxMDQiLz48L2c+PHBvbHlnb24gcG9pbnRzPSIyMCw5NCAxMjQsOTQgMjAsMTYiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzMxMjg0NCIgc3Ryb2tlLXdpZHRoPSIyLjUiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4=",
+        "imageAlt": "Vrcholy v síti od levého horního rohu (sloupec, řádek): (0, 3), (4, 3), (0, 0)."
       },
       {
-        "prompt": "10/(x + 2) = 5",
-        "type": "text",
-        "answers": [
-          "0"
-        ]
+        "prompt": "Urči obsah modrého obrazce. Jedno políčko má obsah 1 cm².",
+        "type": "choice",
+        "options": [
+          "12 cm²",
+          "8 cm²",
+          "10 cm²",
+          "6 cm²"
+        ],
+        "correct": 1,
+        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDQiIGhlaWdodD0iMTEwIiB2aWV3Qm94PSIwIDAgMTQ0IDExMCI+PHBvbHlnb24gcG9pbnRzPSIyMCwxNiAxMjQsMTYgMTI0LDQyIDcyLDQyIDcyLDk0IDIwLDk0IiBmaWxsPSIjYTlkOWZmIi8+PGcgc3Ryb2tlPSIjODY3N2EwIiBzdHJva2Utd2lkdGg9IjEiPjxwYXRoIGQ9Ik0yMCAxNnY3OCIvPjxwYXRoIGQ9Ik00NiAxNnY3OCIvPjxwYXRoIGQ9Ik03MiAxNnY3OCIvPjxwYXRoIGQ9Ik05OCAxNnY3OCIvPjxwYXRoIGQ9Ik0xMjQgMTZ2NzgiLz48cGF0aCBkPSJNMjAgMTZoMTA0Ii8+PHBhdGggZD0iTTIwIDQyaDEwNCIvPjxwYXRoIGQ9Ik0yMCA2OGgxMDQiLz48cGF0aCBkPSJNMjAgOTRoMTA0Ii8+PC9nPjxwb2x5Z29uIHBvaW50cz0iMjAsMTYgMTI0LDE2IDEyNCw0MiA3Miw0MiA3Miw5NCAyMCw5NCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMzEyODQ0IiBzdHJva2Utd2lkdGg9IjIuNSIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjwvc3ZnPg==",
+        "imageAlt": "Vrcholy v síti od levého horního rohu (sloupec, řádek): (0, 0), (4, 0), (4, 1), (2, 1), (2, 3), (0, 3)."
+      },
+      {
+        "prompt": "Urči skutečný obsah modrého rovnoběžníku. Jedno políčko má obsah 2 cm².",
+        "type": "choice",
+        "options": [
+          "12 cm²",
+          "14 cm²",
+          "20 cm²",
+          "24 cm²"
+        ],
+        "correct": 3,
+        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNzAiIGhlaWdodD0iMTEwIiB2aWV3Qm94PSIwIDAgMTcwIDExMCI+PHBvbHlnb24gcG9pbnRzPSI0NiwxNiAxNTAsMTYgMTI0LDk0IDIwLDk0IiBmaWxsPSIjYTlkOWZmIi8+PGcgc3Ryb2tlPSIjODY3N2EwIiBzdHJva2Utd2lkdGg9IjEiPjxwYXRoIGQ9Ik0yMCAxNnY3OCIvPjxwYXRoIGQ9Ik00NiAxNnY3OCIvPjxwYXRoIGQ9Ik03MiAxNnY3OCIvPjxwYXRoIGQ9Ik05OCAxNnY3OCIvPjxwYXRoIGQ9Ik0xMjQgMTZ2NzgiLz48cGF0aCBkPSJNMTUwIDE2djc4Ii8+PHBhdGggZD0iTTIwIDE2aDEzMCIvPjxwYXRoIGQ9Ik0yMCA0MmgxMzAiLz48cGF0aCBkPSJNMjAgNjhoMTMwIi8+PHBhdGggZD0iTTIwIDk0aDEzMCIvPjwvZz48cG9seWdvbiBwb2ludHM9IjQ2LDE2IDE1MCwxNiAxMjQsOTQgMjAsOTQiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzMxMjg0NCIgc3Ryb2tlLXdpZHRoPSIyLjUiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4=",
+        "imageAlt": "Vrcholy v síti od levého horního rohu (sloupec, řádek): (1, 0), (5, 0), (4, 3), (0, 3)."
+      },
+      {
+        "prompt": "Urči skutečný obsah modrého lichoběžníku. Jedno políčko má obsah 2 cm².",
+        "type": "choice",
+        "options": [
+          "12 cm²",
+          "16 cm²",
+          "24 cm²",
+          "30 cm²"
+        ],
+        "correct": 2,
+        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNzAiIGhlaWdodD0iMTEwIiB2aWV3Qm94PSIwIDAgMTcwIDExMCI+PHBvbHlnb24gcG9pbnRzPSI0NiwxNiAxMjQsMTYgMTUwLDk0IDIwLDk0IiBmaWxsPSIjYTlkOWZmIi8+PGcgc3Ryb2tlPSIjODY3N2EwIiBzdHJva2Utd2lkdGg9IjEiPjxwYXRoIGQ9Ik0yMCAxNnY3OCIvPjxwYXRoIGQ9Ik00NiAxNnY3OCIvPjxwYXRoIGQ9Ik03MiAxNnY3OCIvPjxwYXRoIGQ9Ik05OCAxNnY3OCIvPjxwYXRoIGQ9Ik0xMjQgMTZ2NzgiLz48cGF0aCBkPSJNMTUwIDE2djc4Ii8+PHBhdGggZD0iTTIwIDE2aDEzMCIvPjxwYXRoIGQ9Ik0yMCA0MmgxMzAiLz48cGF0aCBkPSJNMjAgNjhoMTMwIi8+PHBhdGggZD0iTTIwIDk0aDEzMCIvPjwvZz48cG9seWdvbiBwb2ludHM9IjQ2LDE2IDEyNCwxNiAxNTAsOTQgMjAsOTQiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzMxMjg0NCIgc3Ryb2tlLXdpZHRoPSIyLjUiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4=",
+        "imageAlt": "Vrcholy v síti od levého horního rohu (sloupec, řádek): (1, 0), (4, 0), (5, 3), (0, 3)."
+      },
+      {
+        "prompt": "Urči skutečný obsah modrého obrazce. Jedno políčko má obsah 2 cm².",
+        "type": "choice",
+        "options": [
+          "40 cm²",
+          "38 cm²",
+          "19 cm²",
+          "32 cm²"
+        ],
+        "correct": 1,
+        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOTYiIGhlaWdodD0iMTM2IiB2aWV3Qm94PSIwIDAgMTk2IDEzNiI+PHBvbHlnb24gcG9pbnRzPSIyMCwxNiAxMjQsMTYgMTc2LDY4IDk4LDEyMCAyMCwxMjAiIGZpbGw9IiNhOWQ5ZmYiLz48ZyBzdHJva2U9IiM4Njc3YTAiIHN0cm9rZS13aWR0aD0iMSI+PHBhdGggZD0iTTIwIDE2djEwNCIvPjxwYXRoIGQ9Ik00NiAxNnYxMDQiLz48cGF0aCBkPSJNNzIgMTZ2MTA0Ii8+PHBhdGggZD0iTTk4IDE2djEwNCIvPjxwYXRoIGQ9Ik0xMjQgMTZ2MTA0Ii8+PHBhdGggZD0iTTE1MCAxNnYxMDQiLz48cGF0aCBkPSJNMTc2IDE2djEwNCIvPjxwYXRoIGQ9Ik0yMCAxNmgxNTYiLz48cGF0aCBkPSJNMjAgNDJoMTU2Ii8+PHBhdGggZD0iTTIwIDY4aDE1NiIvPjxwYXRoIGQ9Ik0yMCA5NGgxNTYiLz48cGF0aCBkPSJNMjAgMTIwaDE1NiIvPjwvZz48cG9seWdvbiBwb2ludHM9IjIwLDE2IDEyNCwxNiAxNzYsNjggOTgsMTIwIDIwLDEyMCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMzEyODQ0IiBzdHJva2Utd2lkdGg9IjIuNSIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjwvc3ZnPg==",
+        "imageAlt": "Vrcholy v síti od levého horního rohu (sloupec, řádek): (0, 0), (4, 0), (6, 2), (3, 4), (0, 4)."
       }
     ]
   },
   "2026-11-20": {
-    "title": "Závěrečný mix",
+    "title": "Páteční mix · od vzorců k výzvě",
+    "revision": "geometrie-tyden-1",
+    "mode": "sequence",
     "questions": [
       {
-        "prompt": "5(x − 2) = 2x + 11",
-        "type": "text",
-        "answers": [
-          "7"
-        ]
+        "prompt": "Který vzorec vyjadřuje obsah čtverce se stranou a?",
+        "type": "choice",
+        "options": [
+          "S = 4a",
+          "S = a²",
+          "S = 2a",
+          "S = a² : 2"
+        ],
+        "correct": 1
       },
       {
-        "prompt": "24/(x + 1) = 8",
-        "type": "text",
-        "answers": [
-          "2"
-        ]
+        "prompt": "Obdélník má obsah 84 cm² a obvod 38 cm. Jedna strana měří 7 cm. Kolik měří druhá?",
+        "type": "choice",
+        "options": [
+          "10 cm",
+          "14 cm",
+          "7 cm",
+          "12 cm"
+        ],
+        "correct": 3
       },
       {
-        "prompt": "Dvě tiskárny vytisknou společně 600 listů. První sama zvládne 600 listů za 30 minut, druhá za 60 minut. Za kolik minut to zvládnou společně?",
-        "type": "text",
-        "answers": [
-          "20"
-        ]
+        "prompt": "Čtvercové nádvoří má stranu 9 m. Uvnitř je záhon o rozměrech 4 m a 3 m. Kolik m² zbývá na dlažbu?",
+        "type": "choice",
+        "options": [
+          "69 m²",
+          "77 m²",
+          "54 m²",
+          "96 m²"
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "Urči skutečný obsah vybarveného obrazce. Jedno políčko má obsah 2 cm².",
+        "type": "choice",
+        "options": [
+          "11 cm²",
+          "14 cm²",
+          "18 cm²",
+          "22 cm²"
+        ],
+        "correct": 2,
+        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNzAiIGhlaWdodD0iMTEwIiB2aWV3Qm94PSIwIDAgMTcwIDExMCI+PHBvbHlnb24gcG9pbnRzPSIyMCwxNiAxNTAsMTYgMTUwLDk0IDk4LDk0IDk4LDQyIDIwLDQyIiBmaWxsPSIjYTlkOWZmIi8+PGcgc3Ryb2tlPSIjODY3N2EwIiBzdHJva2Utd2lkdGg9IjEiPjxwYXRoIGQ9Ik0yMCAxNnY3OCIvPjxwYXRoIGQ9Ik00NiAxNnY3OCIvPjxwYXRoIGQ9Ik03MiAxNnY3OCIvPjxwYXRoIGQ9Ik05OCAxNnY3OCIvPjxwYXRoIGQ9Ik0xMjQgMTZ2NzgiLz48cGF0aCBkPSJNMTUwIDE2djc4Ii8+PHBhdGggZD0iTTIwIDE2aDEzMCIvPjxwYXRoIGQ9Ik0yMCA0MmgxMzAiLz48cGF0aCBkPSJNMjAgNjhoMTMwIi8+PHBhdGggZD0iTTIwIDk0aDEzMCIvPjwvZz48cG9seWdvbiBwb2ludHM9IjIwLDE2IDE1MCwxNiAxNTAsOTQgOTgsOTQgOTgsNDIgMjAsNDIiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzMxMjg0NCIgc3Ryb2tlLXdpZHRoPSIyLjUiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4=",
+        "imageAlt": "Vrcholy v síti od levého horního rohu (sloupec, řádek): (0, 0), (5, 0), (5, 3), (3, 3), (3, 1), (0, 1)."
+      },
+      {
+        "prompt": "Obdélník má rozměry 10 cm a 8 cm. Delší stranu prodloužíme o 20 % a kratší zkrátíme o 25 %. O kolik procent se změní obsah?",
+        "type": "choice",
+        "options": [
+          "Zmenší se o 5 %",
+          "Zvětší se o 10 %",
+          "Zmenší se o 10 %",
+          "Zůstane stejný"
+        ],
+        "correct": 2
+      },
+      {
+        "prompt": "Čtvercový záhon má stranu 10 m. Jeho stranu zvětšíme o 20 %. Jak velkou část nové plochy tvoří přidaná plocha? Výsledek zaokrouhli na celé procento.",
+        "type": "choice",
+        "options": [
+          "20 %",
+          "31 %",
+          "40 %",
+          "44 %"
+        ],
+        "correct": 1
       }
     ]
   },
