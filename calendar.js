@@ -250,12 +250,18 @@ function renderQuestions(task) {
     const legend = document.createElement('legend');
     legend.textContent = (index+1) + '. ' + question.prompt;
     field.append(legend);
+    const sideLayout = task.diagramLayout === 'side' && question.type === 'choice' && question.image;
+    const content = sideLayout ? document.createElement('div') : field;
+    if (sideLayout) {
+      content.className = 'question-side';
+      field.append(content);
+    }
     if (question.image && /^data:image\/(png|jpeg|webp|gif|svg\+xml);base64,/i.test(question.image)) {
       const image = document.createElement('img');
       image.className = 'question-image';
       image.src = question.image;
       image.alt = question.imageAlt || 'Obrázek k úloze';
-      field.append(image);
+      content.append(image);
     }
     const draft = storage.drafts[progressKey(day)]?.[index];
     if (question.type === 'choice') {
@@ -272,7 +278,8 @@ function renderQuestions(task) {
         label.append(radio, String.fromCharCode(65+i) + ') ' + option);
         options.append(label);
       });
-      field.append(options);
+      if (sideLayout) content.prepend(options);
+      else field.append(options);
     } else {
       const input = document.createElement('input');
       input.name = 'answer-' + index;

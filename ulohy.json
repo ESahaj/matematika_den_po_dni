@@ -13,7 +13,9 @@
           "o = 2 · a",
           "o = a + 4"
         ],
-        "correct": 1
+        "correct": 1,
+        "imageAlt": "Náčrtek k zadání. Barevně jsou označené známé hodnoty a otazníkem hledaný údaj, pokud je v náčrtku vyznačený.",
+        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyODAiIGhlaWdodD0iMTcwIiB2aWV3Qm94PSIwIDAgMjgwIDE3MCI+PHBvbHlnb24gcG9pbnRzPSI5NCwzOCAxOTQsMzggMTk0LDEzMiA5NCwxMzIiIGZpbGw9IiNjZWVhZmYiIHN0cm9rZT0iIzMwMjY0NiIgc3Ryb2tlLXdpZHRoPSIyLjgiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48dGV4dCB4PSIxNDAiIHk9IjI5IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic3lzdGVtLXVpLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTciIGZvbnQtd2VpZ2h0PSI4MDAiIGZpbGw9IiMxMjU0NzgiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIzIiBwYWludC1vcmRlcj0ic3Ryb2tlIj5hPC90ZXh0Pjx0ZXh0IHg9IjIyNSIgeT0iOTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNyIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iIzEyNTQ3OCIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjMiIHBhaW50LW9yZGVyPSJzdHJva2UiPmE8L3RleHQ+PHRleHQgeD0iMTQwIiB5PSI5MiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InN5c3RlbS11aSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE3IiBmb250LXdlaWdodD0iODAwIiBmaWxsPSIjYTQ0OTBkIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMyIgcGFpbnQtb3JkZXI9InN0cm9rZSI+PC90ZXh0Pjx0ZXh0IHg9IjE0MCIgeT0iMTU3IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic3lzdGVtLXVpLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTciIGZvbnQtd2VpZ2h0PSI4MDAiIGZpbGw9IiNhNDQ5MGQiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIzIiBwYWludC1vcmRlcj0ic3Ryb2tlIj48L3RleHQ+PC9zdmc+"
       },
       {
         "prompt": "Který vzorec vyjadřuje obsah obdélníku se stranami a, b?",
@@ -24,7 +26,9 @@
           "S = a + b",
           "S = (a · b) : 2"
         ],
-        "correct": 0
+        "correct": 0,
+        "imageAlt": "Náčrtek k zadání. Barevně jsou označené známé hodnoty a otazníkem hledaný údaj, pokud je v náčrtku vyznačený.",
+        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyODAiIGhlaWdodD0iMTcwIiB2aWV3Qm94PSIwIDAgMjgwIDE3MCI+PHBvbHlnb24gcG9pbnRzPSI1NiwzOCAyMjQsMzggMjI0LDEzMiA1NiwxMzIiIGZpbGw9IiNjZWVhZmYiIHN0cm9rZT0iIzMwMjY0NiIgc3Ryb2tlLXdpZHRoPSIyLjgiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48dGV4dCB4PSIxNDAiIHk9IjI5IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic3lzdGVtLXVpLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTciIGZvbnQtd2VpZ2h0PSI4MDAiIGZpbGw9IiMxMjU0NzgiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIzIiBwYWludC1vcmRlcj0ic3Ryb2tlIj5hPC90ZXh0Pjx0ZXh0IHg9IjI1NSIgeT0iOTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNyIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iIzEyNTQ3OCIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjMiIHBhaW50LW9yZGVyPSJzdHJva2UiPmI8L3RleHQ+PHRleHQgeD0iMTQwIiB5PSI5MiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InN5c3RlbS11aSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE3IiBmb250LXdlaWdodD0iODAwIiBmaWxsPSIjYTQ0OTBkIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMyIgcGFpbnQtb3JkZXI9InN0cm9rZSI+PC90ZXh0Pjx0ZXh0IHg9IjE0MCIgeT0iMTU3IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic3lzdGVtLXVpLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTciIGZvbnQtd2VpZ2h0PSI4MDAiIGZpbGw9IiNhNDQ5MGQiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIzIiBwYWludC1vcmRlcj0ic3Ryb2tlIj48L3RleHQ+PC9zdmc+"
       },
       {
         "prompt": "Který vzorec vyjadřuje obvod trojúhelníku se stranami a, b, c?",
@@ -35,7 +39,9 @@
           "o = a + b + c",
           "o = (a + b + c) : 2"
         ],
-        "correct": 2
+        "correct": 2,
+        "imageAlt": "Náčrtek k zadání. Barevně jsou označené známé hodnoty a otazníkem hledaný údaj, pokud je v náčrtku vyznačený.",
+        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyODAiIGhlaWdodD0iMTcwIiB2aWV3Qm94PSIwIDAgMjgwIDE3MCI+PHBvbHlnb24gcG9pbnRzPSI1NywxMzIgMjIxLDEzMiAxMDksMzUiIGZpbGw9IiNkOWVmY2UiIHN0cm9rZT0iIzMwMjY0NiIgc3Ryb2tlLXdpZHRoPSIyLjgiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48dGV4dCB4PSIxNDAiIHk9IjE1NSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InN5c3RlbS11aSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE3IiBmb250LXdlaWdodD0iODAwIiBmaWxsPSIjMTI1NDc4IiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMyIgcGFpbnQtb3JkZXI9InN0cm9rZSI+YTwvdGV4dD48dGV4dCB4PSIxODciIHk9Ijc1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic3lzdGVtLXVpLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTciIGZvbnQtd2VpZ2h0PSI4MDAiIGZpbGw9IiMxMjU0NzgiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIzIiBwYWludC1vcmRlcj0ic3Ryb2tlIj5iPC90ZXh0Pjx0ZXh0IHg9IjY2IiB5PSI3NyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InN5c3RlbS11aSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE3IiBmb250LXdlaWdodD0iODAwIiBmaWxsPSIjMTI1NDc4IiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMyIgcGFpbnQtb3JkZXI9InN0cm9rZSI+YzwvdGV4dD48dGV4dCB4PSIxMjQiIHk9IjExMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InN5c3RlbS11aSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE3IiBmb250LXdlaWdodD0iODAwIiBmaWxsPSIjNjg0MTk2IiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMyIgcGFpbnQtb3JkZXI9InN0cm9rZSI+PC90ZXh0Pjx0ZXh0IHg9IjE1MiIgeT0iOTYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNyIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2E0NDkwZCIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjMiIHBhaW50LW9yZGVyPSJzdHJva2UiPjwvdGV4dD48L3N2Zz4="
       },
       {
         "prompt": "Který vzorec vyjadřuje obsah trojúhelníku se stranou a a výškou vₐ?",
@@ -46,7 +52,9 @@
           "S = 2 · a · vₐ",
           "S = (a · vₐ) : 2"
         ],
-        "correct": 3
+        "correct": 3,
+        "imageAlt": "Náčrtek k zadání. Barevně jsou označené známé hodnoty a otazníkem hledaný údaj, pokud je v náčrtku vyznačený.",
+        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyODAiIGhlaWdodD0iMTcwIiB2aWV3Qm94PSIwIDAgMjgwIDE3MCI+PHBvbHlnb24gcG9pbnRzPSI1NywxMzIgMjIxLDEzMiAxMDksMzUiIGZpbGw9IiNkOWVmY2UiIHN0cm9rZT0iIzMwMjY0NiIgc3Ryb2tlLXdpZHRoPSIyLjgiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48cGF0aCBkPSJNMTA5IDM1VjEzMiBNMTA5IDEyMCBBMTIgMTIgMCAwIDEgMTIxIDEzMiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNjg0MTk2IiBzdHJva2Utd2lkdGg9IjIiLz48Y2lyY2xlIGN4PSIxMTMiIGN5PSIxMjgiIHI9IjEuNiIgZmlsbD0iIzY4NDE5NiIvPjx0ZXh0IHg9IjE0MCIgeT0iMTU1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic3lzdGVtLXVpLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTciIGZvbnQtd2VpZ2h0PSI4MDAiIGZpbGw9IiMxMjU0NzgiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIzIiBwYWludC1vcmRlcj0ic3Ryb2tlIj5hPC90ZXh0Pjx0ZXh0IHg9IjE4NyIgeT0iNzUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNyIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iIzEyNTQ3OCIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjMiIHBhaW50LW9yZGVyPSJzdHJva2UiPjwvdGV4dD48dGV4dCB4PSI2NiIgeT0iNzciIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNyIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iIzEyNTQ3OCIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjMiIHBhaW50LW9yZGVyPSJzdHJva2UiPjwvdGV4dD48dGV4dCB4PSIxMjQiIHk9IjExMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InN5c3RlbS11aSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE3IiBmb250LXdlaWdodD0iODAwIiBmaWxsPSIjNjg0MTk2IiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMyIgcGFpbnQtb3JkZXI9InN0cm9rZSI+duKCkDwvdGV4dD48dGV4dCB4PSIxNTIiIHk9Ijk2IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic3lzdGVtLXVpLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTciIGZvbnQtd2VpZ2h0PSI4MDAiIGZpbGw9IiNhNDQ5MGQiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIzIiBwYWludC1vcmRlcj0ic3Ryb2tlIj48L3RleHQ+PC9zdmc+"
       },
       {
         "prompt": "Který vzorec vyjadřuje obsah rovnoběžníku se stranou a a výškou vₐ?",
@@ -57,7 +65,9 @@
           "S = 2 · (a + vₐ)",
           "S = (a · vₐ) : 2"
         ],
-        "correct": 1
+        "correct": 1,
+        "imageAlt": "Náčrtek k zadání. Barevně jsou označené známé hodnoty a otazníkem hledaný údaj, pokud je v náčrtku vyznačený.",
+        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyODAiIGhlaWdodD0iMTcwIiB2aWV3Qm94PSIwIDAgMjgwIDE3MCI+PHBvbHlnb24gcG9pbnRzPSI4NywzOCAyMjgsMzggMTk4LDEzMyA1NywxMzMiIGZpbGw9IiNmMGRlZmEiIHN0cm9rZT0iIzMwMjY0NiIgc3Ryb2tlLXdpZHRoPSIyLjgiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48cGF0aCBkPSJNODcgMzhWMTMzIE04NyAxMjEgQTEyIDEyIDAgMCAxIDk5IDEzMyIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNjg0MTk2IiBzdHJva2Utd2lkdGg9IjIiLz48Y2lyY2xlIGN4PSI5MSIgY3k9IjEyOSIgcj0iMS42IiBmaWxsPSIjNjg0MTk2Ii8+PHRleHQgeD0iMTI2IiB5PSIxNTUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNyIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iIzEyNTQ3OCIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjMiIHBhaW50LW9yZGVyPSJzdHJva2UiPmE8L3RleHQ+PHRleHQgeD0iMTAyIiB5PSIxMTIiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNyIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iIzY4NDE5NiIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjMiIHBhaW50LW9yZGVyPSJzdHJva2UiPnbigpA8L3RleHQ+PHRleHQgeD0iMTU4IiB5PSI4MyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InN5c3RlbS11aSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE3IiBmb250LXdlaWdodD0iODAwIiBmaWxsPSIjYTQ0OTBkIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMyIgcGFpbnQtb3JkZXI9InN0cm9rZSI+PC90ZXh0Pjwvc3ZnPg=="
       },
       {
         "prompt": "Který vzorec vyjadřuje obsah lichoběžníku se základnami a, c a výškou v?",
@@ -68,7 +78,9 @@
           "S = (a + c) · v",
           "S = (a · c) : 2"
         ],
-        "correct": 0
+        "correct": 0,
+        "imageAlt": "Náčrtek k zadání. Barevně jsou označené známé hodnoty a otazníkem hledaný údaj, pokud je v náčrtku vyznačený.",
+        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyODAiIGhlaWdodD0iMTcwIiB2aWV3Qm94PSIwIDAgMjgwIDE3MCI+PHBvbHlnb24gcG9pbnRzPSI5MSw0NiAxODksNDYgMjMwLDEzMiA1MCwxMzIiIGZpbGw9IiNmZmU4YWIiIHN0cm9rZT0iIzMwMjY0NiIgc3Ryb2tlLXdpZHRoPSIyLjgiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48cGF0aCBkPSJNOTEgNDZWMTMyIE05MSAxMjAgQTEyIDEyIDAgMCAxIDEwMyAxMzIiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzY4NDE5NiIgc3Ryb2tlLXdpZHRoPSIyIi8+PGNpcmNsZSBjeD0iOTUiIGN5PSIxMjgiIHI9IjEuNiIgZmlsbD0iIzY4NDE5NiIvPjx0ZXh0IHg9IjE0MCIgeT0iMzciIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNyIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iIzEyNTQ3OCIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjMiIHBhaW50LW9yZGVyPSJzdHJva2UiPmE8L3RleHQ+PHRleHQgeD0iMTQwIiB5PSIxNTQiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNyIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iIzEyNTQ3OCIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjMiIHBhaW50LW9yZGVyPSJzdHJva2UiPmM8L3RleHQ+PHRleHQgeD0iMTA5IiB5PSIxMTMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNyIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iIzY4NDE5NiIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjMiIHBhaW50LW9yZGVyPSJzdHJva2UiPnY8L3RleHQ+PHRleHQgeD0iMTUxIiB5PSI5MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InN5c3RlbS11aSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE3IiBmb250LXdlaWdodD0iODAwIiBmaWxsPSIjYTQ0OTBkIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMyIgcGFpbnQtb3JkZXI9InN0cm9rZSI+PC90ZXh0Pjwvc3ZnPg=="
       }
     ],
     "flashcards": [
@@ -144,7 +156,8 @@
         "front": "Obsah kruhu",
         "back": "S = πr²"
       }
-    ]
+    ],
+    "diagramLayout": "side"
   },
   "2026-11-17": {
     "title": "Obvody a obsahy · výpočty",
@@ -160,7 +173,9 @@
           "49 cm",
           "21 cm"
         ],
-        "correct": 1
+        "correct": 1,
+        "imageAlt": "Náčrtek k zadání. Barevně jsou označené známé hodnoty a otazníkem hledaný údaj, pokud je v náčrtku vyznačený.",
+        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyODAiIGhlaWdodD0iMTcwIiB2aWV3Qm94PSIwIDAgMjgwIDE3MCI+PHBvbHlnb24gcG9pbnRzPSI5NCwzOCAxOTQsMzggMTk0LDEzMiA5NCwxMzIiIGZpbGw9IiNjZWVhZmYiIHN0cm9rZT0iIzMwMjY0NiIgc3Ryb2tlLXdpZHRoPSIyLjgiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48dGV4dCB4PSIxNDAiIHk9IjI5IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic3lzdGVtLXVpLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTciIGZvbnQtd2VpZ2h0PSI4MDAiIGZpbGw9IiMxMjU0NzgiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIzIiBwYWludC1vcmRlcj0ic3Ryb2tlIj43IGNtPC90ZXh0Pjx0ZXh0IHg9IjIyNSIgeT0iOTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNyIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iIzEyNTQ3OCIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjMiIHBhaW50LW9yZGVyPSJzdHJva2UiPjwvdGV4dD48dGV4dCB4PSIxNDAiIHk9IjkyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic3lzdGVtLXVpLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTciIGZvbnQtd2VpZ2h0PSI4MDAiIGZpbGw9IiNhNDQ5MGQiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIzIiBwYWludC1vcmRlcj0ic3Ryb2tlIj48L3RleHQ+PHRleHQgeD0iMTQwIiB5PSIxNTciIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNyIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2E0NDkwZCIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjMiIHBhaW50LW9yZGVyPSJzdHJva2UiPjwvdGV4dD48L3N2Zz4="
       },
       {
         "prompt": "Obdélník má rozměry 9 cm a 4 cm. Jaký má obsah?",
@@ -171,7 +186,9 @@
           "36 cm²",
           "18 cm²"
         ],
-        "correct": 2
+        "correct": 2,
+        "imageAlt": "Náčrtek k zadání. Barevně jsou označené známé hodnoty a otazníkem hledaný údaj, pokud je v náčrtku vyznačený.",
+        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyODAiIGhlaWdodD0iMTcwIiB2aWV3Qm94PSIwIDAgMjgwIDE3MCI+PHBvbHlnb24gcG9pbnRzPSI1NiwzOCAyMjQsMzggMjI0LDEzMiA1NiwxMzIiIGZpbGw9IiNjZWVhZmYiIHN0cm9rZT0iIzMwMjY0NiIgc3Ryb2tlLXdpZHRoPSIyLjgiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48dGV4dCB4PSIxNDAiIHk9IjI5IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic3lzdGVtLXVpLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTciIGZvbnQtd2VpZ2h0PSI4MDAiIGZpbGw9IiMxMjU0NzgiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIzIiBwYWludC1vcmRlcj0ic3Ryb2tlIj45IGNtPC90ZXh0Pjx0ZXh0IHg9IjI1NSIgeT0iOTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNyIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iIzEyNTQ3OCIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjMiIHBhaW50LW9yZGVyPSJzdHJva2UiPjQgY208L3RleHQ+PHRleHQgeD0iMTQwIiB5PSI5MiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InN5c3RlbS11aSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE3IiBmb250LXdlaWdodD0iODAwIiBmaWxsPSIjYTQ0OTBkIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMyIgcGFpbnQtb3JkZXI9InN0cm9rZSI+PC90ZXh0Pjx0ZXh0IHg9IjE0MCIgeT0iMTU3IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic3lzdGVtLXVpLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTciIGZvbnQtd2VpZ2h0PSI4MDAiIGZpbGw9IiNhNDQ5MGQiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIzIiBwYWludC1vcmRlcj0ic3Ryb2tlIj48L3RleHQ+PC9zdmc+"
       },
       {
         "prompt": "Trojúhelník má základnu 12 cm a výšku k ní 5 cm. Jaký má obsah?",
@@ -182,7 +199,9 @@
           "17 cm²",
           "24 cm²"
         ],
-        "correct": 0
+        "correct": 0,
+        "imageAlt": "Náčrtek k zadání. Barevně jsou označené známé hodnoty a otazníkem hledaný údaj, pokud je v náčrtku vyznačený.",
+        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyODAiIGhlaWdodD0iMTcwIiB2aWV3Qm94PSIwIDAgMjgwIDE3MCI+PHBvbHlnb24gcG9pbnRzPSI1NywxMzIgMjIxLDEzMiAxMDksMzUiIGZpbGw9IiNkOWVmY2UiIHN0cm9rZT0iIzMwMjY0NiIgc3Ryb2tlLXdpZHRoPSIyLjgiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48cGF0aCBkPSJNMTA5IDM1VjEzMiBNMTA5IDEyMCBBMTIgMTIgMCAwIDEgMTIxIDEzMiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNjg0MTk2IiBzdHJva2Utd2lkdGg9IjIiLz48Y2lyY2xlIGN4PSIxMTMiIGN5PSIxMjgiIHI9IjEuNiIgZmlsbD0iIzY4NDE5NiIvPjx0ZXh0IHg9IjE0MCIgeT0iMTU1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic3lzdGVtLXVpLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTciIGZvbnQtd2VpZ2h0PSI4MDAiIGZpbGw9IiMxMjU0NzgiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIzIiBwYWludC1vcmRlcj0ic3Ryb2tlIj4xMiBjbTwvdGV4dD48dGV4dCB4PSIxODciIHk9Ijc1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic3lzdGVtLXVpLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTciIGZvbnQtd2VpZ2h0PSI4MDAiIGZpbGw9IiMxMjU0NzgiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIzIiBwYWludC1vcmRlcj0ic3Ryb2tlIj48L3RleHQ+PHRleHQgeD0iNjYiIHk9Ijc3IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic3lzdGVtLXVpLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTciIGZvbnQtd2VpZ2h0PSI4MDAiIGZpbGw9IiMxMjU0NzgiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIzIiBwYWludC1vcmRlcj0ic3Ryb2tlIj48L3RleHQ+PHRleHQgeD0iMTI0IiB5PSIxMTMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNyIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iIzY4NDE5NiIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjMiIHBhaW50LW9yZGVyPSJzdHJva2UiPjUgY208L3RleHQ+PHRleHQgeD0iMTUyIiB5PSI5NiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InN5c3RlbS11aSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE3IiBmb250LXdlaWdodD0iODAwIiBmaWxsPSIjYTQ0OTBkIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMyIgcGFpbnQtb3JkZXI9InN0cm9rZSI+PC90ZXh0Pjwvc3ZnPg=="
       },
       {
         "prompt": "Obvod obdélníku je 34 cm a jedna strana měří 10 cm. Kolik měří druhá strana?",
@@ -193,7 +212,9 @@
           "12 cm",
           "7 cm"
         ],
-        "correct": 3
+        "correct": 3,
+        "imageAlt": "Náčrtek k zadání. Barevně jsou označené známé hodnoty a otazníkem hledaný údaj, pokud je v náčrtku vyznačený.",
+        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyODAiIGhlaWdodD0iMTcwIiB2aWV3Qm94PSIwIDAgMjgwIDE3MCI+PHBvbHlnb24gcG9pbnRzPSI1NiwzOCAyMjQsMzggMjI0LDEzMiA1NiwxMzIiIGZpbGw9IiNjZWVhZmYiIHN0cm9rZT0iIzMwMjY0NiIgc3Ryb2tlLXdpZHRoPSIyLjgiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48dGV4dCB4PSIxNDAiIHk9IjI5IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic3lzdGVtLXVpLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTciIGZvbnQtd2VpZ2h0PSI4MDAiIGZpbGw9IiMxMjU0NzgiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIzIiBwYWludC1vcmRlcj0ic3Ryb2tlIj4xMCBjbTwvdGV4dD48dGV4dCB4PSIyNTUiIHk9IjkxIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic3lzdGVtLXVpLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTciIGZvbnQtd2VpZ2h0PSI4MDAiIGZpbGw9IiMxMjU0NzgiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIzIiBwYWludC1vcmRlcj0ic3Ryb2tlIj4/PC90ZXh0Pjx0ZXh0IHg9IjE0MCIgeT0iOTIiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNyIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2E0NDkwZCIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjMiIHBhaW50LW9yZGVyPSJzdHJva2UiPm8gPSAzNCBjbTwvdGV4dD48dGV4dCB4PSIxNDAiIHk9IjE1NyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InN5c3RlbS11aSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE3IiBmb250LXdlaWdodD0iODAwIiBmaWxsPSIjYTQ0OTBkIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMyIgcGFpbnQtb3JkZXI9InN0cm9rZSI+PC90ZXh0Pjwvc3ZnPg=="
       },
       {
         "prompt": "Obsah rovnoběžníku je 54 cm². Výška k hledané straně je 6 cm. Kolik měří ta strana?",
@@ -204,7 +225,9 @@
           "18 cm",
           "48 cm"
         ],
-        "correct": 1
+        "correct": 1,
+        "imageAlt": "Náčrtek k zadání. Barevně jsou označené známé hodnoty a otazníkem hledaný údaj, pokud je v náčrtku vyznačený.",
+        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyODAiIGhlaWdodD0iMTcwIiB2aWV3Qm94PSIwIDAgMjgwIDE3MCI+PHBvbHlnb24gcG9pbnRzPSI4NywzOCAyMjgsMzggMTk4LDEzMyA1NywxMzMiIGZpbGw9IiNmMGRlZmEiIHN0cm9rZT0iIzMwMjY0NiIgc3Ryb2tlLXdpZHRoPSIyLjgiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48cGF0aCBkPSJNODcgMzhWMTMzIE04NyAxMjEgQTEyIDEyIDAgMCAxIDk5IDEzMyIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNjg0MTk2IiBzdHJva2Utd2lkdGg9IjIiLz48Y2lyY2xlIGN4PSI5MSIgY3k9IjEyOSIgcj0iMS42IiBmaWxsPSIjNjg0MTk2Ii8+PHRleHQgeD0iMTI2IiB5PSIxNTUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNyIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iIzEyNTQ3OCIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjMiIHBhaW50LW9yZGVyPSJzdHJva2UiPj88L3RleHQ+PHRleHQgeD0iMTAyIiB5PSIxMTIiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNyIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iIzY4NDE5NiIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjMiIHBhaW50LW9yZGVyPSJzdHJva2UiPjYgY208L3RleHQ+PHRleHQgeD0iMTU4IiB5PSI4MyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InN5c3RlbS11aSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE3IiBmb250LXdlaWdodD0iODAwIiBmaWxsPSIjYTQ0OTBkIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMyIgcGFpbnQtb3JkZXI9InN0cm9rZSI+UyA9IDU0IGNtwrI8L3RleHQ+PC9zdmc+"
       },
       {
         "prompt": "Obsah lichoběžníku je 48 cm², výška 6 cm a jedna základna 11 cm. Kolik měří druhá základna?",
@@ -215,9 +238,12 @@
           "5 cm",
           "16 cm"
         ],
-        "correct": 2
+        "correct": 2,
+        "imageAlt": "Delší základna má 11 cm, výška 6 cm, obsah 48 cm². Hledá se kratší základna.",
+        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyODAiIGhlaWdodD0iMTcwIiB2aWV3Qm94PSIwIDAgMjgwIDE3MCI+PHBvbHlnb24gcG9pbnRzPSI5NSw0NiAxODUsNDYgMjM5LDEzMiA0MSwxMzIiIGZpbGw9IiNmZmU4YWIiIHN0cm9rZT0iIzMwMjY0NiIgc3Ryb2tlLXdpZHRoPSIyLjgiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48cGF0aCBkPSJNOTUgNDZWMTMyIE05NSAxMjAgQTEyIDEyIDAgMCAxIDEwNyAxMzIiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzY4NDE5NiIgc3Ryb2tlLXdpZHRoPSIyIi8+PGNpcmNsZSBjeD0iOTkiIGN5PSIxMjgiIHI9IjEuNiIgZmlsbD0iIzY4NDE5NiIvPjx0ZXh0IHg9IjE0MCIgeT0iMzciIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNyIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iIzEyNTQ3OCIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjMiIHBhaW50LW9yZGVyPSJzdHJva2UiPj88L3RleHQ+PHRleHQgeD0iMTQwIiB5PSIxNTQiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNyIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iIzEyNTQ3OCIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjMiIHBhaW50LW9yZGVyPSJzdHJva2UiPjExIGNtPC90ZXh0Pjx0ZXh0IHg9IjExNCIgeT0iMTEzIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic3lzdGVtLXVpLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTciIGZvbnQtd2VpZ2h0PSI4MDAiIGZpbGw9IiM2ODQxOTYiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIzIiBwYWludC1vcmRlcj0ic3Ryb2tlIj42IGNtPC90ZXh0Pjx0ZXh0IHg9IjE1MSIgeT0iOTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNyIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2E0NDkwZCIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjMiIHBhaW50LW9yZGVyPSJzdHJva2UiPlMgPSA0OCBjbcKyPC90ZXh0Pjwvc3ZnPg=="
       }
-    ]
+    ],
+    "diagramLayout": "side"
   },
   "2026-11-18": {
     "title": "Obvody a obsahy · slovní úlohy",
@@ -233,7 +259,9 @@
           "24 m",
           "36 m"
         ],
-        "correct": 2
+        "correct": 2,
+        "imageAlt": "Náčrtek k zadání. Barevně jsou označené známé hodnoty a otazníkem hledaný údaj, pokud je v náčrtku vyznačený.",
+        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyODAiIGhlaWdodD0iMTcwIiB2aWV3Qm94PSIwIDAgMjgwIDE3MCI+PHBvbHlnb24gcG9pbnRzPSI5NCwzOCAxOTQsMzggMTk0LDEzMiA5NCwxMzIiIGZpbGw9IiNjZWVhZmYiIHN0cm9rZT0iIzMwMjY0NiIgc3Ryb2tlLXdpZHRoPSIyLjgiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48dGV4dCB4PSIxNDAiIHk9IjI5IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic3lzdGVtLXVpLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTciIGZvbnQtd2VpZ2h0PSI4MDAiIGZpbGw9IiMxMjU0NzgiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIzIiBwYWludC1vcmRlcj0ic3Ryb2tlIj42IG08L3RleHQ+PHRleHQgeD0iMjI1IiB5PSI5MSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InN5c3RlbS11aSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE3IiBmb250LXdlaWdodD0iODAwIiBmaWxsPSIjMTI1NDc4IiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMyIgcGFpbnQtb3JkZXI9InN0cm9rZSI+PC90ZXh0Pjx0ZXh0IHg9IjE0MCIgeT0iOTIiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNyIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2E0NDkwZCIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjMiIHBhaW50LW9yZGVyPSJzdHJva2UiPjwvdGV4dD48dGV4dCB4PSIxNDAiIHk9IjE1NyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InN5c3RlbS11aSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE3IiBmb250LXdlaWdodD0iODAwIiBmaWxsPSIjYTQ0OTBkIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMyIgcGFpbnQtb3JkZXI9InN0cm9rZSI+PC90ZXh0Pjwvc3ZnPg=="
       },
       {
         "prompt": "Koberec má rozměry 4 m a 2,5 m. Jak velkou plochu zakryje?",
@@ -244,7 +272,9 @@
           "13 m²",
           "8 m²"
         ],
-        "correct": 0
+        "correct": 0,
+        "imageAlt": "Náčrtek k zadání. Barevně jsou označené známé hodnoty a otazníkem hledaný údaj, pokud je v náčrtku vyznačený.",
+        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyODAiIGhlaWdodD0iMTcwIiB2aWV3Qm94PSIwIDAgMjgwIDE3MCI+PHBvbHlnb24gcG9pbnRzPSI1NiwzOCAyMjQsMzggMjI0LDEzMiA1NiwxMzIiIGZpbGw9IiNjZWVhZmYiIHN0cm9rZT0iIzMwMjY0NiIgc3Ryb2tlLXdpZHRoPSIyLjgiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48dGV4dCB4PSIxNDAiIHk9IjI5IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic3lzdGVtLXVpLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTciIGZvbnQtd2VpZ2h0PSI4MDAiIGZpbGw9IiMxMjU0NzgiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIzIiBwYWludC1vcmRlcj0ic3Ryb2tlIj40IG08L3RleHQ+PHRleHQgeD0iMjU1IiB5PSI5MSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InN5c3RlbS11aSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE3IiBmb250LXdlaWdodD0iODAwIiBmaWxsPSIjMTI1NDc4IiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMyIgcGFpbnQtb3JkZXI9InN0cm9rZSI+Miw1IG08L3RleHQ+PHRleHQgeD0iMTQwIiB5PSI5MiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InN5c3RlbS11aSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE3IiBmb250LXdlaWdodD0iODAwIiBmaWxsPSIjYTQ0OTBkIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMyIgcGFpbnQtb3JkZXI9InN0cm9rZSI+PC90ZXh0Pjx0ZXh0IHg9IjE0MCIgeT0iMTU3IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic3lzdGVtLXVpLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTciIGZvbnQtd2VpZ2h0PSI4MDAiIGZpbGw9IiNhNDQ5MGQiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIzIiBwYWludC1vcmRlcj0ic3Ryb2tlIj48L3RleHQ+PC9zdmc+"
       },
       {
         "prompt": "Trojúhelníková vlajka má základnu 40 cm a výšku 30 cm. Kolik látky zabere?",
@@ -255,7 +285,9 @@
           "350 cm²",
           "600 cm²"
         ],
-        "correct": 3
+        "correct": 3,
+        "imageAlt": "Náčrtek k zadání. Barevně jsou označené známé hodnoty a otazníkem hledaný údaj, pokud je v náčrtku vyznačený.",
+        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyODAiIGhlaWdodD0iMTcwIiB2aWV3Qm94PSIwIDAgMjgwIDE3MCI+PHBvbHlnb24gcG9pbnRzPSI1NywxMzIgMjIxLDEzMiAxMDksMzUiIGZpbGw9IiNkOWVmY2UiIHN0cm9rZT0iIzMwMjY0NiIgc3Ryb2tlLXdpZHRoPSIyLjgiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48cGF0aCBkPSJNMTA5IDM1VjEzMiBNMTA5IDEyMCBBMTIgMTIgMCAwIDEgMTIxIDEzMiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNjg0MTk2IiBzdHJva2Utd2lkdGg9IjIiLz48Y2lyY2xlIGN4PSIxMTMiIGN5PSIxMjgiIHI9IjEuNiIgZmlsbD0iIzY4NDE5NiIvPjx0ZXh0IHg9IjE0MCIgeT0iMTU1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic3lzdGVtLXVpLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTciIGZvbnQtd2VpZ2h0PSI4MDAiIGZpbGw9IiMxMjU0NzgiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIzIiBwYWludC1vcmRlcj0ic3Ryb2tlIj40MCBjbTwvdGV4dD48dGV4dCB4PSIxODciIHk9Ijc1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic3lzdGVtLXVpLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTciIGZvbnQtd2VpZ2h0PSI4MDAiIGZpbGw9IiMxMjU0NzgiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIzIiBwYWludC1vcmRlcj0ic3Ryb2tlIj48L3RleHQ+PHRleHQgeD0iNjYiIHk9Ijc3IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic3lzdGVtLXVpLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTciIGZvbnQtd2VpZ2h0PSI4MDAiIGZpbGw9IiMxMjU0NzgiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIzIiBwYWludC1vcmRlcj0ic3Ryb2tlIj48L3RleHQ+PHRleHQgeD0iMTI0IiB5PSIxMTMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNyIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iIzY4NDE5NiIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjMiIHBhaW50LW9yZGVyPSJzdHJva2UiPjMwIGNtPC90ZXh0Pjx0ZXh0IHg9IjE1MiIgeT0iOTYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNyIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2E0NDkwZCIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjMiIHBhaW50LW9yZGVyPSJzdHJva2UiPjwvdGV4dD48L3N2Zz4="
       },
       {
         "prompt": "Obdélníková zahrada je dlouhá 12 m a široká 8 m. Na jedné straně je otvor pro branku široký 2 m. Kolik metrů plotu je potřeba?",
@@ -266,7 +298,9 @@
           "36 m",
           "96 m"
         ],
-        "correct": 1
+        "correct": 1,
+        "imageAlt": "Náčrtek k zadání. Barevně jsou označené známé hodnoty a otazníkem hledaný údaj, pokud je v náčrtku vyznačený.",
+        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyODAiIGhlaWdodD0iMTcwIiB2aWV3Qm94PSIwIDAgMjgwIDE3MCI+PHBvbHlnb24gcG9pbnRzPSI1MywzOCAyMjcsMzggMjI3LDEzMiA1MywxMzIiIGZpbGw9IiNkOWVmY2UiIHN0cm9rZT0iIzMwMjY0NiIgc3Ryb2tlLXdpZHRoPSIyLjgiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48cGF0aCBkPSJNNTMgMTMySDExNG01MiAwaDYxIiBzdHJva2U9IiMzMDI2NDYiIHN0cm9rZS13aWR0aD0iNSIvPjxwYXRoIGQ9Ik0xMTQgMTMyaDUyIiBzdHJva2U9IiNmOGYwZmYiIHN0cm9rZS13aWR0aD0iNiIvPjx0ZXh0IHg9IjE0MCIgeT0iMjkiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNyIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iIzEyNTQ3OCIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjMiIHBhaW50LW9yZGVyPSJzdHJva2UiPjEyIG08L3RleHQ+PHRleHQgeD0iMjUzIiB5PSI5MSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InN5c3RlbS11aSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE3IiBmb250LXdlaWdodD0iODAwIiBmaWxsPSIjMTI1NDc4IiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMyIgcGFpbnQtb3JkZXI9InN0cm9rZSI+OCBtPC90ZXh0Pjx0ZXh0IHg9IjE0MCIgeT0iMTU1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic3lzdGVtLXVpLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTciIGZvbnQtd2VpZ2h0PSI4MDAiIGZpbGw9IiNhNDQ5MGQiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIzIiBwYWludC1vcmRlcj0ic3Ryb2tlIj5icmFua2EgMiBtPC90ZXh0Pjwvc3ZnPg=="
       },
       {
         "prompt": "Na obdélníkovou terasu o obsahu 36 m² připadá na délku 9 m. Jak je terasa široká?",
@@ -277,7 +311,9 @@
           "9 m",
           "27 m"
         ],
-        "correct": 0
+        "correct": 0,
+        "imageAlt": "Náčrtek k zadání. Barevně jsou označené známé hodnoty a otazníkem hledaný údaj, pokud je v náčrtku vyznačený.",
+        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyODAiIGhlaWdodD0iMTcwIiB2aWV3Qm94PSIwIDAgMjgwIDE3MCI+PHBvbHlnb24gcG9pbnRzPSI1NiwzOCAyMjQsMzggMjI0LDEzMiA1NiwxMzIiIGZpbGw9IiNjZWVhZmYiIHN0cm9rZT0iIzMwMjY0NiIgc3Ryb2tlLXdpZHRoPSIyLjgiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48dGV4dCB4PSIxNDAiIHk9IjI5IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic3lzdGVtLXVpLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTciIGZvbnQtd2VpZ2h0PSI4MDAiIGZpbGw9IiMxMjU0NzgiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIzIiBwYWludC1vcmRlcj0ic3Ryb2tlIj45IG08L3RleHQ+PHRleHQgeD0iMjU1IiB5PSI5MSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InN5c3RlbS11aSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE3IiBmb250LXdlaWdodD0iODAwIiBmaWxsPSIjMTI1NDc4IiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMyIgcGFpbnQtb3JkZXI9InN0cm9rZSI+PzwvdGV4dD48dGV4dCB4PSIxNDAiIHk9IjkyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic3lzdGVtLXVpLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTciIGZvbnQtd2VpZ2h0PSI4MDAiIGZpbGw9IiNhNDQ5MGQiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIzIiBwYWludC1vcmRlcj0ic3Ryb2tlIj5TID0gMzYgbcKyPC90ZXh0Pjx0ZXh0IHg9IjE0MCIgeT0iMTU3IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic3lzdGVtLXVpLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTciIGZvbnQtd2VpZ2h0PSI4MDAiIGZpbGw9IiNhNDQ5MGQiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIzIiBwYWludC1vcmRlcj0ic3Ryb2tlIj48L3RleHQ+PC9zdmc+"
       },
       {
         "prompt": "Lichoběžníkový záhon má obsah 30 m². Jeho rovnoběžné strany měří 7 m a 5 m. Kolik metrů je mezi nimi?",
@@ -288,9 +324,12 @@
           "5 m",
           "3 m"
         ],
-        "correct": 2
+        "correct": 2,
+        "imageAlt": "Kratší základna má 5 m, delší 7 m a obsah je 30 m². Hledá se výška.",
+        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyODAiIGhlaWdodD0iMTcwIiB2aWV3Qm94PSIwIDAgMjgwIDE3MCI+PHBvbHlnb24gcG9pbnRzPSI4MCw0NiAyMDAsNDYgMjI0LDEzMiA1NiwxMzIiIGZpbGw9IiNmZmU4YWIiIHN0cm9rZT0iIzMwMjY0NiIgc3Ryb2tlLXdpZHRoPSIyLjgiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48cGF0aCBkPSJNODAgNDZWMTMyIE04MCAxMjAgQTEyIDEyIDAgMCAxIDkyIDEzMiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNjg0MTk2IiBzdHJva2Utd2lkdGg9IjIiLz48Y2lyY2xlIGN4PSI4NCIgY3k9IjEyOCIgcj0iMS42IiBmaWxsPSIjNjg0MTk2Ii8+PHRleHQgeD0iMTQwIiB5PSIzNyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InN5c3RlbS11aSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE3IiBmb250LXdlaWdodD0iODAwIiBmaWxsPSIjMTI1NDc4IiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMyIgcGFpbnQtb3JkZXI9InN0cm9rZSI+NSBtPC90ZXh0Pjx0ZXh0IHg9IjE0MCIgeT0iMTU0IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic3lzdGVtLXVpLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTciIGZvbnQtd2VpZ2h0PSI4MDAiIGZpbGw9IiMxMjU0NzgiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIzIiBwYWludC1vcmRlcj0ic3Ryb2tlIj43IG08L3RleHQ+PHRleHQgeD0iOTkiIHk9IjExMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InN5c3RlbS11aSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE3IiBmb250LXdlaWdodD0iODAwIiBmaWxsPSIjNjg0MTk2IiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMyIgcGFpbnQtb3JkZXI9InN0cm9rZSI+PzwvdGV4dD48dGV4dCB4PSIxNTEiIHk9IjkwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic3lzdGVtLXVpLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTciIGZvbnQtd2VpZ2h0PSI4MDAiIGZpbGw9IiNhNDQ5MGQiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIzIiBwYWludC1vcmRlcj0ic3Ryb2tlIj5TID0gMzAgbcKyPC90ZXh0Pjwvc3ZnPg=="
       }
-    ]
+    ],
+    "diagramLayout": "side"
   },
   "2026-11-19": {
     "title": "Obrazce ve čtvercové síti",
@@ -307,7 +346,7 @@
           "16 cm²"
         ],
         "correct": 0,
-        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDQiIGhlaWdodD0iODQiIHZpZXdCb3g9IjAgMCAxNDQgODQiPjxwb2x5Z29uIHBvaW50cz0iMjAsMTYgMTI0LDE2IDEyNCw2OCAyMCw2OCIgZmlsbD0iI2E5ZDlmZiIvPjxnIHN0cm9rZT0iIzg2NzdhMCIgc3Ryb2tlLXdpZHRoPSIxIj48cGF0aCBkPSJNMjAgMTZ2NTIiLz48cGF0aCBkPSJNNDYgMTZ2NTIiLz48cGF0aCBkPSJNNzIgMTZ2NTIiLz48cGF0aCBkPSJNOTggMTZ2NTIiLz48cGF0aCBkPSJNMTI0IDE2djUyIi8+PHBhdGggZD0iTTIwIDE2aDEwNCIvPjxwYXRoIGQ9Ik0yMCA0MmgxMDQiLz48cGF0aCBkPSJNMjAgNjhoMTA0Ii8+PC9nPjxwb2x5Z29uIHBvaW50cz0iMjAsMTYgMTI0LDE2IDEyNCw2OCAyMCw2OCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMzEyODQ0IiBzdHJva2Utd2lkdGg9IjIuNSIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjwvc3ZnPg==",
+        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOTQiIGhlaWdodD0iMTA3IiB2aWV3Qm94PSIwIDAgMTk0IDEwNyI+PHBvbHlnb24gcG9pbnRzPSIyMCwxNiAxMjQsMTYgMTI0LDY4IDIwLDY4IiBmaWxsPSIjYTlkOWZmIi8+PGcgc3Ryb2tlPSIjODY3N2EwIiBzdHJva2Utd2lkdGg9IjEiPjxwYXRoIGQ9Ik0yMCAxNnY1MiIvPjxwYXRoIGQ9Ik00NiAxNnY1MiIvPjxwYXRoIGQ9Ik03MiAxNnY1MiIvPjxwYXRoIGQ9Ik05OCAxNnY1MiIvPjxwYXRoIGQ9Ik0xMjQgMTZ2NTIiLz48cGF0aCBkPSJNMjAgMTZoMTA0Ii8+PHBhdGggZD0iTTIwIDQyaDEwNCIvPjxwYXRoIGQ9Ik0yMCA2OGgxMDQiLz48L2c+PHBvbHlnb24gcG9pbnRzPSIyMCwxNiAxMjQsMTYgMTI0LDY4IDIwLDY4IiBmaWxsPSJub25lIiBzdHJva2U9IiMzMTI4NDQiIHN0cm9rZS13aWR0aD0iMi41IiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHRleHQgeD0iNzIuMCIgeT0iOTYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNCIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2E0NDkwZCIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjMiIHBhaW50LW9yZGVyPSJzdHJva2UiPjEgcG9sw63EjWtvID0gMSBjbcKyPC90ZXh0Pjwvc3ZnPg==",
         "imageAlt": "Vrcholy v síti od levého horního rohu (sloupec, řádek): (0, 0), (4, 0), (4, 2), (0, 2)."
       },
       {
@@ -320,21 +359,21 @@
           "8 cm²"
         ],
         "correct": 2,
-        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDQiIGhlaWdodD0iMTEwIiB2aWV3Qm94PSIwIDAgMTQ0IDExMCI+PHBvbHlnb24gcG9pbnRzPSIyMCw5NCAxMjQsOTQgMjAsMTYiIGZpbGw9IiNhOWQ5ZmYiLz48ZyBzdHJva2U9IiM4Njc3YTAiIHN0cm9rZS13aWR0aD0iMSI+PHBhdGggZD0iTTIwIDE2djc4Ii8+PHBhdGggZD0iTTQ2IDE2djc4Ii8+PHBhdGggZD0iTTcyIDE2djc4Ii8+PHBhdGggZD0iTTk4IDE2djc4Ii8+PHBhdGggZD0iTTEyNCAxNnY3OCIvPjxwYXRoIGQ9Ik0yMCAxNmgxMDQiLz48cGF0aCBkPSJNMjAgNDJoMTA0Ii8+PHBhdGggZD0iTTIwIDY4aDEwNCIvPjxwYXRoIGQ9Ik0yMCA5NGgxMDQiLz48L2c+PHBvbHlnb24gcG9pbnRzPSIyMCw5NCAxMjQsOTQgMjAsMTYiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzMxMjg0NCIgc3Ryb2tlLXdpZHRoPSIyLjUiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4=",
+        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOTQiIGhlaWdodD0iMTMzIiB2aWV3Qm94PSIwIDAgMTk0IDEzMyI+PHBvbHlnb24gcG9pbnRzPSIyMCw5NCAxMjQsOTQgMjAsMTYiIGZpbGw9IiNhOWQ5ZmYiLz48ZyBzdHJva2U9IiM4Njc3YTAiIHN0cm9rZS13aWR0aD0iMSI+PHBhdGggZD0iTTIwIDE2djc4Ii8+PHBhdGggZD0iTTQ2IDE2djc4Ii8+PHBhdGggZD0iTTcyIDE2djc4Ii8+PHBhdGggZD0iTTk4IDE2djc4Ii8+PHBhdGggZD0iTTEyNCAxNnY3OCIvPjxwYXRoIGQ9Ik0yMCAxNmgxMDQiLz48cGF0aCBkPSJNMjAgNDJoMTA0Ii8+PHBhdGggZD0iTTIwIDY4aDEwNCIvPjxwYXRoIGQ9Ik0yMCA5NGgxMDQiLz48L2c+PHBvbHlnb24gcG9pbnRzPSIyMCw5NCAxMjQsOTQgMjAsMTYiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzMxMjg0NCIgc3Ryb2tlLXdpZHRoPSIyLjUiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48dGV4dCB4PSI3Mi4wIiB5PSIxMjIiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNCIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2E0NDkwZCIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjMiIHBhaW50LW9yZGVyPSJzdHJva2UiPjEgcG9sw63EjWtvID0gMSBjbcKyPC90ZXh0Pjwvc3ZnPg==",
         "imageAlt": "Vrcholy v síti od levého horního rohu (sloupec, řádek): (0, 3), (4, 3), (0, 0)."
       },
       {
-        "prompt": "Urči obsah modrého obrazce. Jedno políčko má obsah 1 cm².",
+        "prompt": "Urči obsah modrého kosočtverce. Jedno políčko má obsah 1 cm².",
         "type": "choice",
         "options": [
           "12 cm²",
           "8 cm²",
           "10 cm²",
-          "6 cm²"
+          "16 cm²"
         ],
         "correct": 1,
-        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDQiIGhlaWdodD0iMTEwIiB2aWV3Qm94PSIwIDAgMTQ0IDExMCI+PHBvbHlnb24gcG9pbnRzPSIyMCwxNiAxMjQsMTYgMTI0LDQyIDcyLDQyIDcyLDk0IDIwLDk0IiBmaWxsPSIjYTlkOWZmIi8+PGcgc3Ryb2tlPSIjODY3N2EwIiBzdHJva2Utd2lkdGg9IjEiPjxwYXRoIGQ9Ik0yMCAxNnY3OCIvPjxwYXRoIGQ9Ik00NiAxNnY3OCIvPjxwYXRoIGQ9Ik03MiAxNnY3OCIvPjxwYXRoIGQ9Ik05OCAxNnY3OCIvPjxwYXRoIGQ9Ik0xMjQgMTZ2NzgiLz48cGF0aCBkPSJNMjAgMTZoMTA0Ii8+PHBhdGggZD0iTTIwIDQyaDEwNCIvPjxwYXRoIGQ9Ik0yMCA2OGgxMDQiLz48cGF0aCBkPSJNMjAgOTRoMTA0Ii8+PC9nPjxwb2x5Z29uIHBvaW50cz0iMjAsMTYgMTI0LDE2IDEyNCw0MiA3Miw0MiA3Miw5NCAyMCw5NCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMzEyODQ0IiBzdHJva2Utd2lkdGg9IjIuNSIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjwvc3ZnPg==",
-        "imageAlt": "Vrcholy v síti od levého horního rohu (sloupec, řádek): (0, 0), (4, 0), (4, 1), (2, 1), (2, 3), (0, 3)."
+        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOTQiIGhlaWdodD0iMTU1IiB2aWV3Qm94PSIwIDAgMTk0IDE1NSI+PHBvbHlnb24gcG9pbnRzPSI3NCwxNCAxMjYsNjYgNzQsMTE4IDIyLDY2IiBmaWxsPSIjYTlkOWZmIi8+PGcgc3Ryb2tlPSIjODY3N2EwIj48cGF0aCBkPSJNMjIgMTR2MTA0Ii8+PHBhdGggZD0iTTQ4IDE0djEwNCIvPjxwYXRoIGQ9Ik03NCAxNHYxMDQiLz48cGF0aCBkPSJNMTAwIDE0djEwNCIvPjxwYXRoIGQ9Ik0xMjYgMTR2MTA0Ii8+PHBhdGggZD0iTTIyIDE0aDEwNCIvPjxwYXRoIGQ9Ik0yMiA0MGgxMDQiLz48cGF0aCBkPSJNMjIgNjZoMTA0Ii8+PHBhdGggZD0iTTIyIDkyaDEwNCIvPjxwYXRoIGQ9Ik0yMiAxMThoMTA0Ii8+PC9nPjxwb2x5Z29uIHBvaW50cz0iNzQsMTQgMTI2LDY2IDc0LDExOCAyMiw2NiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMzEyODQ0IiBzdHJva2Utd2lkdGg9IjIuNSIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjx0ZXh0IHg9Ijk3LjAiIHk9IjE0NSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InN5c3RlbS11aSIgZm9udC1zaXplPSIxNCIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2E0NDkwZCI+MSBwb2zDrcSNa28gPSAxIGNtwrI8L3RleHQ+PC9zdmc+",
+        "imageAlt": "Vrcholy v síti (sloupec, řádek) od levého horního průsečíku: (2, 0), (4, 2), (2, 4), (0, 2)."
       },
       {
         "prompt": "Urči skutečný obsah modrého rovnoběžníku. Jedno políčko má obsah 2 cm².",
@@ -346,7 +385,7 @@
           "24 cm²"
         ],
         "correct": 3,
-        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNzAiIGhlaWdodD0iMTEwIiB2aWV3Qm94PSIwIDAgMTcwIDExMCI+PHBvbHlnb24gcG9pbnRzPSI0NiwxNiAxNTAsMTYgMTI0LDk0IDIwLDk0IiBmaWxsPSIjYTlkOWZmIi8+PGcgc3Ryb2tlPSIjODY3N2EwIiBzdHJva2Utd2lkdGg9IjEiPjxwYXRoIGQ9Ik0yMCAxNnY3OCIvPjxwYXRoIGQ9Ik00NiAxNnY3OCIvPjxwYXRoIGQ9Ik03MiAxNnY3OCIvPjxwYXRoIGQ9Ik05OCAxNnY3OCIvPjxwYXRoIGQ9Ik0xMjQgMTZ2NzgiLz48cGF0aCBkPSJNMTUwIDE2djc4Ii8+PHBhdGggZD0iTTIwIDE2aDEzMCIvPjxwYXRoIGQ9Ik0yMCA0MmgxMzAiLz48cGF0aCBkPSJNMjAgNjhoMTMwIi8+PHBhdGggZD0iTTIwIDk0aDEzMCIvPjwvZz48cG9seWdvbiBwb2ludHM9IjQ2LDE2IDE1MCwxNiAxMjQsOTQgMjAsOTQiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzMxMjg0NCIgc3Ryb2tlLXdpZHRoPSIyLjUiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4=",
+        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOTQiIGhlaWdodD0iMTMzIiB2aWV3Qm94PSIwIDAgMTk0IDEzMyI+PHBvbHlnb24gcG9pbnRzPSI0NiwxNiAxNTAsMTYgMTI0LDk0IDIwLDk0IiBmaWxsPSIjYTlkOWZmIi8+PGcgc3Ryb2tlPSIjODY3N2EwIiBzdHJva2Utd2lkdGg9IjEiPjxwYXRoIGQ9Ik0yMCAxNnY3OCIvPjxwYXRoIGQ9Ik00NiAxNnY3OCIvPjxwYXRoIGQ9Ik03MiAxNnY3OCIvPjxwYXRoIGQ9Ik05OCAxNnY3OCIvPjxwYXRoIGQ9Ik0xMjQgMTZ2NzgiLz48cGF0aCBkPSJNMTUwIDE2djc4Ii8+PHBhdGggZD0iTTIwIDE2aDEzMCIvPjxwYXRoIGQ9Ik0yMCA0MmgxMzAiLz48cGF0aCBkPSJNMjAgNjhoMTMwIi8+PHBhdGggZD0iTTIwIDk0aDEzMCIvPjwvZz48cG9seWdvbiBwb2ludHM9IjQ2LDE2IDE1MCwxNiAxMjQsOTQgMjAsOTQiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzMxMjg0NCIgc3Ryb2tlLXdpZHRoPSIyLjUiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48dGV4dCB4PSI4NS4wIiB5PSIxMjIiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNCIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2E0NDkwZCIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjMiIHBhaW50LW9yZGVyPSJzdHJva2UiPjEgcG9sw63EjWtvID0gMiBjbcKyPC90ZXh0Pjwvc3ZnPg==",
         "imageAlt": "Vrcholy v síti od levého horního rohu (sloupec, řádek): (1, 0), (5, 0), (4, 3), (0, 3)."
       },
       {
@@ -359,23 +398,24 @@
           "30 cm²"
         ],
         "correct": 2,
-        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNzAiIGhlaWdodD0iMTEwIiB2aWV3Qm94PSIwIDAgMTcwIDExMCI+PHBvbHlnb24gcG9pbnRzPSI0NiwxNiAxMjQsMTYgMTUwLDk0IDIwLDk0IiBmaWxsPSIjYTlkOWZmIi8+PGcgc3Ryb2tlPSIjODY3N2EwIiBzdHJva2Utd2lkdGg9IjEiPjxwYXRoIGQ9Ik0yMCAxNnY3OCIvPjxwYXRoIGQ9Ik00NiAxNnY3OCIvPjxwYXRoIGQ9Ik03MiAxNnY3OCIvPjxwYXRoIGQ9Ik05OCAxNnY3OCIvPjxwYXRoIGQ9Ik0xMjQgMTZ2NzgiLz48cGF0aCBkPSJNMTUwIDE2djc4Ii8+PHBhdGggZD0iTTIwIDE2aDEzMCIvPjxwYXRoIGQ9Ik0yMCA0MmgxMzAiLz48cGF0aCBkPSJNMjAgNjhoMTMwIi8+PHBhdGggZD0iTTIwIDk0aDEzMCIvPjwvZz48cG9seWdvbiBwb2ludHM9IjQ2LDE2IDEyNCwxNiAxNTAsOTQgMjAsOTQiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzMxMjg0NCIgc3Ryb2tlLXdpZHRoPSIyLjUiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4=",
+        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOTQiIGhlaWdodD0iMTMzIiB2aWV3Qm94PSIwIDAgMTk0IDEzMyI+PHBvbHlnb24gcG9pbnRzPSI0NiwxNiAxMjQsMTYgMTUwLDk0IDIwLDk0IiBmaWxsPSIjYTlkOWZmIi8+PGcgc3Ryb2tlPSIjODY3N2EwIiBzdHJva2Utd2lkdGg9IjEiPjxwYXRoIGQ9Ik0yMCAxNnY3OCIvPjxwYXRoIGQ9Ik00NiAxNnY3OCIvPjxwYXRoIGQ9Ik03MiAxNnY3OCIvPjxwYXRoIGQ9Ik05OCAxNnY3OCIvPjxwYXRoIGQ9Ik0xMjQgMTZ2NzgiLz48cGF0aCBkPSJNMTUwIDE2djc4Ii8+PHBhdGggZD0iTTIwIDE2aDEzMCIvPjxwYXRoIGQ9Ik0yMCA0MmgxMzAiLz48cGF0aCBkPSJNMjAgNjhoMTMwIi8+PHBhdGggZD0iTTIwIDk0aDEzMCIvPjwvZz48cG9seWdvbiBwb2ludHM9IjQ2LDE2IDEyNCwxNiAxNTAsOTQgMjAsOTQiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzMxMjg0NCIgc3Ryb2tlLXdpZHRoPSIyLjUiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48dGV4dCB4PSI4NS4wIiB5PSIxMjIiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNCIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2E0NDkwZCIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjMiIHBhaW50LW9yZGVyPSJzdHJva2UiPjEgcG9sw63EjWtvID0gMiBjbcKyPC90ZXh0Pjwvc3ZnPg==",
         "imageAlt": "Vrcholy v síti od levého horního rohu (sloupec, řádek): (1, 0), (4, 0), (5, 3), (0, 3)."
       },
       {
-        "prompt": "Urči skutečný obsah modrého obrazce. Jedno políčko má obsah 2 cm².",
+        "prompt": "Urči obsah modrého deltoidu. Jedno políčko má obsah 2 cm².",
         "type": "choice",
         "options": [
-          "40 cm²",
-          "38 cm²",
-          "19 cm²",
-          "32 cm²"
+          "60 cm²",
+          "30 cm²",
+          "15 cm²",
+          "24 cm²"
         ],
         "correct": 1,
-        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOTYiIGhlaWdodD0iMTM2IiB2aWV3Qm94PSIwIDAgMTk2IDEzNiI+PHBvbHlnb24gcG9pbnRzPSIyMCwxNiAxMjQsMTYgMTc2LDY4IDk4LDEyMCAyMCwxMjAiIGZpbGw9IiNhOWQ5ZmYiLz48ZyBzdHJva2U9IiM4Njc3YTAiIHN0cm9rZS13aWR0aD0iMSI+PHBhdGggZD0iTTIwIDE2djEwNCIvPjxwYXRoIGQ9Ik00NiAxNnYxMDQiLz48cGF0aCBkPSJNNzIgMTZ2MTA0Ii8+PHBhdGggZD0iTTk4IDE2djEwNCIvPjxwYXRoIGQ9Ik0xMjQgMTZ2MTA0Ii8+PHBhdGggZD0iTTE1MCAxNnYxMDQiLz48cGF0aCBkPSJNMTc2IDE2djEwNCIvPjxwYXRoIGQ9Ik0yMCAxNmgxNTYiLz48cGF0aCBkPSJNMjAgNDJoMTU2Ii8+PHBhdGggZD0iTTIwIDY4aDE1NiIvPjxwYXRoIGQ9Ik0yMCA5NGgxNTYiLz48cGF0aCBkPSJNMjAgMTIwaDE1NiIvPjwvZz48cG9seWdvbiBwb2ludHM9IjIwLDE2IDEyNCwxNiAxNzYsNjggOTgsMTIwIDIwLDEyMCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMzEyODQ0IiBzdHJva2Utd2lkdGg9IjIuNSIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjwvc3ZnPg==",
-        "imageAlt": "Vrcholy v síti od levého horního rohu (sloupec, řádek): (0, 0), (4, 0), (6, 2), (3, 4), (0, 4)."
+        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTgxIiB2aWV3Qm94PSIwIDAgMjAwIDE4MSI+PHBvbHlnb24gcG9pbnRzPSIxMDAsMTQgMTc4LDY2IDEwMCwxNDQgMjIsNjYiIGZpbGw9IiNhOWQ5ZmYiLz48ZyBzdHJva2U9IiM4Njc3YTAiPjxwYXRoIGQ9Ik0yMiAxNHYxMzAiLz48cGF0aCBkPSJNNDggMTR2MTMwIi8+PHBhdGggZD0iTTc0IDE0djEzMCIvPjxwYXRoIGQ9Ik0xMDAgMTR2MTMwIi8+PHBhdGggZD0iTTEyNiAxNHYxMzAiLz48cGF0aCBkPSJNMTUyIDE0djEzMCIvPjxwYXRoIGQ9Ik0xNzggMTR2MTMwIi8+PHBhdGggZD0iTTIyIDE0aDE1NiIvPjxwYXRoIGQ9Ik0yMiA0MGgxNTYiLz48cGF0aCBkPSJNMjIgNjZoMTU2Ii8+PHBhdGggZD0iTTIyIDkyaDE1NiIvPjxwYXRoIGQ9Ik0yMiAxMThoMTU2Ii8+PHBhdGggZD0iTTIyIDE0NGgxNTYiLz48L2c+PHBvbHlnb24gcG9pbnRzPSIxMDAsMTQgMTc4LDY2IDEwMCwxNDQgMjIsNjYiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzMxMjg0NCIgc3Ryb2tlLXdpZHRoPSIyLjUiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48dGV4dCB4PSIxMDAuMCIgeT0iMTcxIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic3lzdGVtLXVpIiBmb250LXNpemU9IjE0IiBmb250LXdlaWdodD0iODAwIiBmaWxsPSIjYTQ0OTBkIj4xIHBvbMOtxI1rbyA9IDIgY23CsjwvdGV4dD48L3N2Zz4=",
+        "imageAlt": "Vrcholy v síti (sloupec, řádek) od levého horního průsečíku: (3, 0), (6, 2), (3, 5), (0, 2)."
       }
-    ]
+    ],
+    "diagramLayout": "side"
   },
   "2026-11-20": {
     "title": "Páteční mix · od vzorců k výzvě",
@@ -391,7 +431,9 @@
           "S = 2a",
           "S = a² : 2"
         ],
-        "correct": 1
+        "correct": 1,
+        "imageAlt": "Náčrtek k zadání. Barevně jsou označené známé hodnoty a otazníkem hledaný údaj, pokud je v náčrtku vyznačený.",
+        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyODAiIGhlaWdodD0iMTcwIiB2aWV3Qm94PSIwIDAgMjgwIDE3MCI+PHBvbHlnb24gcG9pbnRzPSI5NCwzOCAxOTQsMzggMTk0LDEzMiA5NCwxMzIiIGZpbGw9IiNjZWVhZmYiIHN0cm9rZT0iIzMwMjY0NiIgc3Ryb2tlLXdpZHRoPSIyLjgiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48dGV4dCB4PSIxNDAiIHk9IjI5IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic3lzdGVtLXVpLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTciIGZvbnQtd2VpZ2h0PSI4MDAiIGZpbGw9IiMxMjU0NzgiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIzIiBwYWludC1vcmRlcj0ic3Ryb2tlIj5hPC90ZXh0Pjx0ZXh0IHg9IjIyNSIgeT0iOTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNyIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iIzEyNTQ3OCIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjMiIHBhaW50LW9yZGVyPSJzdHJva2UiPmE8L3RleHQ+PHRleHQgeD0iMTQwIiB5PSI5MiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InN5c3RlbS11aSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE3IiBmb250LXdlaWdodD0iODAwIiBmaWxsPSIjYTQ0OTBkIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMyIgcGFpbnQtb3JkZXI9InN0cm9rZSI+PC90ZXh0Pjx0ZXh0IHg9IjE0MCIgeT0iMTU3IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic3lzdGVtLXVpLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTciIGZvbnQtd2VpZ2h0PSI4MDAiIGZpbGw9IiNhNDQ5MGQiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIzIiBwYWludC1vcmRlcj0ic3Ryb2tlIj48L3RleHQ+PC9zdmc+"
       },
       {
         "prompt": "Obdélník má obsah 84 cm² a obvod 38 cm. Jedna strana měří 7 cm. Kolik měří druhá?",
@@ -402,7 +444,9 @@
           "7 cm",
           "12 cm"
         ],
-        "correct": 3
+        "correct": 3,
+        "imageAlt": "Náčrtek k zadání. Barevně jsou označené známé hodnoty a otazníkem hledaný údaj, pokud je v náčrtku vyznačený.",
+        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyODAiIGhlaWdodD0iMTcwIiB2aWV3Qm94PSIwIDAgMjgwIDE3MCI+PHBvbHlnb24gcG9pbnRzPSI1NiwzOCAyMjQsMzggMjI0LDEzMiA1NiwxMzIiIGZpbGw9IiNjZWVhZmYiIHN0cm9rZT0iIzMwMjY0NiIgc3Ryb2tlLXdpZHRoPSIyLjgiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48dGV4dCB4PSIxNDAiIHk9IjI5IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic3lzdGVtLXVpLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTciIGZvbnQtd2VpZ2h0PSI4MDAiIGZpbGw9IiMxMjU0NzgiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIzIiBwYWludC1vcmRlcj0ic3Ryb2tlIj43IGNtPC90ZXh0Pjx0ZXh0IHg9IjI1NSIgeT0iOTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNyIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iIzEyNTQ3OCIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjMiIHBhaW50LW9yZGVyPSJzdHJva2UiPj88L3RleHQ+PHRleHQgeD0iMTQwIiB5PSI5MiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InN5c3RlbS11aSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE3IiBmb250LXdlaWdodD0iODAwIiBmaWxsPSIjYTQ0OTBkIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMyIgcGFpbnQtb3JkZXI9InN0cm9rZSI+UyA9IDg0IGNtwrI8L3RleHQ+PHRleHQgeD0iMTQwIiB5PSIxNTciIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNyIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2E0NDkwZCIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjMiIHBhaW50LW9yZGVyPSJzdHJva2UiPm8gPSAzOCBjbTwvdGV4dD48L3N2Zz4="
       },
       {
         "prompt": "Čtvercové nádvoří má stranu 9 m. Uvnitř je záhon o rozměrech 4 m a 3 m. Kolik m² zbývá na dlažbu?",
@@ -413,20 +457,22 @@
           "54 m²",
           "96 m²"
         ],
-        "correct": 0
+        "correct": 0,
+        "imageAlt": "Náčrtek k zadání. Barevně jsou označené známé hodnoty a otazníkem hledaný údaj, pokud je v náčrtku vyznačený.",
+        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyODAiIGhlaWdodD0iMTcwIiB2aWV3Qm94PSIwIDAgMjgwIDE3MCI+PHBvbHlnb24gcG9pbnRzPSI5NCwzOCAxOTQsMzggMTk0LDEzMiA5NCwxMzIiIGZpbGw9IiNjZWVhZmYiIHN0cm9rZT0iIzMwMjY0NiIgc3Ryb2tlLXdpZHRoPSIyLjgiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48dGV4dCB4PSIxNDAiIHk9IjI5IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic3lzdGVtLXVpLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTciIGZvbnQtd2VpZ2h0PSI4MDAiIGZpbGw9IiMxMjU0NzgiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIzIiBwYWludC1vcmRlcj0ic3Ryb2tlIj45IG08L3RleHQ+PHRleHQgeD0iMjI1IiB5PSI5MSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InN5c3RlbS11aSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE3IiBmb250LXdlaWdodD0iODAwIiBmaWxsPSIjMTI1NDc4IiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMyIgcGFpbnQtb3JkZXI9InN0cm9rZSI+PC90ZXh0Pjx0ZXh0IHg9IjE0MCIgeT0iOTIiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNyIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2E0NDkwZCIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjMiIHBhaW50LW9yZGVyPSJzdHJva2UiPjwvdGV4dD48dGV4dCB4PSIxNDAiIHk9IjE1NyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InN5c3RlbS11aSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE3IiBmb250LXdlaWdodD0iODAwIiBmaWxsPSIjYTQ0OTBkIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMyIgcGFpbnQtb3JkZXI9InN0cm9rZSI+PC90ZXh0Pjxwb2x5Z29uIHBvaW50cz0iMTE2LDcyIDE3Myw3MiAxNzMsMTEyIDExNiwxMTIiIGZpbGw9IiNmOGRiYWEiIHN0cm9rZT0iIzMwMjY0NiIgc3Ryb2tlLXdpZHRoPSIyLjgiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48dGV4dCB4PSIxNDUiIHk9IjY2IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic3lzdGVtLXVpLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSI4MDAiIGZpbGw9IiMxMjU0NzgiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIzIiBwYWludC1vcmRlcj0ic3Ryb2tlIj40IG08L3RleHQ+PHRleHQgeD0iMTc2IiB5PSI5NiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InN5c3RlbS11aSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE0IiBmb250LXdlaWdodD0iODAwIiBmaWxsPSIjMTI1NDc4IiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMyIgcGFpbnQtb3JkZXI9InN0cm9rZSI+MyBtPC90ZXh0Pjwvc3ZnPg=="
       },
       {
-        "prompt": "Urči skutečný obsah vybarveného obrazce. Jedno políčko má obsah 2 cm².",
+        "prompt": "Urči obsah modrého trojúhelníku. Jedno políčko má obsah 2 cm².",
         "type": "choice",
         "options": [
-          "11 cm²",
-          "14 cm²",
+          "12 cm²",
+          "9 cm²",
           "18 cm²",
-          "22 cm²"
+          "36 cm²"
         ],
         "correct": 2,
-        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNzAiIGhlaWdodD0iMTEwIiB2aWV3Qm94PSIwIDAgMTcwIDExMCI+PHBvbHlnb24gcG9pbnRzPSIyMCwxNiAxNTAsMTYgMTUwLDk0IDk4LDk0IDk4LDQyIDIwLDQyIiBmaWxsPSIjYTlkOWZmIi8+PGcgc3Ryb2tlPSIjODY3N2EwIiBzdHJva2Utd2lkdGg9IjEiPjxwYXRoIGQ9Ik0yMCAxNnY3OCIvPjxwYXRoIGQ9Ik00NiAxNnY3OCIvPjxwYXRoIGQ9Ik03MiAxNnY3OCIvPjxwYXRoIGQ9Ik05OCAxNnY3OCIvPjxwYXRoIGQ9Ik0xMjQgMTZ2NzgiLz48cGF0aCBkPSJNMTUwIDE2djc4Ii8+PHBhdGggZD0iTTIwIDE2aDEzMCIvPjxwYXRoIGQ9Ik0yMCA0MmgxMzAiLz48cGF0aCBkPSJNMjAgNjhoMTMwIi8+PHBhdGggZD0iTTIwIDk0aDEzMCIvPjwvZz48cG9seWdvbiBwb2ludHM9IjIwLDE2IDE1MCwxNiAxNTAsOTQgOTgsOTQgOTgsNDIgMjAsNDIiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzMxMjg0NCIgc3Ryb2tlLXdpZHRoPSIyLjUiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4=",
-        "imageAlt": "Vrcholy v síti od levého horního rohu (sloupec, řádek): (0, 0), (5, 0), (5, 3), (3, 3), (3, 1), (0, 1)."
+        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTI5IiB2aWV3Qm94PSIwIDAgMjAwIDEyOSI+PHBvbHlnb24gcG9pbnRzPSIyMiwxNCAxNzgsOTIgMjIsOTIiIGZpbGw9IiNhOWQ5ZmYiLz48ZyBzdHJva2U9IiM4Njc3YTAiPjxwYXRoIGQ9Ik0yMiAxNHY3OCIvPjxwYXRoIGQ9Ik00OCAxNHY3OCIvPjxwYXRoIGQ9Ik03NCAxNHY3OCIvPjxwYXRoIGQ9Ik0xMDAgMTR2NzgiLz48cGF0aCBkPSJNMTI2IDE0djc4Ii8+PHBhdGggZD0iTTE1MiAxNHY3OCIvPjxwYXRoIGQ9Ik0xNzggMTR2NzgiLz48cGF0aCBkPSJNMjIgMTRoMTU2Ii8+PHBhdGggZD0iTTIyIDQwaDE1NiIvPjxwYXRoIGQ9Ik0yMiA2NmgxNTYiLz48cGF0aCBkPSJNMjIgOTJoMTU2Ii8+PC9nPjxwb2x5Z29uIHBvaW50cz0iMjIsMTQgMTc4LDkyIDIyLDkyIiBmaWxsPSJub25lIiBzdHJva2U9IiMzMTI4NDQiIHN0cm9rZS13aWR0aD0iMi41IiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHRleHQgeD0iMTAwLjAiIHk9IjExOSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InN5c3RlbS11aSIgZm9udC1zaXplPSIxNCIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2E0NDkwZCI+MSBwb2zDrcSNa28gPSAyIGNtwrI8L3RleHQ+PC9zdmc+",
+        "imageAlt": "Vrcholy v síti (sloupec, řádek) od levého horního průsečíku: (0, 0), (6, 3), (0, 3)."
       },
       {
         "prompt": "Obdélník má rozměry 10 cm a 8 cm. Delší stranu prodloužíme o 20 % a kratší zkrátíme o 25 %. O kolik procent se změní obsah?",
@@ -437,7 +483,9 @@
           "Zmenší se o 10 %",
           "Zůstane stejný"
         ],
-        "correct": 2
+        "correct": 2,
+        "imageAlt": "Náčrtek k zadání. Barevně jsou označené známé hodnoty a otazníkem hledaný údaj, pokud je v náčrtku vyznačený.",
+        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyODAiIGhlaWdodD0iMTcwIiB2aWV3Qm94PSIwIDAgMjgwIDE3MCI+PHBvbHlnb24gcG9pbnRzPSI1NiwzOCAyMjQsMzggMjI0LDEzMiA1NiwxMzIiIGZpbGw9IiNjZWVhZmYiIHN0cm9rZT0iIzMwMjY0NiIgc3Ryb2tlLXdpZHRoPSIyLjgiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48dGV4dCB4PSIxNDAiIHk9IjI5IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic3lzdGVtLXVpLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTciIGZvbnQtd2VpZ2h0PSI4MDAiIGZpbGw9IiMxMjU0NzgiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIzIiBwYWludC1vcmRlcj0ic3Ryb2tlIj4xMCBjbTwvdGV4dD48dGV4dCB4PSIyNTUiIHk9IjkxIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic3lzdGVtLXVpLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTciIGZvbnQtd2VpZ2h0PSI4MDAiIGZpbGw9IiMxMjU0NzgiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIzIiBwYWludC1vcmRlcj0ic3Ryb2tlIj44IGNtPC90ZXh0Pjx0ZXh0IHg9IjE0MCIgeT0iOTIiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNyIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2E0NDkwZCIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjMiIHBhaW50LW9yZGVyPSJzdHJva2UiPm9ic2FoPzwvdGV4dD48dGV4dCB4PSIxNDAiIHk9IjE1NyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InN5c3RlbS11aSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE3IiBmb250LXdlaWdodD0iODAwIiBmaWxsPSIjYTQ0OTBkIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMyIgcGFpbnQtb3JkZXI9InN0cm9rZSI+MTAgY20gKzIwICUgwrcgOCBjbSDiiJIyNSAlPC90ZXh0Pjwvc3ZnPg=="
       },
       {
         "prompt": "Čtvercový záhon má stranu 10 m. Jeho stranu zvětšíme o 20 %. Jak velkou část nové plochy tvoří přidaná plocha? Výsledek zaokrouhli na celé procento.",
@@ -448,9 +496,12 @@
           "40 %",
           "44 %"
         ],
-        "correct": 1
+        "correct": 1,
+        "imageAlt": "Náčrtek k zadání. Barevně jsou označené známé hodnoty a otazníkem hledaný údaj, pokud je v náčrtku vyznačený.",
+        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyODAiIGhlaWdodD0iMTcwIiB2aWV3Qm94PSIwIDAgMjgwIDE3MCI+PHBvbHlnb24gcG9pbnRzPSI2OCwyMyAyMTYsMjMgMjE2LDE1MCA2OCwxNTAiIGZpbGw9IiNmZmQ1OWIiIHN0cm9rZT0iIzMwMjY0NiIgc3Ryb2tlLXdpZHRoPSIyLjgiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48cG9seWdvbiBwb2ludHM9IjY4LDQ3IDE5MSw0NyAxOTEsMTUwIDY4LDE1MCIgZmlsbD0iI2NlZWFmZiIgc3Ryb2tlPSIjMzAyNjQ2IiBzdHJva2Utd2lkdGg9IjIuOCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjx0ZXh0IHg9IjEyNyIgeT0iMTEyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic3lzdGVtLXVpLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTciIGZvbnQtd2VpZ2h0PSI4MDAiIGZpbGw9IiMxMjU0NzgiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIzIiBwYWludC1vcmRlcj0ic3Ryb2tlIj5wxa92b2Ruw608L3RleHQ+PHRleHQgeD0iMTI3IiB5PSIxMzIiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNyIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iIzEyNTQ3OCIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjMiIHBhaW50LW9yZGVyPSJzdHJva2UiPjEwIG08L3RleHQ+PHRleHQgeD0iMTQxIiB5PSI0MyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InN5c3RlbS11aSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE3IiBmb250LXdlaWdodD0iODAwIiBmaWxsPSIjYTQ0OTBkIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMyIgcGFpbnQtb3JkZXI9InN0cm9rZSI+c3RyYW5hICsyMCAlPC90ZXh0Pjwvc3ZnPg=="
       }
-    ]
+    ],
+    "diagramLayout": "side"
   },
   "2026-11-21": {
     "title": "Zvířecí houpačka",
