@@ -234,6 +234,45 @@ $('retryQuiz').onclick = () => {
   renderQuestions(tasks[currentDate]);
   $('questions').querySelector('input')?.focus();
 };
+function gridShape(question) {
+  const {rows = 10, columns = 10} = question.grid;
+  if (!Number.isInteger(rows) || !Number.isInteger(columns) || rows < 1 || columns < 1 || rows * columns > 100) {
+    return {columns:10,total:100};
+  }
+  return {columns,total:rows * columns};
+}
+function enableGridPainting(grid) {
+  let stroke;
+  function paint(input) {
+    if (!input || input.checked === stroke.checked) return;
+    input.checked = stroke.checked;
+    input.dispatchEvent(new Event('input',{bubbles:true}));
+  }
+  grid.addEventListener('pointerdown', event => {
+    if (stroke || event.button !== 0 || !event.target.matches('input[type="checkbox"]')) return;
+    event.preventDefault();
+    stroke = {id:event.pointerId,checked:!event.target.checked,x:event.clientX,y:event.clientY};
+    grid.setPointerCapture(event.pointerId);
+    paint(event.target);
+  });
+  grid.addEventListener('pointermove', event => {
+    if (stroke?.id !== event.pointerId) return;
+    const dx = event.clientX - stroke.x, dy = event.clientY - stroke.y;
+    const samples = Math.max(1,Math.ceil(Math.hypot(dx,dy) / 7));
+    for (let i = 1; i <= samples; i++) {
+      const cell = document.elementFromPoint(stroke.x + dx * i / samples, stroke.y + dy * i / samples);
+      if (cell?.parentElement === grid && cell.matches('input[type="checkbox"]')) paint(cell);
+    }
+    stroke.x = event.clientX;
+    stroke.y = event.clientY;
+  });
+  grid.addEventListener('lostpointercapture', event => {
+    if (stroke?.id === event.pointerId) stroke = undefined;
+  });
+  grid.addEventListener('click', event => {
+    if (event.detail > 0 && event.target.matches('input[type="checkbox"]')) event.preventDefault();
+  });
+}
 function renderQuestions(task) {
   const day = currentDate;
   const sequence = task.mode === 'sequence';
@@ -280,6 +319,68 @@ function renderQuestions(task) {
       });
       if (sideLayout) content.prepend(options);
       else field.append(options);
+    } else if (question.grid) {
+      const grid = document.createElement('div');
+      grid.className = 'percent-grid';
+      const {columns,total} = gridShape(question);
+      grid.style.setProperty('--grid-columns',columns);
+      const marked = new Set((draft || '').split(','));
+      const count = document.createElement('p');
+      count.className = 'percent-grid-count';
+      count.setAttribute('aria-live','polite');
+      const updateCount = () => {
+        count.textContent = 'Vybarveno: ' + grid.querySelectorAll('input:checked').length + ' z ' + total;
+      };
+      for (let cell = 0; cell < total; cell++) {
+        const input = document.createElement('input');
+        input.type = 'checkbox';
+        input.name = 'answer-' + index;
+        input.value = String(cell);
+        input.checked = marked.has(input.value);
+        input.setAttribute('aria-label','Řádek ' + (Math.floor(cell / columns) + 1) + ', sloupec ' + (cell % columns + 1));
+        grid.append(input);
+      }
+      grid.addEventListener('input',updateCount);
+      enableGridPainting(grid);
+      field.append(grid,count);
+      updateCount();
+    } else if (question.parts) {
+      const parts = document.createElement('div');
+      parts.className = question.fractionLayout ? 'fraction-equation' : 'percent-parts';
+      const saved = (draft || '').split('|');
+      const inputs = question.parts.map((caption, part) => {
+        const input = document.createElement('input');
+        input.name = 'answer-' + index;
+        input.inputMode = question.fractionLayout && part < 2 ? 'numeric' : 'decimal';
+        input.autocomplete = 'off';
+        input.required = true;
+        input.value = saved[part] ?? '';
+        input.setAttribute('aria-label',caption);
+        return input;
+      });
+      if (question.fractionLayout && inputs.length === 4) {
+        const element = (className, text = '') => {
+          const span = document.createElement('span');
+          span.className = className;
+          span.textContent = text;
+          return span;
+        };
+        const first = element('fraction');
+        first.append(inputs[0],inputs[1]);
+        const hundredths = element('fraction');
+        hundredths.append(inputs[2],element('fraction-fixed','100'));
+        const percentage = element('fraction-percent');
+        percentage.append(inputs[3],element('fraction-sign','%'));
+        parts.append(first,element('fraction-sign','='),hundredths,element('fraction-sign','='),percentage);
+      } else {
+        inputs.forEach((input, part) => {
+          const label = document.createElement('label');
+          label.textContent = question.parts[part];
+          label.append(input);
+          parts.append(label);
+        });
+      }
+      field.append(parts);
     } else {
       const input = document.createElement('input');
       input.name = 'answer-' + index;
@@ -295,12 +396,18 @@ function renderQuestions(task) {
 function answers() {
   const form = new FormData($('exerciseForm'));
   const task = tasks[currentDate];
+  const read = (question, i) => {
+    const fields = form.getAll('answer-' + i);
+    if (question.grid) return fields.join(',');
+    if (question.parts) return fields.join('|');
+    return fields[0] ?? '';
+  };
   if (task.mode === 'sequence') {
     const values = [...(storage.drafts[progressKey(currentDate)] ?? [])];
-    values[currentStep] = form.get('answer-' + currentStep) ?? '';
+    values[currentStep] = read(task.questions[currentStep], currentStep);
     return values;
   }
-  return task.questions.map((_,i) => form.get('answer-' + i) ?? '');
+  return task.questions.map(read);
 }
 function normalize(value) {
   const text = String(value).trim().toLocaleLowerCase('cs').replace(/\s+/g,' ');
@@ -308,8 +415,17 @@ function normalize(value) {
   return /^[+-]?(?:\d+(?:\.\d*)?|\.\d+)$/.test(number) ? String(Number(number)) : text;
 }
 function isCorrect(question,value) {
-  return question.type === 'choice' ? value === String(question.correct)
-    : question.answers.some(answer => normalize(answer) === normalize(value ?? ''));
+  if (question.type === 'choice') return value === String(question.correct);
+  if (question.grid) {
+    const {total} = gridShape(question);
+    const selected = new Set((value || '').split(',').filter(cell => /^\d{1,2}$/.test(cell) && Number(cell) < total));
+    return question.answers.some(answer => Number(answer) === selected.size);
+  }
+  if (question.parts) {
+    const actual = (value || '').split('|').map(normalize).join('|');
+    return question.answers.some(answer => String(answer).split('|').map(normalize).join('|') === actual);
+  }
+  return question.answers.some(answer => normalize(answer) === normalize(value ?? ''));
 }
 function checkStep(task, values) {
   const key = progressKey(currentDate);

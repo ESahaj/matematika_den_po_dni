@@ -436,7 +436,7 @@
         "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyODAiIGhlaWdodD0iMTcwIiB2aWV3Qm94PSIwIDAgMjgwIDE3MCI+PHBvbHlnb24gcG9pbnRzPSI5NCwzOCAxOTQsMzggMTk0LDEzMiA5NCwxMzIiIGZpbGw9IiNjZWVhZmYiIHN0cm9rZT0iIzMwMjY0NiIgc3Ryb2tlLXdpZHRoPSIyLjgiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48dGV4dCB4PSIxNDAiIHk9IjI5IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic3lzdGVtLXVpLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTciIGZvbnQtd2VpZ2h0PSI4MDAiIGZpbGw9IiMxMjU0NzgiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIzIiBwYWludC1vcmRlcj0ic3Ryb2tlIj5hPC90ZXh0Pjx0ZXh0IHg9IjIyNSIgeT0iOTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNyIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iIzEyNTQ3OCIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjMiIHBhaW50LW9yZGVyPSJzdHJva2UiPmE8L3RleHQ+PHRleHQgeD0iMTQwIiB5PSI5MiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InN5c3RlbS11aSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE3IiBmb250LXdlaWdodD0iODAwIiBmaWxsPSIjYTQ0OTBkIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMyIgcGFpbnQtb3JkZXI9InN0cm9rZSI+PC90ZXh0Pjx0ZXh0IHg9IjE0MCIgeT0iMTU3IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic3lzdGVtLXVpLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTciIGZvbnQtd2VpZ2h0PSI4MDAiIGZpbGw9IiNhNDQ5MGQiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIzIiBwYWludC1vcmRlcj0ic3Ryb2tlIj48L3RleHQ+PC9zdmc+"
       },
       {
-        "prompt": "Obdélník má obsah 84 cm² a obvod 38 cm. Jedna strana měří 7 cm. Kolik měří druhá?",
+        "prompt": "Obdélník má obsah 84 cm² a jedna strana měří 7 cm. Kolik měří druhá strana?",
         "type": "choice",
         "options": [
           "10 cm",
@@ -445,8 +445,8 @@
           "12 cm"
         ],
         "correct": 3,
-        "imageAlt": "Náčrtek k zadání. Barevně jsou označené známé hodnoty a otazníkem hledaný údaj, pokud je v náčrtku vyznačený.",
-        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyODAiIGhlaWdodD0iMTcwIiB2aWV3Qm94PSIwIDAgMjgwIDE3MCI+PHBvbHlnb24gcG9pbnRzPSI1NiwzOCAyMjQsMzggMjI0LDEzMiA1NiwxMzIiIGZpbGw9IiNjZWVhZmYiIHN0cm9rZT0iIzMwMjY0NiIgc3Ryb2tlLXdpZHRoPSIyLjgiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48dGV4dCB4PSIxNDAiIHk9IjI5IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic3lzdGVtLXVpLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTciIGZvbnQtd2VpZ2h0PSI4MDAiIGZpbGw9IiMxMjU0NzgiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIzIiBwYWludC1vcmRlcj0ic3Ryb2tlIj43IGNtPC90ZXh0Pjx0ZXh0IHg9IjI1NSIgeT0iOTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNyIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iIzEyNTQ3OCIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjMiIHBhaW50LW9yZGVyPSJzdHJva2UiPj88L3RleHQ+PHRleHQgeD0iMTQwIiB5PSI5MiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InN5c3RlbS11aSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE3IiBmb250LXdlaWdodD0iODAwIiBmaWxsPSIjYTQ0OTBkIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMyIgcGFpbnQtb3JkZXI9InN0cm9rZSI+UyA9IDg0IGNtwrI8L3RleHQ+PHRleHQgeD0iMTQwIiB5PSIxNTciIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNyIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2E0NDkwZCIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjMiIHBhaW50LW9yZGVyPSJzdHJva2UiPm8gPSAzOCBjbTwvdGV4dD48L3N2Zz4="
+        "imageAlt": "Obdélník s obsahem 84 cm². Kratší strana měří 7 cm, delší je označená otazníkem.",
+        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyODAiIGhlaWdodD0iMTcwIiB2aWV3Qm94PSIwIDAgMjgwIDE3MCI+CjxyZWN0IHg9IjU2IiB5PSIzOCIgd2lkdGg9IjE2OCIgaGVpZ2h0PSI5OCIgZmlsbD0iI2NlZWFmZiIgc3Ryb2tlPSIjMzAyNjQ2IiBzdHJva2Utd2lkdGg9IjIuOCIvPgo8ZyB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic3lzdGVtLXVpLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTciIGZvbnQtd2VpZ2h0PSI4MDAiPgo8dGV4dCB4PSIxNDAiIHk9IjI5IiBmaWxsPSIjNjg0MTk2Ij4/PC90ZXh0Pgo8dGV4dCB4PSIyNTMiIHk9IjkyIiBmaWxsPSIjMTI1NDc4Ij43IGNtPC90ZXh0Pgo8dGV4dCB4PSIxNDAiIHk9IjkzIiBmaWxsPSIjYTQ0OTBkIj5TID0gODQgY23CsjwvdGV4dD4KPC9nPjwvc3ZnPg=="
       },
       {
         "prompt": "Čtvercové nádvoří má stranu 9 m. Uvnitř je záhon o rozměrech 4 m a 3 m. Kolik m² zbývá na dlažbu?",
@@ -630,6 +630,390 @@
         "correct": 3,
         "image": "data:image/png;base64,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",
         "imageAlt": "Řádky odshora: růžová, modrá, žlutá, zelená. Žlutá, zelená, růžová, modrá. Modrá, růžová, zelená, žlutá. Zelená, žlutá, modrá, otazník."
+      }
+    ]
+  },
+  "2026-11-23": {
+    "title": "Procenta z obrázku",
+    "revision": "procenta-zlomky-8",
+    "mode": "sequence",
+    "instructions": "Zapiš podíl z obrázku jako zlomek, potom ho převeď na jmenovatele 100 a doplň počet procent. U osmin může vyjít desetinné číslo.",
+    "questions": [
+      {
+        "prompt": "Jakou část pizzy tvoří oranžové dílky?",
+        "type": "text",
+        "parts": [
+          "Čitatel prvního zlomku",
+          "Jmenovatel prvního zlomku",
+          "Čitatel zlomku se jmenovatelem 100",
+          "Počet procent"
+        ],
+        "fractionLayout": true,
+        "answers": [
+          "1|2|50|50"
+        ],
+        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNjAiIGhlaWdodD0iMTcwIiB2aWV3Qm94PSIwIDAgMzYwIDE3MCI+PHBhdGggZD0iTTE4MCA4NSBMMTgwLjAwIDE2LjAwIEE2OSA2OSAwIDAgMSAxODAuMDAgMTU0LjAwIFoiIGZpbGw9IiNmZmE1NTMiIHN0cm9rZT0iIzc0NDEyNiIgc3Ryb2tlLXdpZHRoPSIyIi8+PGNpcmNsZSBjeD0iMjI2LjAwIiBjeT0iODUuMDAiIHI9IjUuNSIgZmlsbD0iI2E2M2QyOCIvPjxwYXRoIGQ9Ik0xODAgODUgTDE4MC4wMCAxNTQuMDAgQTY5IDY5IDAgMCAxIDE4MC4wMCAxNi4wMCBaIiBmaWxsPSIjZmZmNmRlIiBzdHJva2U9IiM3NDQxMjYiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg==",
+        "imageAlt": "Pizza má 2 stejných dílků. Počet oranžových dílků: 1."
+      },
+      {
+        "prompt": "Jakou část zvířat tvoří kočky?",
+        "type": "text",
+        "answers": [
+          "1|4|25|25"
+        ],
+        "parts": [
+          "Čitatel prvního zlomku",
+          "Jmenovatel prvního zlomku",
+          "Čitatel zlomku se jmenovatelem 100",
+          "Počet procent"
+        ],
+        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNjAiIGhlaWdodD0iMTcwIiB2aWV3Qm94PSIwIDAgMzYwIDE3MCI+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoODQgNTIpIj48cGF0aCBkPSJNLTE1IC0xMlEtMzIgLTE5IC0yNiAxMFEtMTggMTkgLTE0IDRNMTUgLTEyUTMyIC0xOSAyNiAxMFExOCAxOSAxNCA0IiBmaWxsPSIjYjY3YzU4IiBzdHJva2U9IiM0OTM0NDQiIHN0cm9rZS13aWR0aD0iMiIvPjxjaXJjbGUgcj0iMTkiIGZpbGw9IiNjOWU2ZmIiIHN0cm9rZT0iIzQ5MzQ0NCIgc3Ryb2tlLXdpZHRoPSIyIi8+PGNpcmNsZSBjeD0iLTYiIGN5PSItMiIgcj0iMiIvPjxjaXJjbGUgY3g9IjYiIGN5PSItMiIgcj0iMiIvPjxwYXRoIGQ9Ik0tMyA2UTAgOSAzIDYiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzQ5MzQ0NCIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9nPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE0OCA1MikiPjxwYXRoIGQ9Ik0tMTkgLTZMLTE3IC0yNUwtNSAtMTNNNSAtMTNMMTcgLTI1TDE5IC02IiBmaWxsPSIjZmZiZTg1IiBzdHJva2U9IiM0OTM0NDQiIHN0cm9rZS13aWR0aD0iMiIvPjxjaXJjbGUgcj0iMTkiIGZpbGw9IiNmZmJlODUiIHN0cm9rZT0iIzQ5MzQ0NCIgc3Ryb2tlLXdpZHRoPSIyIi8+PGNpcmNsZSBjeD0iLTYiIGN5PSItMiIgcj0iMiIvPjxjaXJjbGUgY3g9IjYiIGN5PSItMiIgcj0iMiIvPjxwYXRoIGQ9Ik0tMyA2UTAgOSAzIDYiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzQ5MzQ0NCIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9nPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIxMiA1MikiPjxwYXRoIGQ9Ik0tMTUgLTEyUS0zMiAtMTkgLTI2IDEwUS0xOCAxOSAtMTQgNE0xNSAtMTJRMzIgLTE5IDI2IDEwUTE4IDE5IDE0IDQiIGZpbGw9IiNiNjdjNTgiIHN0cm9rZT0iIzQ5MzQ0NCIgc3Ryb2tlLXdpZHRoPSIyIi8+PGNpcmNsZSByPSIxOSIgZmlsbD0iI2M5ZTZmYiIgc3Ryb2tlPSIjNDkzNDQ0IiBzdHJva2Utd2lkdGg9IjIiLz48Y2lyY2xlIGN4PSItNiIgY3k9Ii0yIiByPSIyIi8+PGNpcmNsZSBjeD0iNiIgY3k9Ii0yIiByPSIyIi8+PHBhdGggZD0iTS0zIDZRMCA5IDMgNiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNDkzNDQ0IiBzdHJva2Utd2lkdGg9IjIiLz48L2c+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjc2IDUyKSI+PHBhdGggZD0iTS0xNSAtMTJRLTMyIC0xOSAtMjYgMTBRLTE4IDE5IC0xNCA0TTE1IC0xMlEzMiAtMTkgMjYgMTBRMTggMTkgMTQgNCIgZmlsbD0iI2I2N2M1OCIgc3Ryb2tlPSIjNDkzNDQ0IiBzdHJva2Utd2lkdGg9IjIiLz48Y2lyY2xlIHI9IjE5IiBmaWxsPSIjYzllNmZiIiBzdHJva2U9IiM0OTM0NDQiIHN0cm9rZS13aWR0aD0iMiIvPjxjaXJjbGUgY3g9Ii02IiBjeT0iLTIiIHI9IjIiLz48Y2lyY2xlIGN4PSI2IiBjeT0iLTIiIHI9IjIiLz48cGF0aCBkPSJNLTMgNlEwIDkgMyA2IiBmaWxsPSJub25lIiBzdHJva2U9IiM0OTM0NDQiIHN0cm9rZS13aWR0aD0iMiIvPjwvZz48L3N2Zz4=",
+        "imageAlt": "Pes, kočka, pes, pes.",
+        "fractionLayout": true
+      },
+      {
+        "prompt": "Jakou část pizzy tvoří oranžové dílky?",
+        "type": "text",
+        "answers": [
+          "3|5|60|60"
+        ],
+        "parts": [
+          "Čitatel prvního zlomku",
+          "Jmenovatel prvního zlomku",
+          "Čitatel zlomku se jmenovatelem 100",
+          "Počet procent"
+        ],
+        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNjAiIGhlaWdodD0iMTcwIiB2aWV3Qm94PSIwIDAgMzYwIDE3MCI+PHBhdGggZD0iTTE4MCA4NSBMMTgwLjAwIDE2LjAwIEE2OSA2OSAwIDAgMSAyNDUuNjIgNjMuNjggWiIgZmlsbD0iI2ZmYTU1MyIgc3Ryb2tlPSIjNzQ0MTI2IiBzdHJva2Utd2lkdGg9IjIiLz48Y2lyY2xlIGN4PSIyMDcuNjMiIGN5PSI0Ni45OCIgcj0iNiIgZmlsbD0iI2E2M2QyOCIvPjxwYXRoIGQ9Ik0xODAgODUgTDI0NS42MiA2My42OCBBNjkgNjkgMCAwIDEgMjIwLjU2IDE0MC44MiBaIiBmaWxsPSIjZmZhNTUzIiBzdHJva2U9IiM3NDQxMjYiIHN0cm9rZS13aWR0aD0iMiIvPjxjaXJjbGUgY3g9IjIyNC43MCIgY3k9Ijk5LjUyIiByPSI2IiBmaWxsPSIjYTYzZDI4Ii8+PHBhdGggZD0iTTE4MCA4NSBMMjIwLjU2IDE0MC44MiBBNjkgNjkgMCAwIDEgMTM5LjQ0IDE0MC44MiBaIiBmaWxsPSIjZmZhNTUzIiBzdHJva2U9IiM3NDQxMjYiIHN0cm9rZS13aWR0aD0iMiIvPjxjaXJjbGUgY3g9IjE4MC4wMCIgY3k9IjEzMi4wMCIgcj0iNiIgZmlsbD0iI2E2M2QyOCIvPjxwYXRoIGQ9Ik0xODAgODUgTDEzOS40NCAxNDAuODIgQTY5IDY5IDAgMCAxIDExNC4zOCA2My42OCBaIiBmaWxsPSIjZmZmNmRlIiBzdHJva2U9IiM3NDQxMjYiIHN0cm9rZS13aWR0aD0iMiIvPjxwYXRoIGQ9Ik0xODAgODUgTDExNC4zOCA2My42OCBBNjkgNjkgMCAwIDEgMTgwLjAwIDE2LjAwIFoiIGZpbGw9IiNmZmY2ZGUiIHN0cm9rZT0iIzc0NDEyNiIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9zdmc+",
+        "imageAlt": "Pizza je rozdělená na pět stejných dílků, tři jsou oranžové.",
+        "fractionLayout": true
+      },
+      {
+        "prompt": "Jakou část pizzy tvoří oranžové dílky?",
+        "type": "text",
+        "parts": [
+          "Čitatel prvního zlomku",
+          "Jmenovatel prvního zlomku",
+          "Čitatel zlomku se jmenovatelem 100",
+          "Počet procent"
+        ],
+        "fractionLayout": true,
+        "answers": [
+          "3|8|37,5|37,5"
+        ],
+        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNjAiIGhlaWdodD0iMTcwIiB2aWV3Qm94PSIwIDAgMzYwIDE3MCI+PHBhdGggZD0iTTE4MCA4NSBMMTgwLjAwIDE2LjAwIEE2OSA2OSAwIDAgMSAyMjguNzkgMzYuMjEgWiIgZmlsbD0iI2ZmYTU1MyIgc3Ryb2tlPSIjNzQ0MTI2IiBzdHJva2Utd2lkdGg9IjIiLz48Y2lyY2xlIGN4PSIxOTcuNjAiIGN5PSI0Mi41MCIgcj0iNS41IiBmaWxsPSIjYTYzZDI4Ii8+PHBhdGggZD0iTTE4MCA4NSBMMjI4Ljc5IDM2LjIxIEE2OSA2OSAwIDAgMSAyNDkuMDAgODUuMDAgWiIgZmlsbD0iI2ZmYTU1MyIgc3Ryb2tlPSIjNzQ0MTI2IiBzdHJva2Utd2lkdGg9IjIiLz48Y2lyY2xlIGN4PSIyMjIuNTAiIGN5PSI2Ny40MCIgcj0iNS41IiBmaWxsPSIjYTYzZDI4Ii8+PHBhdGggZD0iTTE4MCA4NSBMMjQ5LjAwIDg1LjAwIEE2OSA2OSAwIDAgMSAyMjguNzkgMTMzLjc5IFoiIGZpbGw9IiNmZmE1NTMiIHN0cm9rZT0iIzc0NDEyNiIgc3Ryb2tlLXdpZHRoPSIyIi8+PGNpcmNsZSBjeD0iMjIyLjUwIiBjeT0iMTAyLjYwIiByPSI1LjUiIGZpbGw9IiNhNjNkMjgiLz48cGF0aCBkPSJNMTgwIDg1IEwyMjguNzkgMTMzLjc5IEE2OSA2OSAwIDAgMSAxODAuMDAgMTU0LjAwIFoiIGZpbGw9IiNmZmY2ZGUiIHN0cm9rZT0iIzc0NDEyNiIgc3Ryb2tlLXdpZHRoPSIyIi8+PHBhdGggZD0iTTE4MCA4NSBMMTgwLjAwIDE1NC4wMCBBNjkgNjkgMCAwIDEgMTMxLjIxIDEzMy43OSBaIiBmaWxsPSIjZmZmNmRlIiBzdHJva2U9IiM3NDQxMjYiIHN0cm9rZS13aWR0aD0iMiIvPjxwYXRoIGQ9Ik0xODAgODUgTDEzMS4yMSAxMzMuNzkgQTY5IDY5IDAgMCAxIDExMS4wMCA4NS4wMCBaIiBmaWxsPSIjZmZmNmRlIiBzdHJva2U9IiM3NDQxMjYiIHN0cm9rZS13aWR0aD0iMiIvPjxwYXRoIGQ9Ik0xODAgODUgTDExMS4wMCA4NS4wMCBBNjkgNjkgMCAwIDEgMTMxLjIxIDM2LjIxIFoiIGZpbGw9IiNmZmY2ZGUiIHN0cm9rZT0iIzc0NDEyNiIgc3Ryb2tlLXdpZHRoPSIyIi8+PHBhdGggZD0iTTE4MCA4NSBMMTMxLjIxIDM2LjIxIEE2OSA2OSAwIDAgMSAxODAuMDAgMTYuMDAgWiIgZmlsbD0iI2ZmZjZkZSIgc3Ryb2tlPSIjNzQ0MTI2IiBzdHJva2Utd2lkdGg9IjIiLz48L3N2Zz4=",
+        "imageAlt": "Pizza má 8 stejných dílků. Počet oranžových dílků: 3."
+      },
+      {
+        "prompt": "Jakou část čokolády tvoří tmavé dílky?",
+        "type": "text",
+        "answers": [
+          "7|10|70|70"
+        ],
+        "parts": [
+          "Čitatel prvního zlomku",
+          "Jmenovatel prvního zlomku",
+          "Čitatel zlomku se jmenovatelem 100",
+          "Počet procent"
+        ],
+        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNjAiIGhlaWdodD0iMTcwIiB2aWV3Qm94PSIwIDAgMzYwIDE3MCI+PHJlY3QgeD0iNTUiIHk9IjM0IiB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHJ4PSI2IiBmaWxsPSIjODc0NzI1IiBzdHJva2U9IiM0OTJlMjMiIHN0cm9rZS13aWR0aD0iMiIvPjxyZWN0IHg9IjEwNiIgeT0iMzQiIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgcng9IjYiIGZpbGw9IiM4NzQ3MjUiIHN0cm9rZT0iIzQ5MmUyMyIgc3Ryb2tlLXdpZHRoPSIyIi8+PHJlY3QgeD0iMTU3IiB5PSIzNCIgd2lkdGg9IjQ4IiBoZWlnaHQ9IjQ4IiByeD0iNiIgZmlsbD0iIzg3NDcyNSIgc3Ryb2tlPSIjNDkyZTIzIiBzdHJva2Utd2lkdGg9IjIiLz48cmVjdCB4PSIyMDgiIHk9IjM0IiB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHJ4PSI2IiBmaWxsPSIjODc0NzI1IiBzdHJva2U9IiM0OTJlMjMiIHN0cm9rZS13aWR0aD0iMiIvPjxyZWN0IHg9IjI1OSIgeT0iMzQiIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgcng9IjYiIGZpbGw9IiM4NzQ3MjUiIHN0cm9rZT0iIzQ5MmUyMyIgc3Ryb2tlLXdpZHRoPSIyIi8+PHJlY3QgeD0iNTUiIHk9Ijg1IiB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHJ4PSI2IiBmaWxsPSIjODc0NzI1IiBzdHJva2U9IiM0OTJlMjMiIHN0cm9rZS13aWR0aD0iMiIvPjxyZWN0IHg9IjEwNiIgeT0iODUiIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgcng9IjYiIGZpbGw9IiM4NzQ3MjUiIHN0cm9rZT0iIzQ5MmUyMyIgc3Ryb2tlLXdpZHRoPSIyIi8+PHJlY3QgeD0iMTU3IiB5PSI4NSIgd2lkdGg9IjQ4IiBoZWlnaHQ9IjQ4IiByeD0iNiIgZmlsbD0iI2ZmZjBkMiIgc3Ryb2tlPSIjNDkyZTIzIiBzdHJva2Utd2lkdGg9IjIiLz48cmVjdCB4PSIyMDgiIHk9Ijg1IiB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHJ4PSI2IiBmaWxsPSIjZmZmMGQyIiBzdHJva2U9IiM0OTJlMjMiIHN0cm9rZS13aWR0aD0iMiIvPjxyZWN0IHg9IjI1OSIgeT0iODUiIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgcng9IjYiIGZpbGw9IiNmZmYwZDIiIHN0cm9rZT0iIzQ5MmUyMyIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9zdmc+",
+        "imageAlt": "Deset stejných dílků čokolády, sedm je tmavých.",
+        "fractionLayout": true
+      },
+      {
+        "prompt": "Jakou část mozaiky tvoří fialová políčka s tečkou?",
+        "type": "text",
+        "parts": [
+          "Čitatel prvního zlomku",
+          "Jmenovatel prvního zlomku",
+          "Čitatel zlomku se jmenovatelem 100",
+          "Počet procent"
+        ],
+        "fractionLayout": true,
+        "answers": [
+          "9|20|45|45"
+        ],
+        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNjAiIGhlaWdodD0iMTcwIiB2aWV3Qm94PSIwIDAgMzYwIDE3MCI+PHJlY3QgeD0iMTA5LjAiIHk9IjI4LjUiIHdpZHRoPSIyNiIgaGVpZ2h0PSIyNiIgcng9IjMiIGZpbGw9IiM5ZDVjYzciIHN0cm9rZT0iIzRiMzM2NCIgc3Ryb2tlLXdpZHRoPSIxLjIiLz48Y2lyY2xlIGN4PSIxMjIuMCIgY3k9IjQxLjUiIHI9IjIuMiIgZmlsbD0iI2ZmZiIvPjxyZWN0IHg9IjEzOC4wIiB5PSIyOC41IiB3aWR0aD0iMjYiIGhlaWdodD0iMjYiIHJ4PSIzIiBmaWxsPSIjOWQ1Y2M3IiBzdHJva2U9IiM0YjMzNjQiIHN0cm9rZS13aWR0aD0iMS4yIi8+PGNpcmNsZSBjeD0iMTUxLjAiIGN5PSI0MS41IiByPSIyLjIiIGZpbGw9IiNmZmYiLz48cmVjdCB4PSIxNjcuMCIgeT0iMjguNSIgd2lkdGg9IjI2IiBoZWlnaHQ9IjI2IiByeD0iMyIgZmlsbD0iIzlkNWNjNyIgc3Ryb2tlPSIjNGIzMzY0IiBzdHJva2Utd2lkdGg9IjEuMiIvPjxjaXJjbGUgY3g9IjE4MC4wIiBjeT0iNDEuNSIgcj0iMi4yIiBmaWxsPSIjZmZmIi8+PHJlY3QgeD0iMTk2LjAiIHk9IjI4LjUiIHdpZHRoPSIyNiIgaGVpZ2h0PSIyNiIgcng9IjMiIGZpbGw9IiM5ZDVjYzciIHN0cm9rZT0iIzRiMzM2NCIgc3Ryb2tlLXdpZHRoPSIxLjIiLz48Y2lyY2xlIGN4PSIyMDkuMCIgY3k9IjQxLjUiIHI9IjIuMiIgZmlsbD0iI2ZmZiIvPjxyZWN0IHg9IjIyNS4wIiB5PSIyOC41IiB3aWR0aD0iMjYiIGhlaWdodD0iMjYiIHJ4PSIzIiBmaWxsPSIjOWQ1Y2M3IiBzdHJva2U9IiM0YjMzNjQiIHN0cm9rZS13aWR0aD0iMS4yIi8+PGNpcmNsZSBjeD0iMjM4LjAiIGN5PSI0MS41IiByPSIyLjIiIGZpbGw9IiNmZmYiLz48cmVjdCB4PSIxMDkuMCIgeT0iNTcuNSIgd2lkdGg9IjI2IiBoZWlnaHQ9IjI2IiByeD0iMyIgZmlsbD0iIzlkNWNjNyIgc3Ryb2tlPSIjNGIzMzY0IiBzdHJva2Utd2lkdGg9IjEuMiIvPjxjaXJjbGUgY3g9IjEyMi4wIiBjeT0iNzAuNSIgcj0iMi4yIiBmaWxsPSIjZmZmIi8+PHJlY3QgeD0iMTM4LjAiIHk9IjU3LjUiIHdpZHRoPSIyNiIgaGVpZ2h0PSIyNiIgcng9IjMiIGZpbGw9IiM5ZDVjYzciIHN0cm9rZT0iIzRiMzM2NCIgc3Ryb2tlLXdpZHRoPSIxLjIiLz48Y2lyY2xlIGN4PSIxNTEuMCIgY3k9IjcwLjUiIHI9IjIuMiIgZmlsbD0iI2ZmZiIvPjxyZWN0IHg9IjE2Ny4wIiB5PSI1Ny41IiB3aWR0aD0iMjYiIGhlaWdodD0iMjYiIHJ4PSIzIiBmaWxsPSIjOWQ1Y2M3IiBzdHJva2U9IiM0YjMzNjQiIHN0cm9rZS13aWR0aD0iMS4yIi8+PGNpcmNsZSBjeD0iMTgwLjAiIGN5PSI3MC41IiByPSIyLjIiIGZpbGw9IiNmZmYiLz48cmVjdCB4PSIxOTYuMCIgeT0iNTcuNSIgd2lkdGg9IjI2IiBoZWlnaHQ9IjI2IiByeD0iMyIgZmlsbD0iIzlkNWNjNyIgc3Ryb2tlPSIjNGIzMzY0IiBzdHJva2Utd2lkdGg9IjEuMiIvPjxjaXJjbGUgY3g9IjIwOS4wIiBjeT0iNzAuNSIgcj0iMi4yIiBmaWxsPSIjZmZmIi8+PHJlY3QgeD0iMjI1LjAiIHk9IjU3LjUiIHdpZHRoPSIyNiIgaGVpZ2h0PSIyNiIgcng9IjMiIGZpbGw9IiNmMmU5ZmMiIHN0cm9rZT0iIzRiMzM2NCIgc3Ryb2tlLXdpZHRoPSIxLjIiLz48cmVjdCB4PSIxMDkuMCIgeT0iODYuNSIgd2lkdGg9IjI2IiBoZWlnaHQ9IjI2IiByeD0iMyIgZmlsbD0iI2YyZTlmYyIgc3Ryb2tlPSIjNGIzMzY0IiBzdHJva2Utd2lkdGg9IjEuMiIvPjxyZWN0IHg9IjEzOC4wIiB5PSI4Ni41IiB3aWR0aD0iMjYiIGhlaWdodD0iMjYiIHJ4PSIzIiBmaWxsPSIjZjJlOWZjIiBzdHJva2U9IiM0YjMzNjQiIHN0cm9rZS13aWR0aD0iMS4yIi8+PHJlY3QgeD0iMTY3LjAiIHk9Ijg2LjUiIHdpZHRoPSIyNiIgaGVpZ2h0PSIyNiIgcng9IjMiIGZpbGw9IiNmMmU5ZmMiIHN0cm9rZT0iIzRiMzM2NCIgc3Ryb2tlLXdpZHRoPSIxLjIiLz48cmVjdCB4PSIxOTYuMCIgeT0iODYuNSIgd2lkdGg9IjI2IiBoZWlnaHQ9IjI2IiByeD0iMyIgZmlsbD0iI2YyZTlmYyIgc3Ryb2tlPSIjNGIzMzY0IiBzdHJva2Utd2lkdGg9IjEuMiIvPjxyZWN0IHg9IjIyNS4wIiB5PSI4Ni41IiB3aWR0aD0iMjYiIGhlaWdodD0iMjYiIHJ4PSIzIiBmaWxsPSIjZjJlOWZjIiBzdHJva2U9IiM0YjMzNjQiIHN0cm9rZS13aWR0aD0iMS4yIi8+PHJlY3QgeD0iMTA5LjAiIHk9IjExNS41IiB3aWR0aD0iMjYiIGhlaWdodD0iMjYiIHJ4PSIzIiBmaWxsPSIjZjJlOWZjIiBzdHJva2U9IiM0YjMzNjQiIHN0cm9rZS13aWR0aD0iMS4yIi8+PHJlY3QgeD0iMTM4LjAiIHk9IjExNS41IiB3aWR0aD0iMjYiIGhlaWdodD0iMjYiIHJ4PSIzIiBmaWxsPSIjZjJlOWZjIiBzdHJva2U9IiM0YjMzNjQiIHN0cm9rZS13aWR0aD0iMS4yIi8+PHJlY3QgeD0iMTY3LjAiIHk9IjExNS41IiB3aWR0aD0iMjYiIGhlaWdodD0iMjYiIHJ4PSIzIiBmaWxsPSIjZjJlOWZjIiBzdHJva2U9IiM0YjMzNjQiIHN0cm9rZS13aWR0aD0iMS4yIi8+PHJlY3QgeD0iMTk2LjAiIHk9IjExNS41IiB3aWR0aD0iMjYiIGhlaWdodD0iMjYiIHJ4PSIzIiBmaWxsPSIjZjJlOWZjIiBzdHJva2U9IiM0YjMzNjQiIHN0cm9rZS13aWR0aD0iMS4yIi8+PHJlY3QgeD0iMjI1LjAiIHk9IjExNS41IiB3aWR0aD0iMjYiIGhlaWdodD0iMjYiIHJ4PSIzIiBmaWxsPSIjZjJlOWZjIiBzdHJva2U9IiM0YjMzNjQiIHN0cm9rZS13aWR0aD0iMS4yIi8+PC9zdmc+",
+        "imageAlt": "Mřížka má 4 řádků a 5 sloupců. Fialových políček s tečkou je 9."
+      },
+      {
+        "prompt": "Jakou část hrací desky tvoří fialová políčka s tečkou?",
+        "type": "text",
+        "parts": [
+          "Čitatel prvního zlomku",
+          "Jmenovatel prvního zlomku",
+          "Čitatel zlomku se jmenovatelem 100",
+          "Počet procent"
+        ],
+        "fractionLayout": true,
+        "answers": [
+          "14|25|56|56"
+        ],
+        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNjAiIGhlaWdodD0iMTcwIiB2aWV3Qm94PSIwIDAgMzYwIDE3MCI+PHJlY3QgeD0iMTE2LjUiIHk9IjIxLjUiIHdpZHRoPSIyMyIgaGVpZ2h0PSIyMyIgcng9IjMiIGZpbGw9IiM5ZDVjYzciIHN0cm9rZT0iIzRiMzM2NCIgc3Ryb2tlLXdpZHRoPSIxLjIiLz48Y2lyY2xlIGN4PSIxMjguMCIgY3k9IjMzLjAiIHI9IjIuMiIgZmlsbD0iI2ZmZiIvPjxyZWN0IHg9IjE0Mi41IiB5PSIyMS41IiB3aWR0aD0iMjMiIGhlaWdodD0iMjMiIHJ4PSIzIiBmaWxsPSIjOWQ1Y2M3IiBzdHJva2U9IiM0YjMzNjQiIHN0cm9rZS13aWR0aD0iMS4yIi8+PGNpcmNsZSBjeD0iMTU0LjAiIGN5PSIzMy4wIiByPSIyLjIiIGZpbGw9IiNmZmYiLz48cmVjdCB4PSIxNjguNSIgeT0iMjEuNSIgd2lkdGg9IjIzIiBoZWlnaHQ9IjIzIiByeD0iMyIgZmlsbD0iIzlkNWNjNyIgc3Ryb2tlPSIjNGIzMzY0IiBzdHJva2Utd2lkdGg9IjEuMiIvPjxjaXJjbGUgY3g9IjE4MC4wIiBjeT0iMzMuMCIgcj0iMi4yIiBmaWxsPSIjZmZmIi8+PHJlY3QgeD0iMTk0LjUiIHk9IjIxLjUiIHdpZHRoPSIyMyIgaGVpZ2h0PSIyMyIgcng9IjMiIGZpbGw9IiM5ZDVjYzciIHN0cm9rZT0iIzRiMzM2NCIgc3Ryb2tlLXdpZHRoPSIxLjIiLz48Y2lyY2xlIGN4PSIyMDYuMCIgY3k9IjMzLjAiIHI9IjIuMiIgZmlsbD0iI2ZmZiIvPjxyZWN0IHg9IjIyMC41IiB5PSIyMS41IiB3aWR0aD0iMjMiIGhlaWdodD0iMjMiIHJ4PSIzIiBmaWxsPSIjOWQ1Y2M3IiBzdHJva2U9IiM0YjMzNjQiIHN0cm9rZS13aWR0aD0iMS4yIi8+PGNpcmNsZSBjeD0iMjMyLjAiIGN5PSIzMy4wIiByPSIyLjIiIGZpbGw9IiNmZmYiLz48cmVjdCB4PSIxMTYuNSIgeT0iNDcuNSIgd2lkdGg9IjIzIiBoZWlnaHQ9IjIzIiByeD0iMyIgZmlsbD0iIzlkNWNjNyIgc3Ryb2tlPSIjNGIzMzY0IiBzdHJva2Utd2lkdGg9IjEuMiIvPjxjaXJjbGUgY3g9IjEyOC4wIiBjeT0iNTkuMCIgcj0iMi4yIiBmaWxsPSIjZmZmIi8+PHJlY3QgeD0iMTQyLjUiIHk9IjQ3LjUiIHdpZHRoPSIyMyIgaGVpZ2h0PSIyMyIgcng9IjMiIGZpbGw9IiM5ZDVjYzciIHN0cm9rZT0iIzRiMzM2NCIgc3Ryb2tlLXdpZHRoPSIxLjIiLz48Y2lyY2xlIGN4PSIxNTQuMCIgY3k9IjU5LjAiIHI9IjIuMiIgZmlsbD0iI2ZmZiIvPjxyZWN0IHg9IjE2OC41IiB5PSI0Ny41IiB3aWR0aD0iMjMiIGhlaWdodD0iMjMiIHJ4PSIzIiBmaWxsPSIjOWQ1Y2M3IiBzdHJva2U9IiM0YjMzNjQiIHN0cm9rZS13aWR0aD0iMS4yIi8+PGNpcmNsZSBjeD0iMTgwLjAiIGN5PSI1OS4wIiByPSIyLjIiIGZpbGw9IiNmZmYiLz48cmVjdCB4PSIxOTQuNSIgeT0iNDcuNSIgd2lkdGg9IjIzIiBoZWlnaHQ9IjIzIiByeD0iMyIgZmlsbD0iIzlkNWNjNyIgc3Ryb2tlPSIjNGIzMzY0IiBzdHJva2Utd2lkdGg9IjEuMiIvPjxjaXJjbGUgY3g9IjIwNi4wIiBjeT0iNTkuMCIgcj0iMi4yIiBmaWxsPSIjZmZmIi8+PHJlY3QgeD0iMjIwLjUiIHk9IjQ3LjUiIHdpZHRoPSIyMyIgaGVpZ2h0PSIyMyIgcng9IjMiIGZpbGw9IiM5ZDVjYzciIHN0cm9rZT0iIzRiMzM2NCIgc3Ryb2tlLXdpZHRoPSIxLjIiLz48Y2lyY2xlIGN4PSIyMzIuMCIgY3k9IjU5LjAiIHI9IjIuMiIgZmlsbD0iI2ZmZiIvPjxyZWN0IHg9IjExNi41IiB5PSI3My41IiB3aWR0aD0iMjMiIGhlaWdodD0iMjMiIHJ4PSIzIiBmaWxsPSIjOWQ1Y2M3IiBzdHJva2U9IiM0YjMzNjQiIHN0cm9rZS13aWR0aD0iMS4yIi8+PGNpcmNsZSBjeD0iMTI4LjAiIGN5PSI4NS4wIiByPSIyLjIiIGZpbGw9IiNmZmYiLz48cmVjdCB4PSIxNDIuNSIgeT0iNzMuNSIgd2lkdGg9IjIzIiBoZWlnaHQ9IjIzIiByeD0iMyIgZmlsbD0iIzlkNWNjNyIgc3Ryb2tlPSIjNGIzMzY0IiBzdHJva2Utd2lkdGg9IjEuMiIvPjxjaXJjbGUgY3g9IjE1NC4wIiBjeT0iODUuMCIgcj0iMi4yIiBmaWxsPSIjZmZmIi8+PHJlY3QgeD0iMTY4LjUiIHk9IjczLjUiIHdpZHRoPSIyMyIgaGVpZ2h0PSIyMyIgcng9IjMiIGZpbGw9IiM5ZDVjYzciIHN0cm9rZT0iIzRiMzM2NCIgc3Ryb2tlLXdpZHRoPSIxLjIiLz48Y2lyY2xlIGN4PSIxODAuMCIgY3k9Ijg1LjAiIHI9IjIuMiIgZmlsbD0iI2ZmZiIvPjxyZWN0IHg9IjE5NC41IiB5PSI3My41IiB3aWR0aD0iMjMiIGhlaWdodD0iMjMiIHJ4PSIzIiBmaWxsPSIjOWQ1Y2M3IiBzdHJva2U9IiM0YjMzNjQiIHN0cm9rZS13aWR0aD0iMS4yIi8+PGNpcmNsZSBjeD0iMjA2LjAiIGN5PSI4NS4wIiByPSIyLjIiIGZpbGw9IiNmZmYiLz48cmVjdCB4PSIyMjAuNSIgeT0iNzMuNSIgd2lkdGg9IjIzIiBoZWlnaHQ9IjIzIiByeD0iMyIgZmlsbD0iI2YyZTlmYyIgc3Ryb2tlPSIjNGIzMzY0IiBzdHJva2Utd2lkdGg9IjEuMiIvPjxyZWN0IHg9IjExNi41IiB5PSI5OS41IiB3aWR0aD0iMjMiIGhlaWdodD0iMjMiIHJ4PSIzIiBmaWxsPSIjZjJlOWZjIiBzdHJva2U9IiM0YjMzNjQiIHN0cm9rZS13aWR0aD0iMS4yIi8+PHJlY3QgeD0iMTQyLjUiIHk9Ijk5LjUiIHdpZHRoPSIyMyIgaGVpZ2h0PSIyMyIgcng9IjMiIGZpbGw9IiNmMmU5ZmMiIHN0cm9rZT0iIzRiMzM2NCIgc3Ryb2tlLXdpZHRoPSIxLjIiLz48cmVjdCB4PSIxNjguNSIgeT0iOTkuNSIgd2lkdGg9IjIzIiBoZWlnaHQ9IjIzIiByeD0iMyIgZmlsbD0iI2YyZTlmYyIgc3Ryb2tlPSIjNGIzMzY0IiBzdHJva2Utd2lkdGg9IjEuMiIvPjxyZWN0IHg9IjE5NC41IiB5PSI5OS41IiB3aWR0aD0iMjMiIGhlaWdodD0iMjMiIHJ4PSIzIiBmaWxsPSIjZjJlOWZjIiBzdHJva2U9IiM0YjMzNjQiIHN0cm9rZS13aWR0aD0iMS4yIi8+PHJlY3QgeD0iMjIwLjUiIHk9Ijk5LjUiIHdpZHRoPSIyMyIgaGVpZ2h0PSIyMyIgcng9IjMiIGZpbGw9IiNmMmU5ZmMiIHN0cm9rZT0iIzRiMzM2NCIgc3Ryb2tlLXdpZHRoPSIxLjIiLz48cmVjdCB4PSIxMTYuNSIgeT0iMTI1LjUiIHdpZHRoPSIyMyIgaGVpZ2h0PSIyMyIgcng9IjMiIGZpbGw9IiNmMmU5ZmMiIHN0cm9rZT0iIzRiMzM2NCIgc3Ryb2tlLXdpZHRoPSIxLjIiLz48cmVjdCB4PSIxNDIuNSIgeT0iMTI1LjUiIHdpZHRoPSIyMyIgaGVpZ2h0PSIyMyIgcng9IjMiIGZpbGw9IiNmMmU5ZmMiIHN0cm9rZT0iIzRiMzM2NCIgc3Ryb2tlLXdpZHRoPSIxLjIiLz48cmVjdCB4PSIxNjguNSIgeT0iMTI1LjUiIHdpZHRoPSIyMyIgaGVpZ2h0PSIyMyIgcng9IjMiIGZpbGw9IiNmMmU5ZmMiIHN0cm9rZT0iIzRiMzM2NCIgc3Ryb2tlLXdpZHRoPSIxLjIiLz48cmVjdCB4PSIxOTQuNSIgeT0iMTI1LjUiIHdpZHRoPSIyMyIgaGVpZ2h0PSIyMyIgcng9IjMiIGZpbGw9IiNmMmU5ZmMiIHN0cm9rZT0iIzRiMzM2NCIgc3Ryb2tlLXdpZHRoPSIxLjIiLz48cmVjdCB4PSIyMjAuNSIgeT0iMTI1LjUiIHdpZHRoPSIyMyIgaGVpZ2h0PSIyMyIgcng9IjMiIGZpbGw9IiNmMmU5ZmMiIHN0cm9rZT0iIzRiMzM2NCIgc3Ryb2tlLXdpZHRoPSIxLjIiLz48L3N2Zz4=",
+        "imageAlt": "Mřížka má 5 řádků a 5 sloupců. Fialových políček s tečkou je 14."
+      },
+      {
+        "prompt": "Jakou část obdélníkové mřížky tvoří fialová políčka s tečkou?",
+        "type": "text",
+        "parts": [
+          "Čitatel prvního zlomku",
+          "Jmenovatel prvního zlomku",
+          "Čitatel zlomku se jmenovatelem 100",
+          "Počet procent"
+        ],
+        "fractionLayout": true,
+        "answers": [
+          "27|50|54|54"
+        ],
+        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNjAiIGhlaWdodD0iMTcwIiB2aWV3Qm94PSIwIDAgMzYwIDE3MCI+PHJlY3QgeD0iNTEuNSIgeT0iMjEuNSIgd2lkdGg9IjIzIiBoZWlnaHQ9IjIzIiByeD0iMyIgZmlsbD0iIzlkNWNjNyIgc3Ryb2tlPSIjNGIzMzY0IiBzdHJva2Utd2lkdGg9IjEuMiIvPjxjaXJjbGUgY3g9IjYzLjAiIGN5PSIzMy4wIiByPSIyLjIiIGZpbGw9IiNmZmYiLz48cmVjdCB4PSI3Ny41IiB5PSIyMS41IiB3aWR0aD0iMjMiIGhlaWdodD0iMjMiIHJ4PSIzIiBmaWxsPSIjOWQ1Y2M3IiBzdHJva2U9IiM0YjMzNjQiIHN0cm9rZS13aWR0aD0iMS4yIi8+PGNpcmNsZSBjeD0iODkuMCIgY3k9IjMzLjAiIHI9IjIuMiIgZmlsbD0iI2ZmZiIvPjxyZWN0IHg9IjEwMy41IiB5PSIyMS41IiB3aWR0aD0iMjMiIGhlaWdodD0iMjMiIHJ4PSIzIiBmaWxsPSIjOWQ1Y2M3IiBzdHJva2U9IiM0YjMzNjQiIHN0cm9rZS13aWR0aD0iMS4yIi8+PGNpcmNsZSBjeD0iMTE1LjAiIGN5PSIzMy4wIiByPSIyLjIiIGZpbGw9IiNmZmYiLz48cmVjdCB4PSIxMjkuNSIgeT0iMjEuNSIgd2lkdGg9IjIzIiBoZWlnaHQ9IjIzIiByeD0iMyIgZmlsbD0iIzlkNWNjNyIgc3Ryb2tlPSIjNGIzMzY0IiBzdHJva2Utd2lkdGg9IjEuMiIvPjxjaXJjbGUgY3g9IjE0MS4wIiBjeT0iMzMuMCIgcj0iMi4yIiBmaWxsPSIjZmZmIi8+PHJlY3QgeD0iMTU1LjUiIHk9IjIxLjUiIHdpZHRoPSIyMyIgaGVpZ2h0PSIyMyIgcng9IjMiIGZpbGw9IiM5ZDVjYzciIHN0cm9rZT0iIzRiMzM2NCIgc3Ryb2tlLXdpZHRoPSIxLjIiLz48Y2lyY2xlIGN4PSIxNjcuMCIgY3k9IjMzLjAiIHI9IjIuMiIgZmlsbD0iI2ZmZiIvPjxyZWN0IHg9IjE4MS41IiB5PSIyMS41IiB3aWR0aD0iMjMiIGhlaWdodD0iMjMiIHJ4PSIzIiBmaWxsPSIjOWQ1Y2M3IiBzdHJva2U9IiM0YjMzNjQiIHN0cm9rZS13aWR0aD0iMS4yIi8+PGNpcmNsZSBjeD0iMTkzLjAiIGN5PSIzMy4wIiByPSIyLjIiIGZpbGw9IiNmZmYiLz48cmVjdCB4PSIyMDcuNSIgeT0iMjEuNSIgd2lkdGg9IjIzIiBoZWlnaHQ9IjIzIiByeD0iMyIgZmlsbD0iIzlkNWNjNyIgc3Ryb2tlPSIjNGIzMzY0IiBzdHJva2Utd2lkdGg9IjEuMiIvPjxjaXJjbGUgY3g9IjIxOS4wIiBjeT0iMzMuMCIgcj0iMi4yIiBmaWxsPSIjZmZmIi8+PHJlY3QgeD0iMjMzLjUiIHk9IjIxLjUiIHdpZHRoPSIyMyIgaGVpZ2h0PSIyMyIgcng9IjMiIGZpbGw9IiM5ZDVjYzciIHN0cm9rZT0iIzRiMzM2NCIgc3Ryb2tlLXdpZHRoPSIxLjIiLz48Y2lyY2xlIGN4PSIyNDUuMCIgY3k9IjMzLjAiIHI9IjIuMiIgZmlsbD0iI2ZmZiIvPjxyZWN0IHg9IjI1OS41IiB5PSIyMS41IiB3aWR0aD0iMjMiIGhlaWdodD0iMjMiIHJ4PSIzIiBmaWxsPSIjOWQ1Y2M3IiBzdHJva2U9IiM0YjMzNjQiIHN0cm9rZS13aWR0aD0iMS4yIi8+PGNpcmNsZSBjeD0iMjcxLjAiIGN5PSIzMy4wIiByPSIyLjIiIGZpbGw9IiNmZmYiLz48cmVjdCB4PSIyODUuNSIgeT0iMjEuNSIgd2lkdGg9IjIzIiBoZWlnaHQ9IjIzIiByeD0iMyIgZmlsbD0iIzlkNWNjNyIgc3Ryb2tlPSIjNGIzMzY0IiBzdHJva2Utd2lkdGg9IjEuMiIvPjxjaXJjbGUgY3g9IjI5Ny4wIiBjeT0iMzMuMCIgcj0iMi4yIiBmaWxsPSIjZmZmIi8+PHJlY3QgeD0iNTEuNSIgeT0iNDcuNSIgd2lkdGg9IjIzIiBoZWlnaHQ9IjIzIiByeD0iMyIgZmlsbD0iIzlkNWNjNyIgc3Ryb2tlPSIjNGIzMzY0IiBzdHJva2Utd2lkdGg9IjEuMiIvPjxjaXJjbGUgY3g9IjYzLjAiIGN5PSI1OS4wIiByPSIyLjIiIGZpbGw9IiNmZmYiLz48cmVjdCB4PSI3Ny41IiB5PSI0Ny41IiB3aWR0aD0iMjMiIGhlaWdodD0iMjMiIHJ4PSIzIiBmaWxsPSIjOWQ1Y2M3IiBzdHJva2U9IiM0YjMzNjQiIHN0cm9rZS13aWR0aD0iMS4yIi8+PGNpcmNsZSBjeD0iODkuMCIgY3k9IjU5LjAiIHI9IjIuMiIgZmlsbD0iI2ZmZiIvPjxyZWN0IHg9IjEwMy41IiB5PSI0Ny41IiB3aWR0aD0iMjMiIGhlaWdodD0iMjMiIHJ4PSIzIiBmaWxsPSIjOWQ1Y2M3IiBzdHJva2U9IiM0YjMzNjQiIHN0cm9rZS13aWR0aD0iMS4yIi8+PGNpcmNsZSBjeD0iMTE1LjAiIGN5PSI1OS4wIiByPSIyLjIiIGZpbGw9IiNmZmYiLz48cmVjdCB4PSIxMjkuNSIgeT0iNDcuNSIgd2lkdGg9IjIzIiBoZWlnaHQ9IjIzIiByeD0iMyIgZmlsbD0iIzlkNWNjNyIgc3Ryb2tlPSIjNGIzMzY0IiBzdHJva2Utd2lkdGg9IjEuMiIvPjxjaXJjbGUgY3g9IjE0MS4wIiBjeT0iNTkuMCIgcj0iMi4yIiBmaWxsPSIjZmZmIi8+PHJlY3QgeD0iMTU1LjUiIHk9IjQ3LjUiIHdpZHRoPSIyMyIgaGVpZ2h0PSIyMyIgcng9IjMiIGZpbGw9IiM5ZDVjYzciIHN0cm9rZT0iIzRiMzM2NCIgc3Ryb2tlLXdpZHRoPSIxLjIiLz48Y2lyY2xlIGN4PSIxNjcuMCIgY3k9IjU5LjAiIHI9IjIuMiIgZmlsbD0iI2ZmZiIvPjxyZWN0IHg9IjE4MS41IiB5PSI0Ny41IiB3aWR0aD0iMjMiIGhlaWdodD0iMjMiIHJ4PSIzIiBmaWxsPSIjOWQ1Y2M3IiBzdHJva2U9IiM0YjMzNjQiIHN0cm9rZS13aWR0aD0iMS4yIi8+PGNpcmNsZSBjeD0iMTkzLjAiIGN5PSI1OS4wIiByPSIyLjIiIGZpbGw9IiNmZmYiLz48cmVjdCB4PSIyMDcuNSIgeT0iNDcuNSIgd2lkdGg9IjIzIiBoZWlnaHQ9IjIzIiByeD0iMyIgZmlsbD0iIzlkNWNjNyIgc3Ryb2tlPSIjNGIzMzY0IiBzdHJva2Utd2lkdGg9IjEuMiIvPjxjaXJjbGUgY3g9IjIxOS4wIiBjeT0iNTkuMCIgcj0iMi4yIiBmaWxsPSIjZmZmIi8+PHJlY3QgeD0iMjMzLjUiIHk9IjQ3LjUiIHdpZHRoPSIyMyIgaGVpZ2h0PSIyMyIgcng9IjMiIGZpbGw9IiM5ZDVjYzciIHN0cm9rZT0iIzRiMzM2NCIgc3Ryb2tlLXdpZHRoPSIxLjIiLz48Y2lyY2xlIGN4PSIyNDUuMCIgY3k9IjU5LjAiIHI9IjIuMiIgZmlsbD0iI2ZmZiIvPjxyZWN0IHg9IjI1OS41IiB5PSI0Ny41IiB3aWR0aD0iMjMiIGhlaWdodD0iMjMiIHJ4PSIzIiBmaWxsPSIjOWQ1Y2M3IiBzdHJva2U9IiM0YjMzNjQiIHN0cm9rZS13aWR0aD0iMS4yIi8+PGNpcmNsZSBjeD0iMjcxLjAiIGN5PSI1OS4wIiByPSIyLjIiIGZpbGw9IiNmZmYiLz48cmVjdCB4PSIyODUuNSIgeT0iNDcuNSIgd2lkdGg9IjIzIiBoZWlnaHQ9IjIzIiByeD0iMyIgZmlsbD0iIzlkNWNjNyIgc3Ryb2tlPSIjNGIzMzY0IiBzdHJva2Utd2lkdGg9IjEuMiIvPjxjaXJjbGUgY3g9IjI5Ny4wIiBjeT0iNTkuMCIgcj0iMi4yIiBmaWxsPSIjZmZmIi8+PHJlY3QgeD0iNTEuNSIgeT0iNzMuNSIgd2lkdGg9IjIzIiBoZWlnaHQ9IjIzIiByeD0iMyIgZmlsbD0iIzlkNWNjNyIgc3Ryb2tlPSIjNGIzMzY0IiBzdHJva2Utd2lkdGg9IjEuMiIvPjxjaXJjbGUgY3g9IjYzLjAiIGN5PSI4NS4wIiByPSIyLjIiIGZpbGw9IiNmZmYiLz48cmVjdCB4PSI3Ny41IiB5PSI3My41IiB3aWR0aD0iMjMiIGhlaWdodD0iMjMiIHJ4PSIzIiBmaWxsPSIjOWQ1Y2M3IiBzdHJva2U9IiM0YjMzNjQiIHN0cm9rZS13aWR0aD0iMS4yIi8+PGNpcmNsZSBjeD0iODkuMCIgY3k9Ijg1LjAiIHI9IjIuMiIgZmlsbD0iI2ZmZiIvPjxyZWN0IHg9IjEwMy41IiB5PSI3My41IiB3aWR0aD0iMjMiIGhlaWdodD0iMjMiIHJ4PSIzIiBmaWxsPSIjOWQ1Y2M3IiBzdHJva2U9IiM0YjMzNjQiIHN0cm9rZS13aWR0aD0iMS4yIi8+PGNpcmNsZSBjeD0iMTE1LjAiIGN5PSI4NS4wIiByPSIyLjIiIGZpbGw9IiNmZmYiLz48cmVjdCB4PSIxMjkuNSIgeT0iNzMuNSIgd2lkdGg9IjIzIiBoZWlnaHQ9IjIzIiByeD0iMyIgZmlsbD0iIzlkNWNjNyIgc3Ryb2tlPSIjNGIzMzY0IiBzdHJva2Utd2lkdGg9IjEuMiIvPjxjaXJjbGUgY3g9IjE0MS4wIiBjeT0iODUuMCIgcj0iMi4yIiBmaWxsPSIjZmZmIi8+PHJlY3QgeD0iMTU1LjUiIHk9IjczLjUiIHdpZHRoPSIyMyIgaGVpZ2h0PSIyMyIgcng9IjMiIGZpbGw9IiM5ZDVjYzciIHN0cm9rZT0iIzRiMzM2NCIgc3Ryb2tlLXdpZHRoPSIxLjIiLz48Y2lyY2xlIGN4PSIxNjcuMCIgY3k9Ijg1LjAiIHI9IjIuMiIgZmlsbD0iI2ZmZiIvPjxyZWN0IHg9IjE4MS41IiB5PSI3My41IiB3aWR0aD0iMjMiIGhlaWdodD0iMjMiIHJ4PSIzIiBmaWxsPSIjOWQ1Y2M3IiBzdHJva2U9IiM0YjMzNjQiIHN0cm9rZS13aWR0aD0iMS4yIi8+PGNpcmNsZSBjeD0iMTkzLjAiIGN5PSI4NS4wIiByPSIyLjIiIGZpbGw9IiNmZmYiLz48cmVjdCB4PSIyMDcuNSIgeT0iNzMuNSIgd2lkdGg9IjIzIiBoZWlnaHQ9IjIzIiByeD0iMyIgZmlsbD0iIzlkNWNjNyIgc3Ryb2tlPSIjNGIzMzY0IiBzdHJva2Utd2lkdGg9IjEuMiIvPjxjaXJjbGUgY3g9IjIxOS4wIiBjeT0iODUuMCIgcj0iMi4yIiBmaWxsPSIjZmZmIi8+PHJlY3QgeD0iMjMzLjUiIHk9IjczLjUiIHdpZHRoPSIyMyIgaGVpZ2h0PSIyMyIgcng9IjMiIGZpbGw9IiNmMmU5ZmMiIHN0cm9rZT0iIzRiMzM2NCIgc3Ryb2tlLXdpZHRoPSIxLjIiLz48cmVjdCB4PSIyNTkuNSIgeT0iNzMuNSIgd2lkdGg9IjIzIiBoZWlnaHQ9IjIzIiByeD0iMyIgZmlsbD0iI2YyZTlmYyIgc3Ryb2tlPSIjNGIzMzY0IiBzdHJva2Utd2lkdGg9IjEuMiIvPjxyZWN0IHg9IjI4NS41IiB5PSI3My41IiB3aWR0aD0iMjMiIGhlaWdodD0iMjMiIHJ4PSIzIiBmaWxsPSIjZjJlOWZjIiBzdHJva2U9IiM0YjMzNjQiIHN0cm9rZS13aWR0aD0iMS4yIi8+PHJlY3QgeD0iNTEuNSIgeT0iOTkuNSIgd2lkdGg9IjIzIiBoZWlnaHQ9IjIzIiByeD0iMyIgZmlsbD0iI2YyZTlmYyIgc3Ryb2tlPSIjNGIzMzY0IiBzdHJva2Utd2lkdGg9IjEuMiIvPjxyZWN0IHg9Ijc3LjUiIHk9Ijk5LjUiIHdpZHRoPSIyMyIgaGVpZ2h0PSIyMyIgcng9IjMiIGZpbGw9IiNmMmU5ZmMiIHN0cm9rZT0iIzRiMzM2NCIgc3Ryb2tlLXdpZHRoPSIxLjIiLz48cmVjdCB4PSIxMDMuNSIgeT0iOTkuNSIgd2lkdGg9IjIzIiBoZWlnaHQ9IjIzIiByeD0iMyIgZmlsbD0iI2YyZTlmYyIgc3Ryb2tlPSIjNGIzMzY0IiBzdHJva2Utd2lkdGg9IjEuMiIvPjxyZWN0IHg9IjEyOS41IiB5PSI5OS41IiB3aWR0aD0iMjMiIGhlaWdodD0iMjMiIHJ4PSIzIiBmaWxsPSIjZjJlOWZjIiBzdHJva2U9IiM0YjMzNjQiIHN0cm9rZS13aWR0aD0iMS4yIi8+PHJlY3QgeD0iMTU1LjUiIHk9Ijk5LjUiIHdpZHRoPSIyMyIgaGVpZ2h0PSIyMyIgcng9IjMiIGZpbGw9IiNmMmU5ZmMiIHN0cm9rZT0iIzRiMzM2NCIgc3Ryb2tlLXdpZHRoPSIxLjIiLz48cmVjdCB4PSIxODEuNSIgeT0iOTkuNSIgd2lkdGg9IjIzIiBoZWlnaHQ9IjIzIiByeD0iMyIgZmlsbD0iI2YyZTlmYyIgc3Ryb2tlPSIjNGIzMzY0IiBzdHJva2Utd2lkdGg9IjEuMiIvPjxyZWN0IHg9IjIwNy41IiB5PSI5OS41IiB3aWR0aD0iMjMiIGhlaWdodD0iMjMiIHJ4PSIzIiBmaWxsPSIjZjJlOWZjIiBzdHJva2U9IiM0YjMzNjQiIHN0cm9rZS13aWR0aD0iMS4yIi8+PHJlY3QgeD0iMjMzLjUiIHk9Ijk5LjUiIHdpZHRoPSIyMyIgaGVpZ2h0PSIyMyIgcng9IjMiIGZpbGw9IiNmMmU5ZmMiIHN0cm9rZT0iIzRiMzM2NCIgc3Ryb2tlLXdpZHRoPSIxLjIiLz48cmVjdCB4PSIyNTkuNSIgeT0iOTkuNSIgd2lkdGg9IjIzIiBoZWlnaHQ9IjIzIiByeD0iMyIgZmlsbD0iI2YyZTlmYyIgc3Ryb2tlPSIjNGIzMzY0IiBzdHJva2Utd2lkdGg9IjEuMiIvPjxyZWN0IHg9IjI4NS41IiB5PSI5OS41IiB3aWR0aD0iMjMiIGhlaWdodD0iMjMiIHJ4PSIzIiBmaWxsPSIjZjJlOWZjIiBzdHJva2U9IiM0YjMzNjQiIHN0cm9rZS13aWR0aD0iMS4yIi8+PHJlY3QgeD0iNTEuNSIgeT0iMTI1LjUiIHdpZHRoPSIyMyIgaGVpZ2h0PSIyMyIgcng9IjMiIGZpbGw9IiNmMmU5ZmMiIHN0cm9rZT0iIzRiMzM2NCIgc3Ryb2tlLXdpZHRoPSIxLjIiLz48cmVjdCB4PSI3Ny41IiB5PSIxMjUuNSIgd2lkdGg9IjIzIiBoZWlnaHQ9IjIzIiByeD0iMyIgZmlsbD0iI2YyZTlmYyIgc3Ryb2tlPSIjNGIzMzY0IiBzdHJva2Utd2lkdGg9IjEuMiIvPjxyZWN0IHg9IjEwMy41IiB5PSIxMjUuNSIgd2lkdGg9IjIzIiBoZWlnaHQ9IjIzIiByeD0iMyIgZmlsbD0iI2YyZTlmYyIgc3Ryb2tlPSIjNGIzMzY0IiBzdHJva2Utd2lkdGg9IjEuMiIvPjxyZWN0IHg9IjEyOS41IiB5PSIxMjUuNSIgd2lkdGg9IjIzIiBoZWlnaHQ9IjIzIiByeD0iMyIgZmlsbD0iI2YyZTlmYyIgc3Ryb2tlPSIjNGIzMzY0IiBzdHJva2Utd2lkdGg9IjEuMiIvPjxyZWN0IHg9IjE1NS41IiB5PSIxMjUuNSIgd2lkdGg9IjIzIiBoZWlnaHQ9IjIzIiByeD0iMyIgZmlsbD0iI2YyZTlmYyIgc3Ryb2tlPSIjNGIzMzY0IiBzdHJva2Utd2lkdGg9IjEuMiIvPjxyZWN0IHg9IjE4MS41IiB5PSIxMjUuNSIgd2lkdGg9IjIzIiBoZWlnaHQ9IjIzIiByeD0iMyIgZmlsbD0iI2YyZTlmYyIgc3Ryb2tlPSIjNGIzMzY0IiBzdHJva2Utd2lkdGg9IjEuMiIvPjxyZWN0IHg9IjIwNy41IiB5PSIxMjUuNSIgd2lkdGg9IjIzIiBoZWlnaHQ9IjIzIiByeD0iMyIgZmlsbD0iI2YyZTlmYyIgc3Ryb2tlPSIjNGIzMzY0IiBzdHJva2Utd2lkdGg9IjEuMiIvPjxyZWN0IHg9IjIzMy41IiB5PSIxMjUuNSIgd2lkdGg9IjIzIiBoZWlnaHQ9IjIzIiByeD0iMyIgZmlsbD0iI2YyZTlmYyIgc3Ryb2tlPSIjNGIzMzY0IiBzdHJva2Utd2lkdGg9IjEuMiIvPjxyZWN0IHg9IjI1OS41IiB5PSIxMjUuNSIgd2lkdGg9IjIzIiBoZWlnaHQ9IjIzIiByeD0iMyIgZmlsbD0iI2YyZTlmYyIgc3Ryb2tlPSIjNGIzMzY0IiBzdHJva2Utd2lkdGg9IjEuMiIvPjxyZWN0IHg9IjI4NS41IiB5PSIxMjUuNSIgd2lkdGg9IjIzIiBoZWlnaHQ9IjIzIiByeD0iMyIgZmlsbD0iI2YyZTlmYyIgc3Ryb2tlPSIjNGIzMzY0IiBzdHJva2Utd2lkdGg9IjEuMiIvPjwvc3ZnPg==",
+        "imageAlt": "Mřížka má 5 řádků a 10 sloupců. Fialových políček s tečkou je 27."
+      }
+    ]
+  },
+  "2026-11-24": {
+    "title": "Vybarvi správné procento",
+    "revision": "procenta-mrizky-ruzne",
+    "mode": "sequence",
+    "instructions": "Klikni nebo táhni přes políčka. Začni na prázdném políčku pro vybarvování nebo na barevném pro mazání. Na poloze vybarvených políček nezáleží.",
+    "questions": [
+      {
+        "prompt": "Vybarvi 30 % mřížky s 10 políčky.",
+        "type": "text",
+        "answers": [
+          "3"
+        ],
+        "grid": {
+          "rows": 2,
+          "columns": 5
+        }
+      },
+      {
+        "prompt": "Vybarvi 25 % mřížky s 20 políčky.",
+        "type": "text",
+        "answers": [
+          "5"
+        ],
+        "grid": {
+          "rows": 4,
+          "columns": 5
+        }
+      },
+      {
+        "prompt": "Vybarvi 36 % mřížky s 25 políčky.",
+        "type": "text",
+        "answers": [
+          "9"
+        ],
+        "grid": {
+          "rows": 5,
+          "columns": 5
+        }
+      },
+      {
+        "prompt": "Vybarvi 15 % mřížky s 40 políčky.",
+        "type": "text",
+        "answers": [
+          "6"
+        ],
+        "grid": {
+          "rows": 5,
+          "columns": 8
+        }
+      },
+      {
+        "prompt": "Vybarvi 74 % mřížky s 50 políčky.",
+        "type": "text",
+        "answers": [
+          "37"
+        ],
+        "grid": {
+          "rows": 5,
+          "columns": 10
+        }
+      },
+      {
+        "prompt": "Vybarvi 85 % mřížky s 100 políčky.",
+        "type": "text",
+        "answers": [
+          "85"
+        ],
+        "grid": {
+          "rows": 10,
+          "columns": 10
+        }
+      }
+    ]
+  },
+  "2026-11-25": {
+    "title": "Výpočet přes 1 %",
+    "revision": "procenta-1",
+    "mode": "sequence",
+    "instructions": "Nejdřív vyděl základ číslem 100. Pak výsledek vynásob počtem procent. Zapiš obě čísla.",
+    "questions": [
+      {
+        "prompt": "Vypočítej 10 % z 200.",
+        "type": "text",
+        "answers": [
+          "2|20"
+        ],
+        "parts": [
+          "Hodnota 1 %",
+          "Hodnota 10 %"
+        ]
+      },
+      {
+        "prompt": "Vypočítej 25 % z 400.",
+        "type": "text",
+        "answers": [
+          "4|100"
+        ],
+        "parts": [
+          "Hodnota 1 %",
+          "Hodnota 25 %"
+        ]
+      },
+      {
+        "prompt": "Vypočítej 15 % z 300.",
+        "type": "text",
+        "answers": [
+          "3|45"
+        ],
+        "parts": [
+          "Hodnota 1 %",
+          "Hodnota 15 %"
+        ]
+      },
+      {
+        "prompt": "Vypočítej 8 % z 250.",
+        "type": "text",
+        "answers": [
+          "2,5|20"
+        ],
+        "parts": [
+          "Hodnota 1 %",
+          "Hodnota 8 %"
+        ]
+      },
+      {
+        "prompt": "Vypočítej 35 % z 80.",
+        "type": "text",
+        "answers": [
+          "0,8|28"
+        ],
+        "parts": [
+          "Hodnota 1 %",
+          "Hodnota 35 %"
+        ]
+      },
+      {
+        "prompt": "Vypočítej 12 % z 1250.",
+        "type": "text",
+        "answers": [
+          "12,5|150"
+        ],
+        "parts": [
+          "Hodnota 1 %",
+          "Hodnota 12 %"
+        ]
+      }
+    ]
+  },
+  "2026-11-26": {
+    "title": "Procenta ve slovních úlohách",
+    "revision": "procenta-1",
+    "mode": "sequence",
+    "instructions": "Zapiš výsledek jako číslo. Jednotka je uvedená v zadání.",
+    "questions": [
+      {
+        "prompt": "V knihovně je 200 knih. Detektivky tvoří 15 %. Kolik je detektivek?",
+        "type": "text",
+        "answers": [
+          "30"
+        ]
+      },
+      {
+        "prompt": "V sadu roste 80 stromů. Jabloně tvoří 35 % stromů. Kolik je jabloní?",
+        "type": "text",
+        "answers": [
+          "28"
+        ]
+      },
+      {
+        "prompt": "Batoh stojí 800 Kč. Sleva je 25 %. O kolik korun se cena sníží?",
+        "type": "text",
+        "answers": [
+          "200"
+        ]
+      },
+      {
+        "prompt": "Mikina stojí 1 200 Kč a zlevní o 15 %. Kolik Kč stojí po slevě?",
+        "type": "text",
+        "answers": [
+          "1020"
+        ]
+      },
+      {
+        "prompt": "Nádrž má objem 250 litrů a je naplněná z 84 %. Kolik litrů chybí do plné nádrže?",
+        "type": "text",
+        "answers": [
+          "40"
+        ]
+      },
+      {
+        "prompt": "Ze 160 žáků je 60 % na výletě. Čtvrtina účastníků výletu jede vlakem, ostatní autobusem. Kolik žáků jede autobusem?",
+        "type": "text",
+        "answers": [
+          "72"
+        ]
+      }
+    ]
+  },
+  "2026-11-27": {
+    "title": "Páteční mix · procenta a promile",
+    "revision": "procenta-1",
+    "mode": "sequence",
+    "instructions": "Zapiš výsledek jako číslo. Poslední úloha je na promile. Jedno promile znamená jednu tisícinu.",
+    "questions": [
+      {
+        "prompt": "Ve skupině 20 dětí má 7 dětí kolo. Kolik procent dětí má kolo?",
+        "type": "text",
+        "answers": [
+          "35"
+        ]
+      },
+      {
+        "prompt": "Vypočítej 32 % z 250.",
+        "type": "text",
+        "answers": [
+          "80"
+        ]
+      },
+      {
+        "prompt": "Hra stojí 500 Kč. Nejdřív zdraží o 20 %, potom z nové ceny zlevní o 20 %. Kolik Kč stojí nakonec?",
+        "type": "text",
+        "answers": [
+          "480"
+        ]
+      },
+      {
+        "prompt": "Po slevě 25 % stojí boty 900 Kč. Kolik Kč stály před slevou?",
+        "type": "text",
+        "answers": [
+          "1200"
+        ]
+      },
+      {
+        "prompt": "V pondělí bylo ve škole 240 žáků. V úterý se počet zvýšil na 270. O kolik procent se zvýšil?",
+        "type": "text",
+        "answers": [
+          "12,5"
+        ]
+      },
+      {
+        "prompt": "Silnice má vodorovnou délku 3 000 m a stoupání 8 ‰. O kolik metrů se zvedne?",
+        "type": "text",
+        "answers": [
+          "24"
+        ]
       }
     ]
   }

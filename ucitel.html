@@ -124,6 +124,15 @@ function addQuestion(question = {}) {
   get('prompt').value = question.prompt ?? '';
   get('type').value = question.type === 'choice' ? 'choice' + question.options.length : 'text';
   get('answers').value = question.answers?.join('\n') ?? '';
+  if (question.parts || question.grid) {
+    block.dataset.answerLayout = JSON.stringify({parts:question.parts,grid:question.grid,fractionLayout:question.fractionLayout});
+    const help = document.createElement('p');
+    help.className = 'muted';
+    help.textContent = question.grid
+      ? 'Vybarvovací mřížka: správná odpověď je počet vybarvených políček.'
+      : 'Více vstupních polí: správné hodnoty odděluj znakem | ve stejném pořadí jako v kvízu.';
+    get('textFields').prepend(help);
+  }
   options.forEach((option,i) => option.value = question.options?.[i] ?? '');
   get('correct').value = question.correct ?? 0;
   get('imageAlt').value = question.imageAlt ?? '';
@@ -199,7 +208,10 @@ $('form').onsubmit = event => {
       const count = type === 'choice4' ? 4 : 3;
       q.options = [...block.querySelectorAll('.option')].slice(0,count).map(input => input.value.trim());
       q.correct = Number(read('correct'));
-    } else q.answers = read('answers').split(/\r?\n/).map(answer => answer.trim()).filter(Boolean);
+    } else {
+      q.answers = read('answers').split(/\r?\n/).map(answer => answer.trim()).filter(Boolean);
+      if (block.dataset.answerLayout) Object.assign(q,JSON.parse(block.dataset.answerLayout));
+    }
     if (block.dataset.image) {
       q.image = block.dataset.image;
       q.imageAlt = read('imageAlt');
