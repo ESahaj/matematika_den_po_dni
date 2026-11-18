@@ -113,9 +113,10 @@ function showFlashcards(cards = []) {
   if (!cards.length) return;
   let index = 0;
   let flipped = false;
+  const deck = [...cards];
   const card = $('flashcard');
   function showCard() {
-    card.textContent = cards[index][flipped ? 'back' : 'front'];
+    card.textContent = deck[index][flipped ? 'back' : 'front'];
     card.setAttribute('aria-label', card.textContent + (flipped ? '. Zobrazit název.' : '. Zobrazit vzorec.'));
     $('flashcardCount').textContent = (index + 1) + ' / ' + cards.length;
     $('flashcardPrev').disabled = index === 0;
@@ -124,7 +125,17 @@ function showFlashcards(cards = []) {
   card.onclick = () => { flipped = !flipped; showCard(); };
   $('flashcardPrev').onclick = () => { index--; flipped = false; showCard(); card.focus(); };
   $('flashcardNext').onclick = () => { index++; flipped = false; showCard(); card.focus(); };
-  showCard();
+  function shuffle() {
+    for (let i = deck.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [deck[i], deck[j]] = [deck[j], deck[i]];
+    }
+    index = 0;
+    flipped = false;
+    showCard();
+  }
+  $('flashcardShuffle').onclick = () => { shuffle(); card.focus(); };
+  shuffle();
 }
 function openDay(day) {
   if (!canOpen(day)) return;

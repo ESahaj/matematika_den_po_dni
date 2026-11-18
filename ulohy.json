@@ -111,6 +111,38 @@
       {
         "front": "Obvod lichoběžníku",
         "back": "o = a + b + c + d"
+      },
+      {
+        "front": "Obvod deltoidu",
+        "back": "o = 2(a + b)"
+      },
+      {
+        "front": "Obsah deltoidu",
+        "back": "S = (e · f) : 2"
+      },
+      {
+        "front": "Obvod kosočtverce",
+        "back": "o = 4a"
+      },
+      {
+        "front": "Obsah kosočtverce",
+        "back": "S = a · vₐ nebo S = (e · f) : 2"
+      },
+      {
+        "front": "Obvod kosodélníku",
+        "back": "o = 2(a + b)"
+      },
+      {
+        "front": "Obsah kosodélníku",
+        "back": "S = a · vₐ"
+      },
+      {
+        "front": "Obvod kruhu",
+        "back": "o = 2πr"
+      },
+      {
+        "front": "Obsah kruhu",
+        "back": "S = πr²"
       }
     ]
   },
